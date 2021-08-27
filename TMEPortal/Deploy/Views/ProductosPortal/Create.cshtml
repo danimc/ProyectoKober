@@ -1,0 +1,101 @@
+﻿@model TMEPortal.Models.Pedidos
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layoutblank.cshtml";
+
+}
+
+@using (@Html.BeginForm("Create", "ProductosPortal"))
+
+{
+    <script>
+        function ChangeImg(Imagen) {
+
+
+            $("#Mainimg").attr("src", Imagen);
+        }
+    </script>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.RutaImagen" style="width:200px;height:200px" />
+        </div>
+        <div class="col-md-6">
+
+
+            <img id="Mainimg" src="~/Content/Images/upload-empty.png" style="width:200px;height:200px;" />
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+
+            <h3>Seleccione Color</h3>
+
+
+   
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <h3>
+                Seleccione  Ancho
+            </h3>
+            <select class="form-control" name="Ancho">
+                <option>100</option>
+                <option>45</option>
+                <option>95</option>
+                <option>50</option>
+                <option>90</option>
+                <option>55</option>
+                <option>85</option>
+                <option>60</option>
+                <option>80</option>
+                <option>65</option>
+                <option>75</option>
+                <option>70</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <h3>Largo</h3>
+            <select class="form-control" name="Largo">
+                <option>2.40</option>
+                <option>3.60</option>
+                <option>4.20</option>
+
+            </select>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+
+            <h3>Cantidad</h3>
+
+            <input type="number" name="Numero" value="" class="form-control" />
+
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="row">
+        <div class="form-group">
+            <div class="col-md-10">
+                <input type="submit" value="Agregar" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+
+}

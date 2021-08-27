@@ -1,0 +1,123 @@
+﻿@using Microsoft.AspNet.Identity
+@using TMEPortal.DataContext
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+    }
+
+    KoberEntities db = new KoberEntities();
+    var detalle = db.spGetEncabezadoCarrito(Session["User"].ToString()).ToList();
+
+<style>
+    .navbar.navbar-inverse .navbar-nav > .active,
+    .navbar.navbar-inverse .navbar-nav > .active > a,
+    .navbar.navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar.navbar-inverse .navbar-nav > .active > a:focus {
+        background-color: #8AC007;
+        color: #FFF;
+    }
+    .navbar.navbar-inverse .navbar-nav > li > a {
+        font-family: sans-serif;
+        color: #ffffff;
+        /* PavanD: This is the color of the elements when they load. */
+    }
+
+        .navbar.navbar-inverse .navbar-nav > li > a:hover,
+        .navbar.navbar-inverse .navbar-nav > li > a:focus {
+            background-color: #000000;
+            /* PavanD: When you click the top menu items, they have to be rendered in black.*/
+            color: #ffffff;
+            /* PavanD: This is the color of the elements when they are clicked. We want it to be white so this.*/
+        }
+
+        .navbar.navbar-inverse .navbar-nav > li > a:active {
+            background-color: #8AC007;
+            color: #ffffff;
+        }
+    /***Link Background and Color Active State***/
+
+    .navbar.navbar-inverse .navbar-nav > .active,
+    .navbar.navbar-inverse .navbar-nav > .active > a,
+    .navbar.navbar-inverse .navbar-nav > .active > a:hover,
+    .navbar.navbar-inverse .navbar-nav > .active > a:focus {
+        background-color: #8AC007;
+        color: #FFF;
+    }
+</style>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+
+                </li>
+                <li>
+                    <a href="/ProductosPortal/PedidoMedidasEstandar">MEDIDAS ESTANDAR</a>
+
+                </li>
+                <li>
+                    <a href="/ProductosPortal/PedidoMedidasEstandar">C</a>
+
+                </li>
+                <li>
+                    <a href="#">C++</a>
+
+                </li>
+                <li>
+                    <a href="#">JAVA</a>
+
+                </li>
+                <li>
+                    <a href="#">ORACLE</a>
+
+                </li>
+                <li>
+                    <a href="#">FAQs</a>
+
+                </li>
+                <li>
+                    <a href="#">REACH US</a>
+
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                @if (detalle.Count > 0)
+                {
+                    <li><a href="/ProductosPortal/DetalleCarrito" title="Carrito"><span class="glyphicon glyphicon-shopping-cart" style="font-size:18px;color:red"></span></a></li>
+                }
+                else
+                {
+                    <li><a href="/ProductosPortal/DetalleCarrito" title="Carrito"><span class="glyphicon glyphicon-shopping-cart" style="font-size:18px"></span></a></li>
+
+                }
+
+                <li><a href="/Manage/ChangePassword" title="Cambiar Contraseña"><span class="glyphicon glyphicon-user" style="font-size:18px"></span></a></li>
+                <li><a href="javascript:document.getElementById('logoutForm').submit()" title="Cerrar Sesion"><span class="glyphicon glyphicon-log-out" style="font-size:18px"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

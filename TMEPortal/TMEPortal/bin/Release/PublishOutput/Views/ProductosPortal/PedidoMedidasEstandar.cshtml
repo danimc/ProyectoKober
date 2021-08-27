@@ -1,0 +1,241 @@
+﻿@model IEnumerable<TMEPortal.Models.PedidoMedidasEstandar>
+@{
+
+
+    if (Session["PedidoEstilo"]!=null ){
+        if (Session["PedidoEstilo"].ToString() =="")
+        {
+            ViewBag.BackgroundImage = "Medidas Estandar" + ".jpg";
+        }
+        else {
+
+            ViewBag.BackgroundImage = Session["PedidoEstilo"] + ".jpg";
+        }
+    }
+    
+
+    Layout = "~/Views/Shared/_LayoutLTEEstandar.cshtml";
+}
+
+<script src="~/Scripts/jszip.js"></script>
+<link href="~/Content/dx.common.css" rel="stylesheet" />
+<link href="~/Content/dx.softblue.css" rel="stylesheet" />
+<link href="~/Scripts/dxTable.css" rel="stylesheet" />
+<img src="~/Content/images/@(ViewBag.BackgroundImage)" height="63" width="945" />
+<script src="~/Scripts/dx.web.js"></script>
+
+
+<div class="dx-viewport">
+   <br> <div class="demo-container">
+        <div id="dgvFp"></div>
+        <br>
+        <br>
+    </div>
+</div>
+
+<script>  
+    var dsColor= @Html.Raw(Json.Encode(Model).Replace(@"""\/Date(", "new Date(").Replace(@")\/""", ")"))
+        $(function () {
+            var dataGrid =  $("#dgvFp").dxDataGrid({
+            dataSource: dsColor,
+            allowSortingBySummary: true,
+            showBorders: true,
+            searchPanel: {
+                visible: true,
+                placeholder: "Buscar..."
+            },
+            customizeColumns: function (columns) {
+                columns[0].width = 90;
+                columns[1].width = 170;
+                columns[2].width = 100;
+                columns[3].width = 100;
+                columns[4].width = 100;
+                columns[5].width = 90;
+                columns[6].width = 90;
+                columns[7].width = 110;
+                columns[8].width = 90;
+                },
+                paging: {
+                    pageSize: 20
+                },  
+                editing: {
+                    mode: "batch",
+                   allowUpdating: true
+                },
+
+            columns: [
+                { dataField:"Color",caption: "Color", allowEditing: false },
+                { dataField: "Descripcion", caption: "Descripcion", allowEditing: false },
+                "Cubierta240", 
+                "Cubierta300", 
+                "Cubierta360",
+                "Barra240",
+                "Barra360",
+                {dataField: "Barra90X240"},
+                {
+                    caption: "Total", allowEditing: false, dataType: 'number',
+                    calculateCellValue: function (e) {
+
+                        var cb240 = e.Cubierta240;
+                        var cb300 = e.Cubierta300;
+                        var cb360 = e.Cubierta360;
+                        var ba240 = e.Barra240;
+                        var ba360 = e.Barra360;
+                        var ba90240 = e.Barra90X240
+
+
+                        if (cb240 || cb300 || cb360 || ba240 || ba360 || ba90240) {
+
+                            cb240 = cb240 == undefined ? "0" : cb240 =="" ?  "0" : cb240;
+                            cb300 = cb300 == undefined ? "0" : cb300 == "" ? "0" : cb300;
+                            cb360 = cb360 == undefined ? "0" : cb360 == "" ? "0" : cb360;
+                            ba240 = ba240 == undefined ? "0" : ba240 == "" ? "0" : ba240;
+                            ba360 = ba360 == undefined ? "0" : ba360 == "" ? "0" : ba360;
+                            ba90240 = ba90240 == undefined ? "0" : ba90240 == "" ? "0" : ba90240;
+
+                            var res = parseInt(cb240) + parseInt(cb300) + parseInt(cb360) + parseInt(ba240) + parseInt(ba360) + parseInt(ba90240);                           
+
+                            return res;
+                        } else {
+
+                            return 0;
+                        }
+                    }
+
+                    }],
+                onEditorPreparing: function (e) {
+                    if (e.parentType === 'dataRow') {
+                        e.editorOptions.onKeyDown = function (arg) {
+                            if (arg.jQueryEvent.keyCode === 13) {
+                                var theGrid = e.component;
+
+                                window.setTimeout(function () {
+                                    dataGrid.saveEditData();
+                                }, 0);
+                            }
+                        }
+                    }
+                },
+                onToolbarPreparing: function (e) {
+                    e.toolbarOptions.items.unshift({
+                        location: "after",
+                        widget: "dxButton",
+                        options: {
+                            icon: "refresh",
+                            onClick: function () {                               
+                                window.location.reload();
+                            }
+                        }
+                    });
+                    var toolbarItems = e.toolbarOptions.items;
+                    $.each(toolbarItems, function (_, item) {
+
+                        if (item.name == "saveButton" || item.name == "revertButton") {
+                            item.visible = false;
+                        }
+                    });
+                },
+             summary: {
+                totalItems: [{
+                            column: "Cubierta240",
+                            summaryType: "sum",
+                            displayFormat: "{0}",
+                            showInGroupFooter: true
+                        },{
+                            column: "Cubierta300",
+                            summaryType: "sum",
+                            displayFormat: "{0}",
+                            showInGroupFooter: true
+                        },{
+                            column: "Cubierta360",
+                            summaryType: "sum",
+                            displayFormat: "{0}",
+                            showInGroupFooter: true
+                        }, {
+                            column: "Barra240",
+                            summaryType: "sum",
+                            displayFormat: "{0}",
+                            showInGroupFooter: true
+                        }, {
+                            column: "Barra360",
+                            summaryType: "sum",
+                            displayFormat: "{0}",
+                            showInGroupFooter: true
+                        }, {
+                            column: "Barra90X240",
+                            summaryType: "sum",
+                            displayFormat: "{0}",
+                            showInGroupFooter: true
+                        }, {
+                            column: "Total",
+                            summaryType: "sum",
+                            displayFormat: "{0}",
+                            showInGroupFooter: true 
+                        }]
+                }
+
+                
+                                
+            }).dxDataGrid("instance");          
+
+        });
+
+
+    function EnviarCarrito() {
+       
+        var gridItems = $("#dgvFp").dxDataGrid('instance')._controllers.data._dataSource._cachedPagingData;
+        var total = $("#dgvFp").dxDataGrid('instance').getTotalSummaryValue("Total");
+        
+        if (total > 0) {
+            gridItems.forEach(function (element) {
+                if (element.Cubierta240 || element.Cubierta300 || element.Cubierta360 || element.Barra240 || element.Barra360 || element.Barra90X240) {
+
+
+                    var valdata = {
+                        color: element.Color,
+                        descripcion: element.descripcion,
+                        cb240: element.Cubierta240 == undefined ? "0" : element.Cubierta240,
+                        cb300: element.Cubierta300 == undefined ? "0" : element.Cubierta300,
+                        cb360: element.Cubierta360 == undefined ? "0" : element.Cubierta360,
+                        ba240: element.Barra240 == undefined ? "0" : element.Barra240,
+                        ba360: element.Barra360 == undefined ? "0" : element.Barra360,
+                        ba90: element.Barra90X240 == undefined ? "0" : element.Barra90X240
+                    };
+                    
+                    $.getJSON("/ProductosPortal/GetEqArtGen/", valdata,
+                        function (datos) {
+
+                        });
+                }
+            });
+            swal({
+                title: 'Hecho!',
+                html: 'Se Creo Correctamente',
+                type: 'success',
+                confirmButtonText: 'OK!'
+            }).then(function () {
+                window.location.href = "/ProductosPortal/PedidoMedidasEstandar";
+            });
+        } else {
+            swal({
+                title: 'Error!',
+                html: 'Las Cantidades deben ser mayor a 0',
+                type: 'error',
+                confirmButtonText: 'OK!'
+            }).then(function () {
+                window.location.reload();
+            });
+        }
+    }
+    function Totalizar() {
+        var grid = $("#dgvFp").dxDataGrid('instance');    
+        grid.saveEditData();
+    }
+</script>
+
+
+<div class="dx-viewport">
+    <div><p><b>Después de introducir la cantidad de los artículos y antes de enviar al carrito, por favor oprima el botón</b><button style="margin-left: 150px;" type="button" class="btn btn-primary btn-lg" onclick="Totalizar()">Totalizar</button></p></div>
+    <div><p><b>Por último, para confirmar los artículos por favor oprima el botón &nbsp; &nbsp;</b><button style="margin-left: 330px;" type="button" class="btn btn-primary btn-lg" onclick="EnviarCarrito()">Enviar al Carrito</button></p></div><br><br>
+    
+</div>

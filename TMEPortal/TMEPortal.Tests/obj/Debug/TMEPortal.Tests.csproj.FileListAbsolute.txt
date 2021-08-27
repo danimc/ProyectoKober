@@ -1,0 +1,782 @@
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe.config
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.rsp
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.exe
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.rsp
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.rsp
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll.config
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.pdb
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Owin.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.pdb
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll.config
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.dll
+C:\Users\Yael\Documents\Visual Studio 2017\Projects\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.pdb
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\ApplicationInsights.config
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe.config
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.rsp
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.exe
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.rsp
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.AppContext.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe.config
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.rsp
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll.config
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.pdb
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Owin.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.pdb
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll.config
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\EntityFramework.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+D:\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csprojResolveAssemblyReference.cache
+D:\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CoreCompileInputs.cache
+D:\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.dll
+D:\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CopyComplete
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\ApplicationInsights.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.rsp
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.exe
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.rsp
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.AppContext.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.rsp
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.pdb
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Owin.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.pdb
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\EntityFramework.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csprojResolveAssemblyReference.cache
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CoreCompileInputs.cache
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.pdb
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.pdb
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.pdb
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CopyComplete
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.pdb
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.exe
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.rsp
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CopyComplete
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.pdb
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.rsp
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.exe
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.rsp
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.rsp
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.pdb
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Owin.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.pdb
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csprojAssemblyReference.cache
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CoreCompileInputs.cache
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CopyComplete
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.pdb
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.exe.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csc.rsp
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.exe
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\csi.rsp
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.AppContext.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.exe.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\vbc.rsp
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.Tests.pdb
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Owin.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.pdb
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\TMEPortal.dll.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EPPlus.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csprojAssemblyReference.cache
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.csproj.CopyComplete
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal.Tests\obj\Debug\TMEPortal.Tests.pdb

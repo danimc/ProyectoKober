@@ -1,0 +1,112 @@
+﻿@model TMEPortal.Models.Pedidos
+
+@{
+
+    ViewBag.Title ="Nuevo Pedido";
+    Layout = "~/Views/Shared/_LayoutLTE.cshtml";
+}
+@using TMEPortal.Models;
+
+@using (@Html.BeginForm("Create", "ProductosPortal"))
+
+{
+    <script src="~/Scripts/jszip.js"></script>
+    <link href="~/Content/dx.common.css" rel="stylesheet" />
+    <link href="~/Content/dx.softblue.css" rel="stylesheet" />
+    <link href="~/Scripts/dxTable.css" rel="stylesheet" />
+    <script src="~/Scripts/dx.web.js"></script>
+
+    if (Session["Error"] != null)
+    {
+        <script>
+            window.onload = function () {
+                Session["Error"] = null;
+            }
+
+        </script>
+    }
+
+    <script>
+        function ChangeImg(Imagen) {
+            $("#Mainimg").attr("src", Imagen);
+        }
+    </script>
+
+
+    <style>
+        #gridContainer {
+            height: 440px;
+        }
+    </style>
+
+   
+
+    <br />
+
+
+    <div class="dx-viewport">
+        <div class="demo-container">
+            <div id="gridContainer"></div>
+        </div>
+    </div>
+    <div class="dx-viewport">
+        <button type="button" class="btn btn-primary btn-lg" onclick="EnviarCarrito()">Enviar al Carrito</button>
+    </div>
+
+
+
+    List<PedidosDetalle>
+Detalle = new List<PedidosDetalle>
+();
+    if (Session["PedidoD"] != null)
+    {
+        Detalle = (List<PedidosDetalle>)Session["PedidoD"] as List<PedidosDetalle>;
+
+    }
+
+    <script>var weekData =@Html.Raw(Json.Encode(Detalle));</script>
+    <script src="~/Scripts/Grid.js"></script>
+}
+<div class="modal fade" id="mdlComplementos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-blue">
+                <h3 class="modal-title" id="exampleModalLabel"> Complementos</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="dx-viewport">
+                    <div class="demo-container">
+                        <div id="dgvComplementos"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function EnviarCarrito() {
+        $.ajax({
+            url: '/ProductosPortal/EnviarCarrito',
+            method: 'post',
+            success: function () {
+                swal({
+                    title: 'Enviado!',
+                    html: 'Se Envio Correctamente',
+                    type: 'success',
+                    confirmButtonText: 'OK!'
+                }).then(function () {
+                    window.location.href = "/Home/Index";
+                });
+            }
+        });
+    }
+</script>

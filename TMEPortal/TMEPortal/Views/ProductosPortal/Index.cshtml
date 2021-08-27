@@ -1,0 +1,390 @@
+﻿@model TMEPortal.Models.Pedidos
+
+@{
+
+   ViewBag.Title = Session["NodoPadre"] + " " + Session["PedidoEstilo"];
+   Layout = "~/Views/Shared/_LayoutLTE.cshtml";
+}
+@using TMEPortal.Models;
+
+@using (@Html.BeginForm("Create", "ProductosPortal"))
+
+{
+    <script src="~/Scripts/jszip.js"></script>
+    <link href="~/Content/dx.common.css" rel="stylesheet" />
+    <link href="~/Content/dx.softblue.css" rel="stylesheet" />
+    <link href="~/Scripts/dxTable.css" rel="stylesheet" />
+    <script src="~/Scripts/dx.web.js"></script>
+
+    if (Session["Error"] != null)
+    {
+        <script>
+            window.onload = function () {                 
+                Session["Error"] = null;                                
+            }
+
+        </script>
+    }
+
+    <script>
+        function ChangeImg(Imagen) {
+            $("#Mainimg").attr("src", Imagen);
+        }
+    </script>
+
+
+    <style>
+        #gridContainer {
+            height: 440px;
+        }
+       
+    </style>
+
+
+
+    <div class="row">
+        <div class="col-sm-12" style="border:medium;background-color:rgba(0, 0, 0, 0.05);">
+
+            <div class="col-md-1 ">
+                <div class="dx-fieldset-header">Cantidad</div>
+                <script>
+                    $(function () {
+                        $("#txtCantidad").dxNumberBox({
+                            value: 1,
+                            min: 1,
+                            max: undefined,
+                            name: "txtCantidad",
+                            showSpinButtons: true,
+                            // showClearButton: true,
+                            class: "form-control",
+
+                        });
+                    });
+                </script>
+                <div class="dx-field">
+                    <div id="txtCantidad"></div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="dx-fieldset-header">Tipo</div>
+
+
+                @{
+
+            var d = Session["Complemento"];
+            var json = Json.Encode(d);
+
+            var com = Session["PedidoEstilo"];
+            var PedidoEstilo = "";
+            if (Session["NodoPadre"] != null)
+            {
+                if (Session["NodoPadre"].ToString().Contains("Complemento"))
+                {
+                    com = Session["PedidoEstilo"];
+                }
+                else
+                {
+                    com = Session["NodoPadre"];
+                }
+            }
+            if (Session["PedidoEstilo"] != null)
+            {
+                PedidoEstilo = Json.Encode(Session["PedidoEstilo"].ToString());
+
+            }
+            var json2 = Json.Encode(com);
+
+                }
+
+
+
+
+                <script>
+                    var items = @Html.Raw(json);
+                    var com = @Html.Raw(json2);
+                    var estilo=@Html.Raw(PedidoEstilo);
+                    var productos;
+                    if (items) {
+                        productos = [com];
+                    } else {
+                        productos = ["Cubierta", "Barra"];
+                    }
+                    $(function () {
+                        $("#cboTipo").dxSelectBox({
+                            items: productos,
+                            name: "cboTipo",
+                            visible: true,
+                            searchEnabled: true,
+
+                            onSelectionChanged: function (data) {
+
+                                $.getJSON('/ProductosPortal/GetColores/' + data.selectedItem, function (data) {
+
+                                    $("#cboColor").dxSelectBox({
+                                        items: data,
+                                        //showClearButton: true,
+                                        displayExpr: "Descripcion",
+                                        valueExpr: "Color", // cambiar el sp por displayname
+                                        name: "cboColor",
+                                        disabled: false,
+                                         visible:true,
+                                        searchEnabled: true,
+                                        onSelectionChanged: function (e) {
+                                            $.getJSON('/ProductosPortal/GetLargo/' + e.selectedItem.Color, function (data) {
+                                                if (productos[0].trim() == "Fisso (Essence,Fussion,SLIM)") {
+                                                    document.getElementById("Agregar").disabled = false;
+                                                } else {
+                                                    if (productos[0] == "Grafetta") {
+                                                        document.getElementById("Largo").innerHTML = "Alto";
+                                                    } 
+                                                    document.getElementById("Largo").style.visibility = "visible";
+                                                    
+                                                $("#cboLargo").dxSelectBox({
+                                                    items: data,
+                                                    disabled: false,
+                                                    visible: true,
+                                                    name: "cboLargo",
+                                                    searchEnabled: true,
+                                                    onSelectionChanged: function (x) {
+                                                        if (productos[0].trim() == "Enchapes HPL" || productos[0].trim() == "Enchapes Full Color") {
+                                                            document.getElementById("Agregar").disabled = false;
+                                                        }
+
+                                                        $.getJSON("/ProductosPortal/GetAncho/" + x.selectedItem,
+                                                            function (datos) {
+                                                                if (productos[0].trim() != "Fisso (Essence,Fussion,SLIM)" && productos[0].trim() != "Enchapes HPL" &&  productos[0].trim() != "Enchapes Full Color") {
+                                                                    document.getElementById("Ancho").style.visibility = "visible";
+                                                                }
+
+                                                                $("#cboAncho").dxSelectBox({
+                                                                    items: datos,
+                                                                    visible: productos[0].trim() == "Fisso (Essence,Fussion,SLIM)" ? false : productos[0].trim() == "Enchapes HPL" ? false : productos[0].trim() == "Enchapes Full Color" ? false :true,
+                                                                    name: "cboAncho",
+                                                                    searchEnabled: true,
+                                                                    onSelectionChanged: function (x) { //Logica de Graffetas
+                                                                        console.log(productos[0])
+                                                                        if (productos[0] == "Cubierta" || productos[0] == "Barra" || productos[0].trim() == "Splash" || productos[0].trim() == "Tablero" || productos[0].trim() == "Cubrecanto Tab Enchapado" || productos[0].trim() == "HPL" || productos[0].trim() =="Enchape Tablero Full Color" ) {
+                                                                            document.getElementById("Agregar").disabled = false;
+                                                                        }
+                                                                        if (productos[0] == "Grafetta") {
+                                                                            document.getElementById("Tapa").style.visibility = "visible";
+
+                                                                            $("#cboTapa").dxSelectBox({
+                                                                                items: estilo.trim() == "SLIM" ? ["Con Tapa"] : ["Con Tapa", "Sin Tapa"],
+                                                                                visible: true,
+                                                                                name: "cboTapa",
+                                                                                searchEnabled: true,
+                                                                                onSelectionChanged: function (x) {
+                                                                                    if (estilo.trim() != "FUSSION") {
+                                                                                        document.getElementById("Agregar").disabled = false;
+                                                                                    }
+                                                                                    if (estilo.trim() == "FUSSION") {
+                                                                                        document.getElementById("lado").style.visibility = "visible";
+                                                                                        $("#cboLado").dxSelectBox({
+                                                                                            items: ["Izquierdo", "Derecho"],
+                                                                                            visible: true,
+                                                                                            name: "cboLado",
+                                                                                            searchEnabled: true,
+                                                                                            onSelectionChanged: function (x) {
+                                                                                                document.getElementById("Agregar").disabled = false;
+                                                                                            }
+                                                                                        });
+                                                                                    }
+                                                                                }
+                                                                            });
+                                                                        }
+                                                                    }
+                                                                });
+                                                            }
+                                                        );
+                                                    }
+                                                });
+                                               }
+                                            });
+                                        }
+                                    });
+
+                                });
+                            }
+                        });
+                    })
+
+
+                    function EnviarCarrito() {
+                            $.ajax({
+                                url: '/ProductosPortal/EnviarCarrito',
+                                method: 'post',
+                                success: function () {
+                                    swal({
+                                        title: 'Enviado!',
+                                        html: 'Se Envio Correctamente',
+                                        type: 'success',
+                                        confirmButtonText: 'OK!'
+                                    }).then(function () {
+                                        window.location.href = "/Home/Index";
+                                    });
+                                }
+                            });
+                    }
+
+                </script>
+
+
+                <div class="dx-viewport">
+                    <div id="cboTipo"></div>
+                </div>
+            </div>
+
+
+            <div class="col-md-2">
+                <div class="dx-fieldset-header">Acabado</div>
+                <script>
+                    $(function () {
+                        $("#cboColor").dxSelectBox({
+                            items: [],
+                            displayExpr: "Descripcion",
+                            valueExpr: "Descripcion", // cambiar el sp por displayname
+                            name: "cboColor",
+                            disabled: true,
+                            searchEnabled: true,
+                            onSelectionChanged: function (e) {
+                                console.log(e);
+                            }
+                        });
+                    })
+                </script>
+                <div class="dx-viewport">
+                    <div id="cboColor"></div>
+                </div>
+            </div>
+
+            <div class="col-md-1">
+                <div id="Largo" class="dx-fieldset-header" style="visibility: hidden">Largo</div>              
+                <script>
+                    $(function () {
+                        $("#cboLargo").dxSelectBox({
+                            items: [],
+                            visible: false,
+                            disabled: true,
+                            name: "cboLargo",
+                            searchEnabled: true
+                        });
+                    })
+                </script>
+                <div class="dx-viewport">
+                    <div id="cboLargo"></div>
+                </div>
+            </div>
+
+           
+
+
+            <div class="col-md-1">
+                <div id="Ancho" class="dx-fieldset-header" style="visibility: hidden">Ancho</div>
+                <script>
+                    $(function () {
+                        $("#cboAncho").dxSelectBox({
+                            items: [],
+                            visible: false,
+                            searchEnabled: true,
+                            name: "cboAncho"
+                        });
+                    })
+                </script>
+                <div class="dx-viewport">
+                    <div id="cboAncho"></div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div id="Tapa" class="dx-fieldset-header" style="visibility: hidden">Tapa</div>
+                <script>
+                    $(function () {
+                        $("#cboTapa").dxSelectBox({
+                            items: [],
+                            visible: false,
+                            searchEnabled: true,
+                            name: "cboTapa"
+                        });
+                    })
+                </script>
+                <div class="dx-viewport">
+                    <div id="cboTapa"></div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div id="lado" class="dx-fieldset-header" style="visibility: hidden">Lado</div>
+                <script>
+                    $(function () {
+                        $("#cboLado").dxSelectBox({
+                            items: [],
+                            visible: false,
+                            searchEnabled: true,
+                            name: "cboLado"
+                        });
+                    })
+                </script>
+                <div class="dx-viewport">
+                    <div id="cboLado"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" id="Agregar" value="Agregar" class="btn btn-primary btn-lg" disabled>Agregar</button>
+            </div>
+
+        </div>
+    
+
+    </div>
+
+    <br />
+  
+
+    <div class="dx-viewport">
+        <div class="demo-container">
+             <div id="gridContainer"></div>
+        </div>
+    </div>
+    <div class="dx-viewport">     
+        <button  type="button" class="btn btn-primary btn-lg" onclick="EnviarCarrito()">Enviar al Carrito</button>
+    </div>
+
+ 
+
+    List<PedidosDetalle>
+Detalle = new List<PedidosDetalle>
+();
+    if (Session["PedidoD"] != null)
+    {
+        Detalle = (List<PedidosDetalle>)Session["PedidoD"] as List<PedidosDetalle>;
+
+    }
+
+    <script>var weekData =@Html.Raw(Json.Encode(Detalle));</script>
+    <script src="~/Scripts/Grid.js"></script>
+}
+    <div class="modal fade" id="mdlComplementos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-blue">
+                    <h3 class="modal-title" id="exampleModalLabel"> Complementos</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body"> 
+                    <div class="dx-viewport">
+                        <div class="demo-container">
+                            <div id="dgvComplementos"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>

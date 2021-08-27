@@ -1,0 +1,65 @@
+﻿@using TMEPortal.DataContext
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+    }
+
+    
+
+    KoberEntities db = new KoberEntities();
+    var detalle = new List<spGetEncabezadoCarrito_Result>();
+
+    if (Session["User"].ToString() != null)
+    {
+
+        detalle = db.spGetEncabezadoCarrito(Session["User"].ToString()).ToList();
+    }
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>                        
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+             
+                <li >
+                <a href="/Home/Index">MEDIDAS ESPECIALES Y COMPLEMENTOS</a></li>
+                <li><a href="/ProductosPortal/PedidoMedidasEstandar">MEDIDAS ESTANDAR</a></li>
+                <li><a href="/ProductosPortal/PedidosPendientesCte">PEDIDOS PENDIENTES</a></li>
+                <li><a href="/ProductosPortal/FacturasPorPagarCTE">COMPRAS CONCLUIDAS</a></li>
+            </ul>
+             <ul class="nav navbar-nav navbar-right">
+                  @if (detalle.Count > 0)
+                    {
+                         <li><a href="/ProductosPortal/DetalleCarrito" title="Carrito"><span class="glyphicon glyphicon-shopping-cart" style="font-size:18px;color:red"></span></a></li>
+                    }
+                     else
+                    {
+                         <li><a href="/ProductosPortal/DetalleCarrito" title="Carrito"><span class="glyphicon glyphicon-shopping-cart" style="font-size:18px"></span></a></li>
+
+                    }
+                     
+                    <li><a href="/Manage/ChangePassword" title="Cambiar Contraseña"><span class="glyphicon glyphicon-user" style="font-size:18px"></span></a></li>
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()" title="Cerrar Sesion"><span class="glyphicon glyphicon-log-out" style="font-size:18px"></span></a></li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+
+
+    }
+    else
+    {
+        <ul class="nav navbar-nav navbar-right">
+            <li>@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+            <li>@Html.ActionLink("Iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        </ul>
+    }

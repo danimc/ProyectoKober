@@ -1,0 +1,1452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KoberModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="KoberEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_GetClientes" ReturnType="Collection(KoberModel.sp_GetClientes_Result)">
+      <Parameter Name="ClienteID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetSucursalesCliente" ReturnType="Collection(KoberModel.sp_GetSucursalesCliente_Result)">
+      <Parameter Name="ClienteID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetColoresXClasificacion" ReturnType="Collection(KoberModel.sp_GetColoresXClasificacion_Result)">
+      <Parameter Name="clasificacion" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="ArbolMenu" EntityType="KoberModel.ArbolMenu" />
+    <FunctionImport Name="GetPropiedadesProductoNodo" ReturnType="Collection(KoberModel.GetPropiedadesProductoNodo_Result)">
+      <Parameter Name="nodo" Mode="In" Type="Guid" />
+      <Parameter Name="propiedad" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetPropProductoNodo" ReturnType="Collection(KoberModel.GetPropProductoNodo_Result)">
+      <Parameter Name="nodo" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <FunctionImport Name="GetPropProductoNodo1" ReturnType="Collection(KoberModel.GetPropProductoNodo1_Result)">
+      <Parameter Name="nodo" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <EntitySet Name="CteEnviarA" EntityType="KoberModel.CteEnviarA" />
+    <FunctionImport Name="Get_ClienteDet" ReturnType="Collection(KoberModel.Get_ClienteDet_Result)">
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spRegistrarVentaDetalle">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="Renglon" Mode="In" Type="Double" />
+      <Parameter Name="Articulo" Mode="In" Type="String" />
+      <Parameter Name="Unidad" Mode="In" Type="String" />
+      <Parameter Name="Almacen" Mode="In" Type="String" />
+      <Parameter Name="RenglonTipo" Mode="In" Type="String" />
+      <Parameter Name="Cantidad" Mode="In" Type="Double" />
+      <Parameter Name="CantidadInventario" Mode="In" Type="Double" />
+      <Parameter Name="Precio" Mode="In" Type="Decimal" />
+      <Parameter Name="Impuesto1" Mode="In" Type="Double" />
+      <Parameter Name="Impuesto2" Mode="In" Type="Double" />
+      <Parameter Name="Impuesto3" Mode="In" Type="Double" />
+      <Parameter Name="DescuentoLinea" Mode="In" Type="Decimal" />
+      <Parameter Name="DescuentoTipo" Mode="In" Type="String" />
+      <Parameter Name="DescripcionExtra" Mode="In" Type="String" />
+      <Parameter Name="Opcion" Mode="In" Type="String" />
+      <Parameter Name="SucursalEmpresa" Mode="In" Type="Int32" />
+      <Parameter Name="RenglonId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spRegistrarVentaEncabezado" ReturnType="Collection(Int32)">
+      <Parameter Name="Empresa" Mode="In" Type="String" />
+      <Parameter Name="Mov" Mode="In" Type="String" />
+      <Parameter Name="Usuario" Mode="In" Type="String" />
+      <Parameter Name="Almacen" Mode="In" Type="String" />
+      <Parameter Name="Moneda" Mode="In" Type="String" />
+      <Parameter Name="TipoCambio" Mode="In" Type="Double" />
+      <Parameter Name="Descuento" Mode="In" Type="String" />
+      <Parameter Name="DescuentoGlobal" Mode="In" Type="Double" />
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+      <Parameter Name="FormaEnvio" Mode="In" Type="String" />
+      <Parameter Name="Condicion" Mode="In" Type="String" />
+      <Parameter Name="Proyecto" Mode="In" Type="String" />
+      <Parameter Name="Concepto" Mode="In" Type="String" />
+      <Parameter Name="UEN" Mode="In" Type="Int32" />
+      <Parameter Name="Agente" Mode="In" Type="String" />
+      <Parameter Name="EnviarA" Mode="In" Type="Int32" />
+      <Parameter Name="Comentarios" Mode="In" Type="String" />
+      <Parameter Name="FechaRequerida" Mode="In" Type="DateTime" />
+      <Parameter Name="Referencia" Mode="In" Type="String" />
+      <Parameter Name="OrdenCompra" Mode="In" Type="String" />
+      <Parameter Name="SucursalEmpresa" Mode="In" Type="Int32" />
+      <Parameter Name="ListaPreciosEsp" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetLargoProductoNodo" ReturnType="Collection(String)">
+      <Parameter Name="nodo" Mode="In" Type="Guid" />
+      <Parameter Name="TMEColor" Mode="In" Type="String" />
+      <Parameter Name="tipo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetAnchoProductoNodo" ReturnType="Collection(String)">
+      <Parameter Name="nodo" Mode="In" Type="Guid" />
+      <Parameter Name="TMEColor" Mode="In" Type="String" />
+      <Parameter Name="tipo" Mode="In" Type="String" />
+      <Parameter Name="Largo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Get_TipoDeCambio" ReturnType="Collection(Double)">
+      <Parameter Name="Moneda" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="Cte" EntityType="KoberModel.Cte" />
+    <FunctionImport Name="sp_GetPedidosCliente" ReturnType="Collection(KoberModel.sp_GetPedidosCliente_Result)">
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ValidaCliente" ReturnType="Collection(Boolean)">
+      <Parameter Name="cliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetArticuloExcel" ReturnType="Collection(KoberModel.GetArticuloExcel_Result)">
+      <Parameter Name="Articulo" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetColoresMedidasEstandar" ReturnType="Collection(KoberModel.GetColoresMedidasEstandar_Result1)">
+      <Parameter Name="nodo" Mode="In" Type="Guid" />
+    </FunctionImport>
+    <EntitySet Name="PedidoMedidasEstandar" EntityType="KoberModel.PedidoMedidasEstandar" />
+    <FunctionImport Name="sp_GetEqArtGen" ReturnType="Collection(KoberModel.sp_GetEqArtGen_Result2)">
+      <Parameter Name="linea" Mode="In" Type="String" />
+      <Parameter Name="color" Mode="In" Type="String" />
+      <Parameter Name="descripcion" Mode="In" Type="String" />
+      <Parameter Name="cb240" Mode="In" Type="Int32" />
+      <Parameter Name="cb300" Mode="In" Type="Int32" />
+      <Parameter Name="cb360" Mode="In" Type="Int32" />
+      <Parameter Name="ba240" Mode="In" Type="Int32" />
+      <Parameter Name="ba360" Mode="In" Type="Int32" />
+      <Parameter Name="ba90" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetColorProductoNodo">
+      <Parameter Name="nodo" Mode="In" Type="Guid" />
+      <Parameter Name="propiedad" Mode="In" Type="String" />
+      <Parameter Name="Tipo" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="CarritoEncabezado" EntityType="KoberModel.CarritoEncabezado" />
+    <FunctionImport Name="SetCantCarritoDetalle">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="cantidad" Mode="In" Type="Int32" />
+      <Parameter Name="Renglon" Mode="In" Type="Double" />
+    </FunctionImport>
+    <FunctionImport Name="SetElimnaCarritoDetalle">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="Renglon" Mode="In" Type="Double" />
+    </FunctionImport>
+    <FunctionImport Name="SetOCCarrito">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="Oc" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spGetEncabezadoCarrito" ReturnType="Collection(KoberModel.spGetEncabezadoCarrito_Result)">
+      <Parameter Name="cliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_SetCarritoEncabezado" ReturnType="Collection(Int32)">
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="condicion" Mode="In" Type="String" />
+      <Parameter Name="descuento" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spVerLimiteCreditoMN" ReturnType="Collection(Double)">
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+      <Parameter Name="Empresa" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spwSaldoActualCteTME" ReturnType="Collection(Double)">
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spAfectarMov" ReturnType="Collection(Decimal)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="Accion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spGetMovIDPedido" ReturnType="Collection(String)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spPEdidoAfectado" ReturnType="Collection(KoberModel.spPEdidoAfectado_Result2)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetArticulo" ReturnType="Collection(KoberModel.GetArticulo_Result5)">
+      <Parameter Name="Tipo" Mode="In" Type="String" />
+      <Parameter Name="Color" Mode="In" Type="String" />
+      <Parameter Name="Ancho" Mode="In" Type="String" />
+      <Parameter Name="Largo" Mode="In" Type="String" />
+      <Parameter Name="CLASIFICAICON" Mode="In" Type="String" />
+      <Parameter Name="Lado" Mode="In" Type="String" />
+      <Parameter Name="Tapa" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetFacturasPorPagarCliente" ReturnType="Collection(KoberModel.sp_GetFacturasPorPagarCliente_Result)">
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+      <Parameter Name="FEchaD" Mode="In" Type="DateTime" />
+      <Parameter Name="FEchaA" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetFacturasxPagarClienteDet" ReturnType="Collection(KoberModel.sp_GetFacturasxPagarClienteDet_Result)">
+      <Parameter Name="VentaId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="Art" EntityType="KoberModel.Art" />
+    <FunctionImport Name="GetpedidosCliente" ReturnType="Collection(KoberModel.GetpedidosCliente_Result)">
+      <Parameter Name="cliente" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="spEliminarCarrito">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetColorProductoNodo1" ReturnType="Collection(KoberModel.GetColorProductoNodo1_Result)">
+      <Parameter Name="nodo" Mode="In" Type="Guid" />
+      <Parameter Name="propiedad" Mode="In" Type="String" />
+      <Parameter Name="Tipo" Mode="In" Type="String" />
+      <Parameter Name="Estilo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <EntitySet Name="CarritoDetalle" EntityType="KoberModel.CarritoDetalle" />
+    <AssociationSet Name="FK__CarritoDe__idEnc__47EAF784" Association="KoberModel.FK__CarritoDe__idEnc__47EAF784">
+      <End Role="CarritoEncabezado" EntitySet="CarritoEncabezado" />
+      <End Role="CarritoDetalle" EntitySet="CarritoDetalle" />
+    </AssociationSet>
+    <FunctionImport Name="sp_SetCarritoDetalle">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+      <Parameter Name="Articulo" Mode="In" Type="String" />
+      <Parameter Name="cantidad" Mode="In" Type="Int32" />
+      <Parameter Name="cliente" Mode="In" Type="String" />
+      <Parameter Name="renglon" Mode="In" Type="Double" />
+      <Parameter Name="descripcion" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetDetallePedido" ReturnType="Collection(KoberModel.GetDetallePedido_Result)">
+      <Parameter Name="Pedido" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="spGetDetalleCarrito" ReturnType="Collection(KoberModel.spGetDetalleCarrito_Result)">
+      <Parameter Name="id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetPedidosPendientesPorCliente" ReturnType="Collection(KoberModel.sp_GetPedidosPendientesPorCliente_Result2)">
+      <Parameter Name="Cliente" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_GetClientes_Result">
+    <Property Type="String" Name="ClienteID" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Direccion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Colonia" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetSucursalesCliente_Result">
+    <Property Type="String" Name="ClienteID" Nullable="false" MaxLength="10" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="sp_GetColoresXClasificacion_Result">
+    <Property Type="String" Name="Articulo" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="Color" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Descripcion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Cubierta_2_40" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Cubierta_3_00" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Cubierta_3_60" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Barra_2_40" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Barra_3_00" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Barra_3_60" Nullable="false" MaxLength="1" />
+    <Property Type="String" Name="Barra_90_2_40" Nullable="false" MaxLength="1" />
+  </ComplexType>
+  <EntityType Name="ArbolMenu">
+    <Key>
+      <PropertyRef Name="IdArbolMenu" />
+    </Key>
+    <Property Name="IdArbolMenu" Type="Guid" Nullable="false" />
+    <Property Name="IdArbolMenuPadre" Type="Guid" />
+    <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="IdArticulo" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="Expand" Type="Boolean" Nullable="false" />
+    <Property Name="RutaImagen" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Condicion" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="iconSrc" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Largo" Type="Boolean" />
+    <Property Name="Ancho" Type="Boolean" />
+    <Property Name="Color" Type="Boolean" />
+    <Property Name="Complemento" Type="Boolean" />
+    <Property Name="WebEstilo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <ComplexType Name="GetPropiedadesProductoNodo_Result">
+    <Property Type="String" Name="color" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="RutaImagen" Nullable="true" MaxLength="255" />
+  </ComplexType>
+  <ComplexType Name="GetPropProductoNodo_Result">
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="RutaImagen" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="GetArticulo_Result">
+    <Property Type="String" Name="Articulo" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tmecolor" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="tmelargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="tmeclasflam" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <EntityType Name="CteEnviarA">
+    <Key>
+      <PropertyRef Name="Cliente" />
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Cliente" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="EntreCalles" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Plano" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Colonia" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Poblacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Pais" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Zona" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CodigoPostal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Telefonos" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PedirTono" Type="Boolean" Nullable="false" />
+    <Property Name="Contacto1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contacto2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Extencion1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Extencion2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="eMail1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="eMail2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FormaEnvio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ZonaImpuesto" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Agente" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Clase" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="Estatus" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="UltimoCambio" Type="DateTime" Precision="3" />
+    <Property Name="Alta" Type="DateTime" Precision="3" />
+    <Property Name="Mensaje" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Logico1" Type="Boolean" Nullable="false" />
+    <Property Name="Logico2" Type="Boolean" Nullable="false" />
+    <Property Name="Logico3" Type="Boolean" Nullable="false" />
+    <Property Name="ListaPreciosEsp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Proyecto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Condicion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descuento" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ModificarVencimiento" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Categoria" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Grupo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Familia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TieneMovimientos" Type="Boolean" />
+    <Property Name="Delegacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Ruta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contrasena" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SincroID" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="SincroC" Type="Int32" />
+    <Property Name="Clave" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="SucursalEmpresa" Type="Int32" />
+    <Property Name="PersonalCobrador" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Almacen" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="AlmacenVtasConsignacion" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="eMailAuto" Type="Boolean" />
+    <Property Name="wMovVentas" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TipoEmpaque" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Unidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cadena" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DireccionNumeroInt" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Encargado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DireccionNumero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="GLN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TMEws_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TMEws_status" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="FiscalRegimen" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="FiscalZona" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TipoProceso" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TipoComite" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IdContabilidad" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="ClaveEntidad" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Ambito" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EntidadIdContabilidad" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="InstitucionFin" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FormaPago" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cuenta" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TMERFC2" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="Get_ClienteDet_Result">
+    <Property Type="String" Name="Cliente" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="NombreCorto" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Direccion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="EntreCalles" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Plano" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Colonia" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Poblacion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Estado" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Pais" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Zona" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="CodigoPostal" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="RFC" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Telefonos" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Fax" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="PedirTono" Nullable="false" />
+    <Property Type="String" Name="Contacto1" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Contacto2" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Extencion1" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Extencion2" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="eMail1" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="eMail2" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DirInternet" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Categoria" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Familia" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Grupo" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Credito" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DiaRevision1" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="DiaRevision2" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="HorarioRevision" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="DiaPago1" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="DiaPago2" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="HorarioPago" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ZonaImpuesto" Nullable="true" MaxLength="30" />
+    <Property Type="Boolean" Name="PedidosParciales" Nullable="false" />
+    <Property Type="String" Name="Tipo" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Descuento" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Agente" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="AgenteServicio" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="EnviarA" Nullable="true" />
+    <Property Type="String" Name="Proyecto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FormaEnvio" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Condicion" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Ruta" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="ListaPrecios" Nullable="true" />
+    <Property Type="String" Name="DefMoneda" Nullable="true" MaxLength="10" />
+    <Property Type="Boolean" Name="VtasConsignacion" Nullable="false" />
+    <Property Type="String" Name="AlmacenVtasConsignacion" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Clase" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Estatus" Nullable="true" MaxLength="15" />
+    <Property Type="DateTime" Name="UltimoCambio" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Alta" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="Conciliar" Nullable="false" />
+    <Property Type="String" Name="Mensaje" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="CreditoConCondiciones" Nullable="false" />
+    <Property Type="Boolean" Name="CreditoConDias" Nullable="false" />
+    <Property Type="Boolean" Name="CreditoConLimite" Nullable="false" />
+    <Property Type="Boolean" Name="CreditoEspecial" Nullable="false" />
+    <Property Type="Int32" Name="Numero" Nullable="true" />
+    <Property Type="String" Name="CURP" Nullable="true" MaxLength="30" />
+    <Property Type="Decimal" Name="CreditoLimite" Nullable="true" Precision="19" />
+    <Property Type="String" Name="CreditoMoneda" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="CreditoDias" Nullable="true" />
+    <Property Type="String" Name="CreditoCondiciones" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Rama" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Contrasena" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="ListaPreciosEsp" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="ChecarCredito" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="BloquearMorosos" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="ModificarVencimiento" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Situacion" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="SituacionFecha" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="CreditoConLimitePedidos" Nullable="true" />
+    <Property Type="Decimal" Name="CreditoLimitePedidos" Nullable="true" Precision="19" />
+    <Property Type="Boolean" Name="TieneMovimientos" Nullable="true" />
+    <Property Type="String" Name="Cobrador" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Delegacion" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="DescuentoRecargos" Nullable="true" />
+    <Property Type="Binary" Name="SincroID" Nullable="true" MaxLength="8" />
+    <Property Type="Int32" Name="SincroC" Nullable="true" />
+    <Property Type="String" Name="RecorrerVencimiento" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="SucursalEmpresa" Nullable="true" />
+    <Property Type="String" Name="NivelAcceso" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="wVerDisponible" Nullable="true" />
+    <Property Type="String" Name="Idioma" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="Bonificacion" Nullable="true" />
+    <Property Type="DateTime" Name="VigenciaDesde" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="VigenciaHasta" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion2" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion3" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion4" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion5" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="BonificacionTipo" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Descripcion6" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion7" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion8" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion9" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion10" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="AlmacenDef" Nullable="true" MaxLength="10" />
+    <Property Type="Boolean" Name="FormasPagoRestringidas" Nullable="true" />
+    <Property Type="String" Name="Descripcion11" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion12" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion13" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion14" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion15" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion16" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion17" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion18" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion19" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Descripcion20" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CBDir" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="PersonalDireccion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PersonalEntreCalles" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PersonalPlano" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PersonalDelegacion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PersonalColonia" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PersonalPoblacion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PersonalEstado" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="PersonalPais" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="PersonalZona" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="PersonalCodigoPostal" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="PersonalTelefonos" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="FechaNacimiento" Nullable="true" Precision="23" />
+    <Property Type="String" Name="EstadoCivil" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaMatrimonio" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Conyuge" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Sexo" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="Fuma" Nullable="true" />
+    <Property Type="String" Name="Profesion" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Puesto" Nullable="true" MaxLength="100" />
+    <Property Type="Int32" Name="NumeroHijos" Nullable="true" />
+    <Property Type="String" Name="Alergias" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Religion" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Responsable" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Parentesco" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FacturarCte" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="FacturarCteEnviarA" Nullable="true" />
+    <Property Type="String" Name="Aseguradora" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NombreAsegurado" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="PolizaTipo" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PolizaNumero" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="PolizaReferencia" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="Deducible" Nullable="true" Precision="19" />
+    <Property Type="String" Name="DeducibleMoneda" Nullable="true" MaxLength="10" />
+    <Property Type="Double" Name="Coaseguro" Nullable="true" />
+    <Property Type="String" Name="Espacio" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OtrosCargos" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PersonalCobrador" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="PersonalTelefonoMovil" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Titulo" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="wVerArtListaPreciosEsp" Nullable="true" />
+    <Property Type="Decimal" Name="CRMImporte" Nullable="true" Precision="19" />
+    <Property Type="Double" Name="CRMCantidad" Nullable="true" />
+    <Property Type="String" Name="CRMEtapa" Nullable="true" MaxLength="20" />
+    <Property Type="Double" Name="CRMCierreProbabilidad" Nullable="true" />
+    <Property Type="DateTime" Name="CRMCierreFechaAprox" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="CRMPresupuestoAsignado" Nullable="true" Precision="19" />
+    <Property Type="String" Name="CRMCompetencia" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CRMInfluencia" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CRMFuente" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Contrasena2" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="Flotilla" Nullable="true" />
+    <Property Type="String" Name="FordDistribuidor" Nullable="true" MaxLength="10" />
+    <Property Type="Boolean" Name="ExcentoISAN" Nullable="true" />
+    <Property Type="String" Name="PersonalNombres" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PersonalApellidoPaterno" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="PersonalApellidoMaterno" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="PolizaImporte" Nullable="true" Precision="19" />
+    <Property Type="DateTime" Name="Fecha1" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Fecha2" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Fecha3" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Fecha4" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="Fecha5" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="EsProveedor" Nullable="true" />
+    <Property Type="Boolean" Name="EsPersonal" Nullable="true" />
+    <Property Type="Boolean" Name="EsAgente" Nullable="true" />
+    <Property Type="Boolean" Name="EsAlmacen" Nullable="true" />
+    <Property Type="Boolean" Name="EsEspacio" Nullable="true" />
+    <Property Type="Boolean" Name="EsCentroCostos" Nullable="true" />
+    <Property Type="Boolean" Name="EsProyecto" Nullable="true" />
+    <Property Type="Boolean" Name="EsCentroTrabajo" Nullable="true" />
+    <Property Type="Boolean" Name="EsEstacionTrabajo" Nullable="true" />
+    <Property Type="String" Name="Usuario" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="Licencias" Nullable="true" />
+    <Property Type="String" Name="LicenciasTipo" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="LicenciasLlave" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Cuenta" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="CuentaRetencion" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="PreciosInferioresMinimo" Nullable="true" />
+    <Property Type="String" Name="FiscalRegimen" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="FordZona" Nullable="true" MaxLength="30" />
+    <Property Type="Boolean" Name="PedidoDef" Nullable="true" />
+    <Property Type="Boolean" Name="eMailAuto" Nullable="true" />
+    <Property Type="Int32" Name="RutaOrden" Nullable="true" />
+    <Property Type="String" Name="DireccionNumero" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="TelefonosLada" Nullable="true" MaxLength="6" />
+    <Property Type="String" Name="PersonalTelefonosLada" Nullable="true" MaxLength="6" />
+    <Property Type="String" Name="IEPS" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="wMovVentas" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="PITEX" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="Intercompania" Nullable="true" />
+    <Property Type="String" Name="Agente3" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Agente4" Nullable="true" MaxLength="10" />
+    <Property Type="Boolean" Name="Publico" Nullable="true" />
+    <Property Type="Boolean" Name="Extranjero" Nullable="true" />
+    <Property Type="Boolean" Name="DocumentacionCompleta" Nullable="true" />
+    <Property Type="Decimal" Name="OperacionLimite" Nullable="true" Precision="19" />
+    <Property Type="String" Name="CRMovVenta" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="ImportadorRegimen" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="ImportadorRegistro" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="LocalidadCNBV" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ActividadEconomicaCNBV" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Grado" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="SituacionUsuario" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="SituacionNota" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="GLN" Nullable="true" MaxLength="50" />
+    <Property Type="Boolean" Name="PersonalSMS" Nullable="true" />
+    <Property Type="String" Name="DireccionNumeroInt" Nullable="true" MaxLength="20" />
+    <Property Type="Boolean" Name="wTMEPermitirPedido" Nullable="true" />
+    <Property Type="Boolean" Name="wTMEPermitirVentaMinima" Nullable="true" />
+    <Property Type="Int32" Name="wTMECantidadMinima" Nullable="true" />
+    <Property Type="String" Name="TMEws_id" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="TMEws_status" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="TMESegmento" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ReferenciaBancaria" Nullable="true" MaxLength="50" />
+    <Property Type="Double" Name="Clabe" Nullable="true" />
+    <Property Type="Int32" Name="ClaveBanco" Nullable="true" />
+    <Property Type="String" Name="CtaBanco" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Fiscalzona" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="ClaveUsoCfdi" Nullable="true" MaxLength="3" />
+    <Property Type="Boolean" Name="ExhibicionEstilo" Nullable="true" />
+    <Property Type="Boolean" Name="CapacitacionEstilo" Nullable="true" />
+    <Property Type="DateTime" Name="FechaExEstilo" Nullable="true" Precision="23" />
+    <Property Type="Boolean" Name="WebEstilo" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="Cte">
+    <Key>
+      <PropertyRef Name="Cliente" />
+    </Key>
+    <Property Name="Cliente" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NombreCorto" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="EntreCalles" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Plano" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Colonia" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Poblacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Pais" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Zona" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CodigoPostal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="RFC" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Telefonos" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PedirTono" Type="Boolean" Nullable="false" />
+    <Property Name="Contacto1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contacto2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Extencion1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Extencion2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="eMail1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="eMail2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DirInternet" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Categoria" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Familia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Grupo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Credito" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaRevision1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DiaRevision2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="HorarioRevision" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaPago1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DiaPago2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="HorarioPago" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ZonaImpuesto" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PedidosParciales" Type="Boolean" Nullable="false" />
+    <Property Name="Tipo" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="Descuento" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Agente" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="AgenteServicio" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="EnviarA" Type="Int32" />
+    <Property Name="Proyecto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FormaEnvio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Condicion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Ruta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ListaPrecios" Type="Int32" />
+    <Property Name="DefMoneda" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="VtasConsignacion" Type="Boolean" Nullable="false" />
+    <Property Name="AlmacenVtasConsignacion" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Clase" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="Estatus" Type="String" MaxLength="15" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="UltimoCambio" Type="DateTime" Precision="3" />
+    <Property Name="Alta" Type="DateTime" Precision="3" />
+    <Property Name="Conciliar" Type="Boolean" Nullable="false" />
+    <Property Name="Mensaje" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreditoConCondiciones" Type="Boolean" Nullable="false" />
+    <Property Name="CreditoConDias" Type="Boolean" Nullable="false" />
+    <Property Name="CreditoConLimite" Type="Boolean" Nullable="false" />
+    <Property Name="CreditoEspecial" Type="Boolean" Nullable="false" />
+    <Property Name="Numero" Type="Int32" />
+    <Property Name="CURP" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CreditoLimite" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CreditoMoneda" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="CreditoDias" Type="Int32" />
+    <Property Name="CreditoCondiciones" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Rama" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Contrasena" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ListaPreciosEsp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ChecarCredito" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="BloquearMorosos" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ModificarVencimiento" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Situacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SituacionFecha" Type="DateTime" Precision="3" />
+    <Property Name="CreditoConLimitePedidos" Type="Boolean" />
+    <Property Name="CreditoLimitePedidos" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TieneMovimientos" Type="Boolean" />
+    <Property Name="Cobrador" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Delegacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DescuentoRecargos" Type="Boolean" />
+    <Property Name="SincroID" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="SincroC" Type="Int32" />
+    <Property Name="RecorrerVencimiento" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SucursalEmpresa" Type="Int32" />
+    <Property Name="NivelAcceso" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="wVerDisponible" Type="Boolean" />
+    <Property Name="Idioma" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Bonificacion" Type="Double" />
+    <Property Name="VigenciaDesde" Type="DateTime" Precision="3" />
+    <Property Name="VigenciaHasta" Type="DateTime" Precision="3" />
+    <Property Name="Descripcion1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BonificacionTipo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion6" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion7" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion8" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion9" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion10" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AlmacenDef" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="FormasPagoRestringidas" Type="Boolean" />
+    <Property Name="Descripcion11" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion12" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion13" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion14" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion15" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion16" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion17" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion18" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion19" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion20" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CBDir" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalDireccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalEntreCalles" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalPlano" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalDelegacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalColonia" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalPoblacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalEstado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalPais" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalZona" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalCodigoPostal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalTelefonos" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="FechaNacimiento" Type="DateTime" Precision="3" />
+    <Property Name="EstadoCivil" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FechaMatrimonio" Type="DateTime" Precision="3" />
+    <Property Name="Conyuge" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Sexo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Fuma" Type="Boolean" />
+    <Property Name="Profesion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Puesto" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NumeroHijos" Type="Int32" />
+    <Property Name="Alergias" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Religion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Responsable" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Parentesco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FacturarCte" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="FacturarCteEnviarA" Type="Int32" />
+    <Property Name="Aseguradora" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="NombreAsegurado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="PolizaTipo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PolizaNumero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PolizaReferencia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Deducible" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DeducibleMoneda" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Coaseguro" Type="Double" />
+    <Property Name="Espacio" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="OtrosCargos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalCobrador" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalTelefonoMovil" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Titulo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="wVerArtListaPreciosEsp" Type="Boolean" />
+    <Property Name="CRMImporte" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CRMCantidad" Type="Double" />
+    <Property Name="CRMEtapa" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CRMCierreProbabilidad" Type="Double" />
+    <Property Name="CRMCierreFechaAprox" Type="DateTime" Precision="3" />
+    <Property Name="CRMPresupuestoAsignado" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CRMCompetencia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CRMInfluencia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CRMFuente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contrasena2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Flotilla" Type="Boolean" />
+    <Property Name="FordDistribuidor" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ExcentoISAN" Type="Boolean" />
+    <Property Name="PersonalNombres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalApellidoPaterno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalApellidoMaterno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PolizaImporte" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Fecha1" Type="DateTime" Precision="3" />
+    <Property Name="Fecha2" Type="DateTime" Precision="3" />
+    <Property Name="Fecha3" Type="DateTime" Precision="3" />
+    <Property Name="Fecha4" Type="DateTime" Precision="3" />
+    <Property Name="Fecha5" Type="DateTime" Precision="3" />
+    <Property Name="EsProveedor" Type="Boolean" />
+    <Property Name="EsPersonal" Type="Boolean" />
+    <Property Name="EsAgente" Type="Boolean" />
+    <Property Name="EsAlmacen" Type="Boolean" />
+    <Property Name="EsEspacio" Type="Boolean" />
+    <Property Name="EsCentroCostos" Type="Boolean" />
+    <Property Name="EsProyecto" Type="Boolean" />
+    <Property Name="EsCentroTrabajo" Type="Boolean" />
+    <Property Name="EsEstacionTrabajo" Type="Boolean" />
+    <Property Name="Usuario" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Licencias" Type="Int32" />
+    <Property Name="LicenciasTipo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LicenciasLlave" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cuenta" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CuentaRetencion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PreciosInferioresMinimo" Type="Boolean" />
+    <Property Name="FiscalRegimen" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="FordZona" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PedidoDef" Type="Boolean" />
+    <Property Name="eMailAuto" Type="Boolean" />
+    <Property Name="RutaOrden" Type="Int32" />
+    <Property Name="DireccionNumero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TelefonosLada" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalTelefonosLada" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="IEPS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="wMovVentas" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PITEX" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Intercompania" Type="Boolean" />
+    <Property Name="Agente3" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Agente4" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Publico" Type="Boolean" />
+    <Property Name="Extranjero" Type="Boolean" />
+    <Property Name="DocumentacionCompleta" Type="Boolean" />
+    <Property Name="OperacionLimite" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CRMovVenta" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ImportadorRegimen" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ImportadorRegistro" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="LocalidadCNBV" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ActividadEconomicaCNBV" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Grado" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SituacionUsuario" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SituacionNota" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="GLN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PersonalSMS" Type="Boolean" />
+    <Property Name="DireccionNumeroInt" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="wTMEPermitirPedido" Type="Boolean" />
+    <Property Name="wTMEPermitirVentaMinima" Type="Boolean" />
+    <Property Name="wTMECantidadMinima" Type="Int32" />
+    <Property Name="TMEws_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TMEws_status" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="TMESegmento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ReferenciaBancaria" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Clabe" Type="Double" />
+    <Property Name="ClaveBanco" Type="Int32" />
+    <Property Name="CtaBanco" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Fiscalzona" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ClaveUsoCfdi" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="ExhibicionEstilo" Type="Boolean" />
+    <Property Name="CapacitacionEstilo" Type="Boolean" />
+    <Property Name="FechaExEstilo" Type="DateTime" Precision="3" />
+    <Property Name="webEstilo" Type="Boolean" />
+    <Property Name="SinISAN" Type="Boolean" />
+  </EntityType>
+  <ComplexType Name="sp_GetPedidosCliente_Result">
+    <Property Type="Int32" Name="VentaId" Nullable="false" />
+    <Property Type="String" Name="movid" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Orden_de_compra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="referencia" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="importe" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="impuestos" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="saldo" Nullable="true" Precision="19" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="GetPropProductoNodo1_Result">
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="RutaImagen" Nullable="true" MaxLength="500" />
+    <Property Type="Boolean" Name="Largo" Nullable="false" />
+    <Property Type="Boolean" Name="Ancho" Nullable="false" />
+    <Property Type="Boolean" Name="Color" Nullable="false" />
+    <Property Type="Boolean" Name="Complemento" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="GetArticuloExcel_Result">
+    <Property Type="String" Name="Articulo" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tmecolor" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="TMELargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="tmeclasflam" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="GetArticulo_Result1">
+    <Property Type="String" Name="Articulo" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tmecolor" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="TMELargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="tmeclasflam" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="sp_GetPedidosPendientesPorCliente_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Mov" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MovID" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Concepto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Referencia" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OrdenCompra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Condicion" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Vencimiento" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="Saldo" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Importe" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Impuestos" Nullable="true" Precision="19" />
+    <Property Type="String" Name="EnviarANombre" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="Hay_Prod" Nullable="true" />
+    <Property Type="Int32" Name="Dias" Nullable="true" />
+    <Property Type="Decimal" Name="Suritdo" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="sp_GetPedidosPendientesPorCliente_Result1">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Mov" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MovID" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Concepto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Referencia" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OrdenCompra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Condicion" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Vencimiento" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="Saldo" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Importe" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Impuestos" Nullable="true" Precision="19" />
+    <Property Type="DateTime" Name="FechaRequerida" Nullable="true" Precision="23" />
+    <Property Type="String" Name="EnviarANombre" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="Hay_Prod" Nullable="true" />
+    <Property Type="Int32" Name="Dias" Nullable="true" />
+    <Property Type="Decimal" Name="Suritdo" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="GetColoresMedidasEstandar_Result">
+    <Property Type="String" Name="color" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GetEqArtGen_Result">
+    <Property Type="String" Name="Column1" Nullable="true" MaxLength="45" />
+    <Property Type="String" Name="Column2" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="Column3" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Column4" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Column5" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="Column6" Nullable="true" MaxLength="35" />
+  </ComplexType>
+  <ComplexType Name="sp_GetEqArtGen_Result1">
+    <Property Type="String" Name="articulo" Nullable="true" MaxLength="45" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMELargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEClasificacion" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="TMEColor" Nullable="true" MaxLength="35" />
+  </ComplexType>
+  <ComplexType Name="GetColoresMedidasEstandar_Result1">
+    <Property Type="String" Name="color" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <EntityType Name="PedidoMedidasEstandar">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Linea" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Color" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="C240" Type="Int32" />
+    <Property Name="C300" Type="Int32" />
+    <Property Name="C360" Type="Int32" />
+    <Property Name="B240" Type="Int32" />
+    <Property Name="B360" Type="Int32" />
+    <Property Name="B90240" Type="Int32" />
+    <Property Name="Total" Type="Int32" />
+    <Property Name="cliente" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="sp_GetEqArtGen_Result2">
+    <Property Type="String" Name="articulo" Nullable="true" MaxLength="45" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMELargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEClasificacion" Nullable="true" MaxLength="25" />
+    <Property Type="String" Name="TMEColor" Nullable="true" MaxLength="35" />
+  </ComplexType>
+  <ComplexType Name="GetArticulo_Result2">
+    <Property Type="String" Name="Articulo" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tmecolor" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="TMELargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="tmeclasflam" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="GetArticulo_Result3">
+    <Property Type="String" Name="Articulo" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tmecolor" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="TMELargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="tmeclasflam" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <EntityType Name="CarritoEncabezado">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FechaEmision" Type="DateTime" Precision="3" />
+    <Property Name="Cliente" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Impuesto" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Importe" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Condicion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="descuento" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ModuloID" Type="Int32" />
+    <Property Name="OrdenCompra" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CarritoDetalle" Relationship="KoberModel.FK__CarritoDe__idEnc__47EAF784" FromRole="CarritoEncabezado" ToRole="CarritoDetalle" />
+  </EntityType>
+  <ComplexType Name="spGetEncabezadoCarrito_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Condicion" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Descuento" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Cliente" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="ModuloID" Nullable="true" />
+    <Property Type="String" Name="OrdenCompra" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="spPEdidoAfectado_Result">
+    <Property Type="String" Name="mov" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MovID" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="FechaRequerida" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Condicion" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="FormaPagoTipo" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Articulo" Nullable="false" MaxLength="20" />
+    <Property Type="Double" Name="Cantidad" Nullable="true" />
+    <Property Type="Double" Name="Precio" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="spPEdidoAfectado_Result1">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Mov" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MovID" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Concepto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Referencia" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OrdenCompra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Condicion" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Vencimiento" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="Saldo" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Importe" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Impuestos" Nullable="true" Precision="19" />
+    <Property Type="DateTime" Name="FechaRequerida" Nullable="true" Precision="23" />
+    <Property Type="String" Name="EnviarANombre" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="Hay_Prod" Nullable="true" />
+    <Property Type="Int32" Name="Dias" Nullable="true" />
+    <Property Type="Decimal" Name="Suritdo" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="spPEdidoAfectado_Result2">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Mov" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MovID" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Concepto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Referencia" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OrdenCompra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Condicion" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Vencimiento" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="Saldo" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Importe" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Impuestos" Nullable="true" Precision="19" />
+    <Property Type="DateTime" Name="FechaRequerida" Nullable="true" Precision="23" />
+    <Property Type="String" Name="EnviarANombre" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="Hay_Prod" Nullable="true" />
+    <Property Type="Int32" Name="Dias" Nullable="true" />
+    <Property Type="Decimal" Name="Suritdo" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="GetArticulo_Result4">
+    <Property Type="String" Name="Articulo" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tmecolor" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="TMELargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="tmeclasflam" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TMESubModelo" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="GetArticulo_Result5">
+    <Property Type="String" Name="Articulo" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="tmecolor" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="TMELargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="tmeclasflam" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="TMESubModelo" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="sp_GetFacturasPorPagarCliente1_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Mov" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MovID" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="Periodo" Nullable="true" />
+    <Property Type="String" Name="Moneda" Nullable="false" MaxLength="10" />
+    <Property Type="Int32" Name="Ejercicio" Nullable="true" />
+    <Property Type="Double" Name="DescuentoGlobal" Nullable="true" />
+    <Property Type="Double" Name="Saldo" Nullable="true" />
+    <Property Type="Decimal" Name="Impuestos" Nullable="true" Precision="19" />
+    <Property Type="Double" Name="Total" Nullable="true" />
+    <Property Type="String" Name="Proyecto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="OrdenCompra" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GetFacturasPorPagarCliente_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Mov" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="MovID" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="Periodo" Nullable="true" />
+    <Property Type="String" Name="Moneda" Nullable="false" MaxLength="10" />
+    <Property Type="Int32" Name="Ejercicio" Nullable="true" />
+    <Property Type="Double" Name="DescuentoGlobal" Nullable="true" />
+    <Property Type="Double" Name="Saldo" Nullable="true" />
+    <Property Type="Decimal" Name="Impuestos" Nullable="true" Precision="19" />
+    <Property Type="Double" Name="Total" Nullable="true" />
+    <Property Type="String" Name="Proyecto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="OrdenCompra" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="sp_GetFacturasxPagarClienteDet_Result">
+    <Property Type="String" Name="Articulo" Nullable="false" MaxLength="20" />
+    <Property Type="Double" Name="Cantidad" Nullable="true" />
+    <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="Double" Name="Precio" Nullable="true" />
+    <Property Type="Double" Name="importe" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="Art">
+    <Key>
+      <PropertyRef Name="Articulo" />
+    </Key>
+    <Property Name="Articulo" Type="String" Nullable="false" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="Rama" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="Descripcion1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Descripcion2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="NombreCorto" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="Grupo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Categoria" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CategoriaActivoFijo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Familia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Linea" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Fabricante" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ClaveFabricante" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Impuesto1" Type="Double" Nullable="false" />
+    <Property Name="Impuesto2" Type="Double" />
+    <Property Name="Impuesto3" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Factor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Unidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UnidadCompra" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UnidadTraspaso" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UnidadCantidad" Type="Double" />
+    <Property Name="TipoCosteo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Peso" Type="Double" />
+    <Property Name="Tara" Type="Double" />
+    <Property Name="Volumen" Type="Double" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TipoOpcion" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Accesorios" Type="Boolean" Nullable="false" />
+    <Property Name="Refacciones" Type="Boolean" Nullable="false" />
+    <Property Name="Sustitutos" Type="Boolean" Nullable="false" />
+    <Property Name="Servicios" Type="Boolean" />
+    <Property Name="Consumibles" Type="Boolean" />
+    <Property Name="MonedaCosto" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="MonedaPrecio" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="MargenMinimo" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PrecioLista" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PrecioMinimo" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="FactorAlterno" Type="Double" />
+    <Property Name="PrecioAnterior" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Utilidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DescuentoCompra" Type="Double" />
+    <Property Name="Clase" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="Estatus" Type="String" Nullable="false" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="UltimoCambio" Type="DateTime" Precision="3" />
+    <Property Name="Alta" Type="DateTime" Precision="3" />
+    <Property Name="Conciliar" Type="Boolean" Nullable="false" />
+    <Property Name="Mensaje" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Comision" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Arancel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ABC" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="Usuario" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Precio2" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Precio3" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Precio4" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Precio5" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Precio6" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Precio7" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Precio8" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Precio9" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Precio10" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Refrigeracion" Type="Boolean" Nullable="false" />
+    <Property Name="TieneCaducidad" Type="Boolean" Nullable="false" />
+    <Property Name="BasculaPesar" Type="Boolean" />
+    <Property Name="SeProduce" Type="Boolean" Nullable="false" />
+    <Property Name="Situacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SituacionFecha" Type="DateTime" Precision="3" />
+    <Property Name="EstatusPrecio" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="wMostrar" Type="Boolean" />
+    <Property Name="Merma" Type="Double" />
+    <Property Name="Desperdicio" Type="Double" />
+    <Property Name="SeCompra" Type="Boolean" />
+    <Property Name="SeVende" Type="Boolean" />
+    <Property Name="EsFormula" Type="Boolean" />
+    <Property Name="TiempoEntrega" Type="Int32" />
+    <Property Name="TiempoEntregaUnidad" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TiempoEntregaSeg" Type="Int32" />
+    <Property Name="TiempoEntregaSegUnidad" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="LoteOrdenar" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CantidadOrdenar" Type="Double" />
+    <Property Name="MultiplosOrdenar" Type="Double" />
+    <Property Name="InvSeguridad" Type="Double" />
+    <Property Name="ProdRuta" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="AlmacenROP" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="CategoriaProd" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProdCantidad" Type="Double" />
+    <Property Name="ProdUsuario" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ProdPasoTotal" Type="Int32" />
+    <Property Name="ProdMovGrupo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ProdEstacion" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="ProdOpciones" Type="Boolean" Nullable="false" />
+    <Property Name="ProdVerConcentracion" Type="Boolean" />
+    <Property Name="ProdVerCostoAcumulado" Type="Boolean" />
+    <Property Name="ProdVerMerma" Type="Boolean" />
+    <Property Name="ProdVerDesperdicio" Type="Boolean" />
+    <Property Name="ProdVerPorcentaje" Type="Boolean" />
+    <Property Name="RevisionUltima" Type="DateTime" Precision="3" />
+    <Property Name="RevisionUsuario" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="RevisionFrecuencia" Type="Int32" />
+    <Property Name="RevisionFrecuenciaUnidad" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="RevisionSiguiente" Type="DateTime" Precision="3" />
+    <Property Name="ProdMov" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TipoCompra" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TieneMovimientos" Type="Boolean" />
+    <Property Name="Registro1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Registro1Vencimiento" Type="DateTime" Precision="3" />
+    <Property Name="AlmacenEspecificoVenta" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="AlmacenEspecificoVentaMov" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="RutaDistribucion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CostoEstandar" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CostoReposicion" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="EstatusCosto" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Margen" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Proveedor" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="NivelAcceso" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Temporada" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SolicitarPrecios" Type="Boolean" />
+    <Property Name="AutoRecaudacion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Concepto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Cuenta" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Retencion1" Type="Double" />
+    <Property Name="Retencion2" Type="Double" />
+    <Property Name="Espacios" Type="Boolean" />
+    <Property Name="EspaciosEspecificos" Type="Boolean" />
+    <Property Name="EspaciosSobreventa" Type="Double" />
+    <Property Name="EspaciosNivel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EspaciosMinutos" Type="Int32" />
+    <Property Name="EspaciosBloquearAnteriores" Type="Boolean" />
+    <Property Name="EspaciosHoraD" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="EspaciosHoraA" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="SerieLoteInfo" Type="Boolean" />
+    <Property Name="CantidadMinimaVenta" Type="Double" />
+    <Property Name="CantidadMaximaVenta" Type="Double" />
+    <Property Name="EstimuloFiscal" Type="Double" />
+    <Property Name="OrigenPais" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="OrigenLocalidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Incentivo" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="FactorCompra" Type="Double" />
+    <Property Name="Horas" Type="Double" />
+    <Property Name="ISAN" Type="Boolean" />
+    <Property Name="ExcluirDescFormaPago" Type="Boolean" />
+    <Property Name="EsDeducible" Type="Boolean" />
+    <Property Name="Peaje" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CodigoAlterno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TipoCatalogo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AnexosAlFacturar" Type="Boolean" />
+    <Property Name="CaducidadMinima" Type="Int32" />
+    <Property Name="Actividades" Type="Boolean" />
+    <Property Name="ValidarPresupuestoCompra" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SeriesLotesAutoOrden" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LotesFijos" Type="Boolean" />
+    <Property Name="LotesAuto" Type="Boolean" />
+    <Property Name="Consecutivo" Type="Int32" />
+    <Property Name="TipoEmpaque" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Modelo" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="Version" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SincroID" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="SincroC" Type="Int32" />
+    <Property Name="TieneDireccion" Type="Boolean" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DireccionNumero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EntreCalles" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Plano" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Colonia" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Poblacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Estado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Pais" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CodigoPostal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="Delegacion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Ruta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Codigo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ClaveVehicular" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TipoVehiculo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DiasLibresIntereses" Type="Int32" />
+    <Property Name="Cuenta2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Cuenta3" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PrecioLiberado" Type="Boolean" />
+    <Property Name="Retencion3" Type="Double" />
+    <Property Name="ValidarCodigo" Type="Boolean" />
+    <Property Name="Presentacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="GarantiaPlazo" Type="Int32" />
+    <Property Name="CostoIdentificado" Type="Boolean" />
+    <Property Name="CantidadTarima" Type="Double" />
+    <Property Name="UnidadTarima" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DepartamentoDetallista" Type="Int32" />
+    <Property Name="TratadoComercial" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CuentaPresupuesto" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ProgramaSectorial" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ArancelDesperdicio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PedimentoClave" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="PedimentoRegimen" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="Permiso" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="PermisoRenglon" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MinimoTarima" Type="Double" />
+    <Property Name="SituacionUsuario" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SituacionNota" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="DireccionNumeroInt" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Impuesto1Excento" Type="Boolean" />
+    <Property Name="TMEClasificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TMECodigoAlterno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TMETiempoEntregaDF" Type="Int32" />
+    <Property Name="TMETiempoEntregaMK" Type="Int32" />
+    <Property Name="TMESubFamilia" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TMEClasfLam" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TMEMonedaCompra" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="TMESubMarca" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="TMETipo" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="TMELinea" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="TMECodigoProv" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="TMETarja" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TMELlave" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TMEMultiplo" Type="Int32" />
+    <Property Name="CFDIRetClave" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="CFDIRetIEPSImpuesto" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMELLOpc1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TMELLOpc2" Type="Double" />
+    <Property Name="TMELLOpc3" Type="Double" />
+    <Property Name="TMELLOpc4" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TMETAOpc1" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TMETAOpc2" Type="Int32" />
+    <Property Name="TMETAOpc3" Type="Int32" />
+    <Property Name="TMETAOpc4" Type="Boolean" />
+    <Property Name="TMETAOpc5" Type="Int32" />
+    <Property Name="TMECodigoLowe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TMEMaterial" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TMECalibre" Type="Int32" />
+    <Property Name="TMEAcabado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TMETAOpc6" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMETAOpc7" Type="Int32" />
+    <Property Name="TMETAOpc8" Type="Int32" />
+    <Property Name="TMEMedidaInt" Type="Int32" />
+    <Property Name="TMEMedidaExt" Type="Int32" />
+    <Property Name="TMEGabinete" Type="Int32" />
+    <Property Name="TMEColor" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="TMEGeneracion" Type="Decimal" Nullable="false" Precision="5" Scale="1" />
+    <Property Name="TMEModelo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMESubModelo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMEAncho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMELargo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMERadio" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMELado" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMETapa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMEEspesor" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMEFoil" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMECara" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMEAnodizado" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="TMEEdicion" Type="Int32" />
+    <Property Name="TMECorreccion" Type="Int32" />
+    <Property Name="TmeGrupo" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="TmeTipoCub" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TmeDivision" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TipoImpuesto1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TipoImpuesto2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TipoImpuesto3" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TipoImpuesto4" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TipoImpuesto5" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TipoRetencion1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TipoRetencion2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TipoRetencion3" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Excento2" Type="Boolean" Nullable="false" />
+    <Property Name="Excento3" Type="Boolean" Nullable="false" />
+    <Property Name="TMEAnchoExacto" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="TMELargoExacto" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="TMEBorde" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TMETiempoEntrega" Type="Int32" />
+    <Property Name="TmeCosto" Type="Decimal" Precision="8" Scale="2" />
+    <Property Name="TmeCosto112020" Type="Decimal" Precision="8" Scale="2" />
+  </EntityType>
+  <ComplexType Name="GetpedidosCliente_Result">
+    <Property Type="Int32" Name="PedidoId" Nullable="false" />
+    <Property Type="String" Name="Estatus" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="importe" Nullable="true" Precision="19" />
+    <Property Type="String" Name="cliente" Nullable="false" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="GetColorProductoNodo1_Result">
+    <Property Type="String" Name="color" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="168" />
+    <Property Type="String" Name="RutaImagen" Nullable="false" MaxLength="4" />
+  </ComplexType>
+  <EntityType Name="CarritoDetalle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idEncabezado" Type="Int32" />
+    <Property Name="renglon" Type="Double" />
+    <Property Name="articulo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="cantidad" Type="Int32" />
+    <Property Name="descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="importe" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="impuesto" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ImporteTotal" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Descuento" Type="Double" />
+    <NavigationProperty Name="CarritoEncabezado" Relationship="KoberModel.FK__CarritoDe__idEnc__47EAF784" FromRole="CarritoDetalle" ToRole="CarritoEncabezado" />
+  </EntityType>
+  <Association Name="FK__CarritoDe__idEnc__47EAF784">
+    <End Type="KoberModel.CarritoEncabezado" Role="CarritoEncabezado" Multiplicity="0..1" />
+    <End Type="KoberModel.CarritoDetalle" Role="CarritoDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarritoEncabezado">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CarritoDetalle">
+        <PropertyRef Name="idEncabezado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="GetDetallePedido_Result">
+    <Property Type="String" Name="Articulo" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="descripcion1" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="TMEAncho" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="tmelargo" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Clasificacion" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Estilo" Nullable="false" MaxLength="11" />
+  </ComplexType>
+  <ComplexType Name="spGetDetalleCarrito_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="Int32" Name="idEncabezado" Nullable="true" />
+    <Property Type="Double" Name="renglon" Nullable="true" />
+    <Property Type="Int32" Name="cantidad" Nullable="true" />
+    <Property Type="String" Name="articulo" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="255" />
+    <Property Type="Decimal" Name="importe" Nullable="true" Precision="19" />
+    <Property Type="Double" Name="descuento" Nullable="true" />
+    <Property Type="Decimal" Name="impuesto" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="ImporteTotal" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="sp_GetPedidosPendientesPorCliente_Result2">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Mov" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="MovID" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="FechaEmision" Nullable="true" Precision="23" />
+    <Property Type="String" Name="Concepto" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Referencia" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Observaciones" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OrdenCompra" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Condicion" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="Vencimiento" Nullable="true" Precision="23" />
+    <Property Type="Decimal" Name="Importe" Nullable="true" Precision="19" />
+    <Property Type="Double" Name="Descuento" Nullable="true" />
+    <Property Type="Double" Name="subTotal" Nullable="true" />
+    <Property Type="Decimal" Name="Impuestos" Nullable="true" Precision="19" />
+    <Property Type="Decimal" Name="Saldo" Nullable="true" Precision="19" />
+    <Property Type="DateTime" Name="FechaRequerida" Nullable="true" Precision="23" />
+    <Property Type="String" Name="EnviarANombre" Nullable="true" MaxLength="100" />
+    <Property Type="Boolean" Name="Hay_Prod" Nullable="true" />
+    <Property Type="Int32" Name="Dias" Nullable="true" />
+    <Property Type="Decimal" Name="Suritdo" Nullable="true" Precision="19" />
+  </ComplexType>
+</Schema>

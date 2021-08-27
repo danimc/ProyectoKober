@@ -1,0 +1,218 @@
+﻿@using TMEPortal.DataContext
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+    }
+
+
+
+    KoberEntities db = new KoberEntities();
+    var detalle = new List<spGetEncabezadoCarrito_Result>();
+
+    if (Session["User"] == null) { 
+    Response.Redirect("/Account/Login");
+}
+
+    if (Session["User"].ToString() != null)   {
+
+        detalle = db.spGetEncabezadoCarrito(Session["User"].ToString()).ToList();
+    }
+    else
+    {
+        //  @Html.ActionLink("Iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" });
+    }
+
+
+
+
+    <!--
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+
+                        <li id="index1">
+                            <a href="/Home/Index">MEDIDAS ESPECIALES</a>
+                        </li>
+                        <li id="index2">
+                            <a href="/ProductosPortal/PedidoMedidasEstandar">MEDIDAS ESTANDAR</a>
+                        </li>
+                        <li id="index3">
+                            <a href="/ProductosPortal/PedidosPendientesCte">PEDIDOS PENDIENTES</a>
+                        </li>
+                        <li id="index4">
+                            <a href="/ProductosPortal/FacturasPorPagarCTE">COMPRAS CONCLUIDAS</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        @if (detalle.Count > 0)
+                        {
+                            <li><a href="/ProductosPortal/DetalleCarrito" title="Carrito"><span class="glyphicon glyphicon-shopping-cart" style="font-size:18px;"></span><span class="label label-danger">@(detalle.Count)</span></a></li>
+                        }
+                        else
+                        {
+                            <li><a href="/ProductosPortal/DetalleCarrito" title="Carrito"><span class="glyphicon glyphicon-shopping-cart" style="font-size:18px"></span></a></li>
+
+                        }
+
+
+                        <li id="btnPass"><a href="/Manage/ChangePassword" title="Cambiar Contraseña"><span class="glyphicon glyphicon-user" style="font-size:18px"></span></a></li>
+                        <li><a href="javascript:document.getElementById('logoutForm').submit()" title="Cerrar Sesion"><span class="glyphicon glyphicon-log-out" style="font-size:18px"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        -->
+
+
+    <!--agregado-->
+
+    <header class="main-header">
+
+        <!-- Logo -->
+        <a href="#" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><img src="~/Content/Images/Logo_Kober_70x200_transparencia.png" style="width:50px; height:25px;" /></span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><img src="~/Content/Images/Logo_Kober_70x200_transparencia.png" style="width:180px; height:50px;" /></span>
+        </a>
+
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+            <!-- Navbar Right Menu -->
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    <li id="index1">
+                        <a href="/Home/Index">MEDIDAS ESPECIALES</a>
+                    </li>
+                    <li id="index2">
+                        <a href="/ProductosPortal/PedidoMedidasEstandar">MEDIDAS ESTANDAR</a>
+                    </li>
+                    <li id="index3">
+                        <a href="/ProductosPortal/PedidosPendientesCte">PEDIDOS EN PROCESO</a>
+                    </li>
+                    <li id="index4">
+                        <a href="/ProductosPortal/FacturasPorPagarCTE">COMPRAS CONCLUIDAS</a>
+                    </li>
+                    <!-- Messages: style can be found in dropdown.less-->
+                    <!-- User Account: style can be found in dropdown.less -->
+                    @if (detalle.Count > 0)
+                    {
+                        <li id="btnShop"><a href="/ProductosPortal/DetalleCarrito" title="Carrito"><span class="glyphicon glyphicon-shopping-cart" style="font-size:18px;"></span><span class="label label-danger">@(detalle.Count)</span></a></li>
+                    }
+                    else
+
+                    {
+                        <li id="btnShop"><a href="/ProductosPortal/DetalleCarrito" title="Carrito"><span class="glyphicon glyphicon-shopping-cart" style="font-size:18px"></span></a></li>
+
+                    }
+                    <!-- Control Sidebar Toggle Button -->
+                   
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+            <!-- Sidebar user panel -->
+            <div class="user-panel">
+
+            </div>
+
+
+            <!-- sidebar menu: : style can be found in sidebar.less -->
+            <ul class="sidebar-menu" data-widget="tree">
+                <li class="header">Navegación</li>
+                <li id="index11">
+                    <a href="/Home/Index"> <i class="glyphicon glyphicon-plus"></i>MEDIDAS ESPECIALES</a>
+                </li>
+                <li id="index21">
+                    <a href="/ProductosPortal/PedidoMedidasEstandar"><i class="glyphicon glyphicon-resize-horizontal"></i> MEDIDAS ESTANDAR</a>
+                </li>
+                <li id="index31">
+                    <a href="/ProductosPortal/PedidosPendientesCte"> <i class="glyphicon glyphicon-list-alt"></i> PEDIDOS EN PROCESO</a>
+                </li>
+                <li id="index41">
+                    <a href="/ProductosPortal/FacturasPorPagarCTE"><i class="glyphicon glyphicon-ok-sign"></i> COMPRAS CONCLUIDAS</a>
+                </li>
+                <!-- Messages: style can be found in dropdown.less-->
+                <!-- User Account: style can be found in dropdown.less -->
+                <li class="header">Busqueda</li>
+            </ul>
+
+            <div class="dx-viewport">
+                <div class="demo-container">
+                    <div class="form">
+                        <div id="simple-treeview"></div>
+                    </div>
+                </div>
+            </div>
+            <ul class="sidebar-menu" data-widget="tree">
+                <li class="header">Acciones</li>
+                <li id="btnPass"><a href="/Manage/ChangePassword" title="Cambiar Contraseña"><span class="glyphicon glyphicon-asterisk" style="font-size:18px"></span> Cambiar Contraseña </a></li>
+                <li><a href="javascript:document.getElementById('logoutForm').submit()" title="Cerrar Sesion"><span class="glyphicon glyphicon-log-out" style="font-size:18px"></span>Cerrar Sesion</a></li>
+            </ul>
+
+</section>
+        <!-- /.sidebar -->
+    </aside>
+
+
+
+
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}
+
+
+
+<script>
+    var URLactual = window.location.pathname;
+    //alert(URLactual);
+    if (URLactual == '/Home/Index' || URLactual == '/') {
+        document.getElementById("index1").classList.add('active');
+        document.getElementById("index11").classList.add('active');
+    }
+    if (URLactual == '/ProductosPortal/FacturasPorPagarCTE') {
+        document.getElementById("index4").classList.add('active');
+        document.getElementById("index41").classList.add('active');
+    }
+    if (URLactual == '/ProductosPortal/PedidosPendientesCte') {
+        document.getElementById("index3").classList.add('active');
+        document.getElementById("index31").classList.add('active');
+    }
+    if (URLactual == '/ProductosPortal/PedidoMedidasEstandar') {
+        document.getElementById("index2").classList.add('active');
+        document.getElementById("index21").classList.add('active');
+    }
+    if (URLactual == '/Manage/ChangePassword') {
+        document.getElementById("btnPass").classList.add('active');
+    }
+    if (URLactual == '/ProductosPortal/DetalleCarrito') {
+        document.getElementById("btnShop").classList.add('active');
+    }
+
+</script>
+

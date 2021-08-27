@@ -1,0 +1,20 @@
+﻿@model TMEPortal.DataContext.sp_GetSucursalesCliente_Result
+
+@{
+    ViewBag.Title = "Selecciona la sucursal";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+<h2>Sucursal</h2>
+
+@using (Html.BeginForm("Go", "SucursalUsuario", FormMethod.Post))
+{
+    <div class="row">
+        @Html.DropDownListFor(model => model.ID, new SelectList(ViewBag.SucursalesCliente, "ID", "Nombre"), new { @class = "form-control select2 select2-hidden-accessible" })
+
+        <div class="col-xs-4">
+           <br><button type="submit" style="position: center" class="btn btn-primary btn-block btn-flat">Inciar</button>
+        </div>
+    </div>
+
+}

@@ -1,0 +1,560 @@
+﻿@model IEnumerable<TMEPortal.Models.DetalleCarrito>
+@{
+    ViewBag.BackgroundImage = "Detalle Carrito" + ".jpg";
+    Layout = "~/Views/Shared/_LayoutLTEClear.cshtml";
+}
+<script src="~/Scripts/jszip.js"></script>
+<link href="~/Content/dx.common.css" rel="stylesheet" />
+<link href="~/Content/dx.softblue.css" rel="stylesheet" />
+<link href="~/Scripts/dxTable.css" rel="stylesheet" />
+<link href="~/Scripts/dxCarrito.css" rel="stylesheet" />
+<script src="~/Scripts/dx.web.js"></script>
+<img src="~/Content/images/@(ViewBag.BackgroundImage)" height="63" />
+
+<style>
+    
+</style>
+
+
+<div class="dx-viewport">
+    <div class="demo-container">
+
+        <div id="dgCarrito"></div>
+        <div id="Credito-textarea"></div>
+        <div id="Importe-textarea"></div>
+    </div>
+</div>
+
+@using TMEPortal.DataContext
+@using System.Web.Script.Serialization;
+
+
+@{
+
+    KoberEntities db = new KoberEntities();
+    var a = db.sp_ValidaCliente(User.Identity.Name.ToString()).First();
+    var json = Json.Encode(a);
+    var cliente = db.Cte.Find(User.Identity.Name);
+
+
+}
+
+<script>
+    var id;
+    var dsFac = @Html.Raw(Json.Encode(Model).Replace(@"""\/Date(", "new Date(").Replace(@")\/""", ")"));
+    console.log(dsFac);
+    var credito = @Html.Raw(json.ToString());
+    var artSinPrecio=false
+    dsFac[0].Detalle.forEach(function (elemento) {
+        if (elemento.importe == null) {
+            artSinPrecio = true;
+            console.log(elemento);
+
+        }
+    });
+    $(function () {
+        if (artSinPrecio) {
+            document.getElementById("btnCrear").disabled = true;
+        }
+        var sum2,n;
+        $("#dgCarrito").dxDataGrid({
+                dataSource: dsFac,
+                keyExpr: "id",
+                allowColumnResizing: true,
+                hoverStateEnabled: true,
+                showBorders: true,
+                editing: {
+                    mode: "batch",
+                    allowUpdating: true
+                },
+                selection: {
+                    mode: "single"
+                },
+                showBorders: true,
+                onInitialized: function (e) {
+                    e.component.selectAll();
+                },
+                onSelectionChanged: function (selectedItems) {
+                    var data = selectedItems.selectedRowsData[0];
+
+                    if (data.id) {
+                        id = data.id;
+                    }
+                   // console.log(id);
+                },
+                columns: [
+                    {
+                        dataField: "id",
+                        visible:false,
+
+                        allowEditing: false
+                    },
+                    {
+                        dataField: "OrdenCompra",
+                        caption: 'Orden de Compra',
+                        allowEditing: true
+
+                    }, { dataField: "FechaEmision", format: "yyyy-MM-dd", allowEditing: false }, { dataField: "Nombre", allowEditing: false }, { dataField: "Condicion", allowEditing: false }, { dataField: "Descuento", allowEditing: false }],
+                onRowUpdated: function (e) {
+                  //  console.log(e);
+                    $.ajax({
+                        type: 'post',
+                        url: '/ProductosPortal/ActualizaOCCarrito/',
+                        data: {
+                            "id": e.key,
+                            "oc": e.data.OrdenCompra
+                        }
+                    });
+                },
+                masterDetail: {
+                    enabled: true,
+                    autoExpandAll: true,
+                    template: function (container, options) {
+                        var Detail = options.data;
+                        $("<div>")
+                            .addClass("master-detail-caption")
+                            .text("Detalle")
+                            .appendTo(container);
+
+                        $("<div>")
+                            .dxDataGrid({
+                                columnAutoWidth: true,
+                                showBorders: true,
+                                editing: {
+                                    mode: "batch",
+                                    allowUpdating: true,
+                                    allowDeleting: true
+
+                                },
+                                paging: {
+                                    enabled: false
+                                },
+
+                                columns: [
+                                    { dataField: "id", allowEditing: false, visible: false },
+                                    { dataField: "idEcanbezado", allowEditing: false, visible: false },
+                                    { dataField: "renglon", allowEditing: false, visible: false },
+                                    { dataField: "Articulo", allowEditing: false },
+                                    { dataField: "Cantidad", caption: "Cantidad", allowEditing: true },
+                                    { dataField: "Descripcion", allowEditing: false },
+                                    { dataField: "importe", caption: "Importe", format: "currency", allowEditing: false },
+                                    { dataField: "descuento", caption: "% Descuento",allowEditing: false },
+                                    {
+                                        caption: "Impuesto",
+                                        format: "currency",
+                                        allowEditing: false,
+                                        calculateCellValue: function (e) {
+
+                                            var cant = e.Cantidad;
+                                            var impor = e.importe;
+                                            var desc = (e.descuento/100);
+                                            console.log(desc);
+                                            var impuesto = ((impor - (impor*desc)) * cant) * 0.16;
+                                            return impuesto;
+
+                                        }
+                                    },{
+                                        caption: 'ImporteTotal',
+                                        format: "currency",
+                                        allowEditing: false,
+                                        calculateCellValue: function (e) {
+
+                                            var cant = e.Cantidad;
+                                            var impor = e.importe;
+                                            var imp = e.Impuesto;
+                                            var porDesc = e.descuento;
+                                            var desc = (porDesc / 100) * ((impor * cant) * 1.16);
+                                            var Total = ((impor * cant) * 1.16) - desc;
+                                            return Total;
+
+                                        }
+                                    }, /*{
+                                        caption: "", cellTemplate: function (container, options) {
+                                            $('<div />').dxButton({
+                                                icon: 'trash',
+                                                type: 'default',
+                                                onClick: function (e) {
+                                                    // $('#dgCarrito').dxDataGrid('instance').deleteRow(options.rowIndex);
+                                                    console.log(e);
+                                                    //container.parent().find('td:first')
+                                                }
+                                            }).appendTo(container);
+                                        }
+                                    }*/],
+
+
+                                onRowUpdated: function (e) {
+
+                                    $.ajax({
+                                        type: 'post',
+                                        url: '/ProductosPortal/ActualizaCantDetalleCarrito/',
+                                        data: {
+                                            "id": e.key.id,
+                                            "cantidad": e.data.Cantidad,
+                                            "renglon": e.key.renglon
+                                        }, success: function () {
+                                            if (e.data.Cantidad < 1 || e.data.Cantidad == null) {
+                                                window.location.href = "/ProductosPortal/DetalleCarrito";
+                                            }
+                                        }
+                                    });
+                                },
+                                onRowRemoved: function (e) {
+                                    $.ajax({
+                                        type: 'post',
+                                        url: '/ProductosPortal/EliminaDetalleCarrito/',
+                                        data: {
+                                            "id": e.key.id,
+                                            "renglon": e.key.renglon
+                                        }, success: function () {
+                                                window.location.href = "/ProductosPortal/DetalleCarrito";
+                                        }
+                                    });
+                                },
+                                onCellPrepared: function (e) {
+                                    if (e.rowType === "data" && e.column.command === "edit") {
+                                        var isEditing = e.row.isEditing,
+                                            $links = e.cellElement.find(".dx-link");
+
+                                        $links.text("");
+
+                                        if (isEditing) {
+                                            $links.filter(".dx-link-save").dxButton({
+                                                icon: "save"
+                                            });
+                                            $links.filter(".dx-link-cancel").dxButton({
+                                                icon: "revert"
+                                            });
+                                        } else {
+                                            $links.filter(".dx-link-edit").dxButton({
+                                                icon: "edit"
+                                            });
+
+                                            $links.filter(".dx-link-delete").dxButton({
+                                                icon: "trash",
+
+                                            }).addClass;
+                                        }
+                                    }
+                                },
+                                summary: {
+                                    totalItems: [{
+                                        column: "ImporteTotal",
+                                        summaryType: "sum",
+                                        valueFormat: "currency",
+                                        displayFormat: "Total: {0}",
+                                        showInGroupFooter: true
+
+
+                                    },{
+                                            column: "Importe",
+                                            summaryType: "sum",
+                                            valueFormat: "currency",
+                                            displayFormat: "SubTotal: {0}",
+                                            showInGroupFooter: true
+
+
+                                        }, {
+                                            name: "descuento",
+                                            showInColumn: "descuento",
+                                            displayFormat: "Descuento: {0}",
+                                            valueFormat: "currency",
+                                            precision: 2,
+                                            summaryType: "custom"
+                                        }, {
+                                            column: "Impuesto",
+                                            summaryType: "sum",
+                                            valueFormat: "currency",
+                                            displayFormat: "Iva16%: {0}",
+                                            showInGroupFooter: true
+
+
+                                        },{
+                                        column: "Cantidad",
+                                        summaryType: "sum",
+                                        displayFormat: "Cantidad: {0}",
+                                        showInGroupFooter: true
+                                    }],  
+                                    calculateCustomSummary: function (options) {
+                                       
+                                        if (options.name === "descuento") {
+
+                                            if (options.summaryProcess === "start") {
+                                                
+                                                options.totalValue = 0;                                                
+                                            }
+                                            if (options.summaryProcess === "calculate") {
+                                                //console.log(options.value.importe);
+                                                options.totalValue = (options.value.importe * (options.value.descuento / 100)) * options.value.Cantidad;
+                                                
+                                            }
+                                        }
+                                    }
+                                },
+                                dataSource: Detail.Detalle
+                            }).appendTo(container);
+                    }
+                },
+
+            });
+        });
+
+
+        $("#Credito-textarea").dxTextArea({
+        value: "Atención! El Importe de este pedido rebasa su límite de crédito.Podrá levantarlo pero estará sujeto a autorización por parte del área de Cuentas por Cobrar, "+
+        "Para mas Informacion consulte a su Agente de Ventas",
+        height: 90,
+        readOnly: true,
+        visible: credito ? false : true
+
+    }).dxTextArea("instance");
+
+    $("#Importe-textarea").dxTextArea({
+        value: "Atención! El pedido que desea levantar cuenta con artículos que no están asignados a su lista de precios. " +
+            "Consulte a su asesor de ventas para mayor información.",
+        height: 90,
+        readOnly: true,
+        visible: artSinPrecio ? true : false,
+
+    }).dxTextArea("instance");
+
+
+    function CrearPedido() {
+
+        var grf = 0;
+        var cob = 0;
+        var linea;
+        var ancho;
+        var color;
+        var articulo;
+        var colorcob;
+        if (id != null) {
+            var gridItems = $("#dgCarrito").dxDataGrid('instance')._controllers.data._dataSource._cachedPagingData;
+
+            gridItems[0].Detalle.forEach(function (element) {
+
+                if (element.Articulo.indexOf('G') == 0) {
+                    grf += 1;
+                    linea = element.Articulo.substring(1, 2);
+                    ancho = element.Articulo.substring(2, 5);
+                    color = element.Articulo.substring(11, element.Articulo.length).toUpperCase().trim();
+
+                    gridItems[0].Detalle.forEach(function (element) {
+                        colorcob = element.Articulo.substring(11, element.Articulo.length).toUpperCase().trim();
+                       
+                        if ((element.Articulo.indexOf('B' + linea + ancho) == 0 || element.Articulo.indexOf('C' + linea + ancho) == 0) && colorcob == color ) {
+                            cob += 1;
+                        }
+                    });
+
+                }
+            });
+          
+            if (grf <= cob) {
+                swal({
+                    title: "Crear Pedido",
+                    html: "Seguro que desea crear el Pedido",
+                    type: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Si, Crear!'
+                }).then((result) => {
+                    if (result.value) {
+                        $('#exampleModal').modal('show');
+                    }
+                })
+            } else {
+                swal({
+                    title: 'Error!',
+                    html: 'Las Grafetta requiere Acompañarse de Barra o Cubierta',
+                    type: 'error',
+                    confirmButtonText: 'OK!'
+                });
+            }
+        }
+        else {
+            swal("Error Al Crear!", "No se ha Seleccionado Nada", "error");
+        }
+    }
+
+    function Confirmar() {
+       // $(".preload").show();
+        window.swal({
+            title: "Confirmando Pedido...",
+            text: "Por favor espere",
+            imageUrl: "/Content/Images/load.gif",
+            showConfirmButton: false,
+            allowOutsideClick: false
+        });
+
+          $.ajax({
+            url: '/ProductosPortal/CrearPedido/' + id,
+            method: 'post',
+            async: true,
+            processData: false,
+            cache: false,
+              success: function (data) {
+                 // console.log(data);
+                 $('#exampleModal').fadeOut(1000, function () {
+                     $.ajax({
+                         url: '/ProductosPortal/PedidoMovID/' + id,
+                         type: 'GET',
+                         dataType: 'json', // added data type
+                         success: function (res) {
+                             console.log("res: ");
+                             console.log(res);
+                             swal({
+                                 title: 'Hecho!',
+                                 html: 'Se Creo Correctamente el Pedido: <a href="" id="Link" onclick="PedidoAfectado()">' + res + '</a>',
+                                 type: 'success',
+                                 confirmButtonText: 'OK!'
+                             }).then((result) => {
+                                 if (result.value) {
+                                     window.location.href = "/ProductosPortal/PedidoAfectado/" + res;
+                                 }
+                             })
+                         }
+                     });
+             });
+
+            }
+
+         });
+    }
+    function PedidoAfectado() {
+        document.getElementById("Link").href = "/ProductosPortal/PedidoAfectado";
+    }
+
+    function EliminardeCarrito() {
+       // if (id != null){
+        swal({
+            title: 'Seguro que Quieres Eliminar?',
+            text: "No podrás revertir esto!",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Si, Eliminar!'
+        }).then((result) => {
+
+            if (result.value) {
+                $.ajax({
+                    url: '/ProductosPortal/EliminarCarrito/'+ id,
+                    method: 'post',
+                    async: true,
+                    processData: false,
+                    cache: false,
+                    success: function () {
+                        swal({
+                            title: 'Eliminado!',
+                            html: 'Se Elimino Correctamente',
+                            type: 'error',
+                            confirmButtonText: 'OK!'
+                        }).then(function () {
+                            window.location.href = "/ProductosPortal/DetalleCarrito";
+                        });
+                    }
+                });
+            }
+                })
+       /* } else {
+            swal("Error Al Eliminar!", "No se ha Seleccionado Nada", "error");
+        }*/
+    }
+
+</script>
+
+<div class="dx-viewport">
+
+    <button id="btnCrear" type="button" class="btn btn-primary btn-lg" onclick="CrearPedido()">Crear Pedido</button>
+    <button type="button" class="btn btn-primary btn-lg" onclick="EliminardeCarrito()">Eliminar de Carrito</button>
+</div>
+
+@{
+
+    var cte = db.Cte.Find(User.Identity.Name);
+    var EnviarA = db.CteEnviarA.Find(User.Identity.Name, Convert.ToInt32(Session["Sucursal"].ToString()));
+
+    /*EnviarA=db.Cte.Find(User.Identity.Name);*/
+}
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><b>DATOS PARA LA FACTURACION</b></h5>
+            </div>
+            <div class="modal-body" id="Fac">
+                <b>Nombre: </b>@cte.Nombre
+                <br><b>Nombre Corto: </b>@cte.NombreCorto
+                <br><b>R.F.C.: </b>@cte.RFC
+                <br><b>Dirección: </b>@cte.Direccion
+                <br><b>Entre las calles: </b>@cte.EntreCalles
+                <br><b>Observaciones: </b>@cte.Observaciones
+                <br><b>Delegación: </b>@cte.Delegacion
+                <br><b>Colonia: </b>@cte.Colonia
+                <br><b>C.P.: </b>@cte.CodigoPostal
+                <br><b>Población: </b>@cte.Poblacion
+                <br><b>Estado: </b>@cte.Estado
+                <br><b>País: </b>@cte.Pais
+                <br><b>Teléfonos: </b>@cte.Telefonos
+                <br><b>Contacto: </b>@cte.Contacto1
+                <br><b>Email: </b>@cte.eMail1
+            </div>
+            @if (Convert.ToInt32(Session["Sucursal"].ToString()) != 0)
+            {
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>DATOS PARA LA  ENTREGA</b></h5>
+                </div>
+                <div class="modal-body" id="Envio">
+                    <b>Nombre: </b>@EnviarA.Nombre
+                    <br><b>Dirección: </b>@EnviarA.Direccion
+                    <br><b>Entre las calles: </b>@EnviarA.EntreCalles
+                    <br><b>Delegación: </b>@EnviarA.Delegacion
+                    <br><b>Colonia: </b>@EnviarA.Colonia
+                    <br><b>C.P.: </b>@EnviarA.CodigoPostal
+                    <br><b>Población: </b>@EnviarA.Poblacion
+                    <br><b>Estado: </b>@EnviarA.Estado
+                    <br><b>País: </b>@EnviarA.Pais
+                    <br><b>Teléfonos: </b>@EnviarA.Telefonos
+                    <br><b>Contacto: </b>@EnviarA.Contacto1
+                    <br><b>Email: </b>@EnviarA.eMail1
+                </div>
+            }
+            else
+            {
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><b>DATOS PARA LA  ENTREGA</b></h5>
+                </div>
+                <div class="modal-body" id="Envio">
+                    <b>Nombre: </b>@cte.Nombre
+                    <br><b>Dirección: </b>@cte.Direccion
+                    <br><b>Entre las calles: </b>@cte.EntreCalles
+                    <br><b>Delegación: </b>@cte.Delegacion
+                    <br><b>Colonia: </b>@cte.Colonia
+                    <br><b>C.P.: </b>@cte.CodigoPostal
+                    <br><b>Población: </b>@cte.Poblacion
+                    <br><b>Estado: </b>@cte.Estado
+                    <br><b>País: </b>@cte.Pais
+                    <br><b>Teléfonos: </b>@cte.Telefonos
+                    <br><b>Contacto: </b>@cte.Contacto1
+                    <br><b>Email: </b>@cte.eMail1
+                </div>
+            }
+                <div class="preload" align="center">
+                    <!-- <img src="~/Content/Images/LoadingBlue.gif" height="180" width="180">-->
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                <button type="button" id="ConfirmButton" class="btn btn-primary" onclick="Confirmar()">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

@@ -1,0 +1,133 @@
+﻿@model IEnumerable<TMEPortal.Models.PedidoAfectado>
+@{
+    ViewBag.Title = "Pedido Generado:  " + Model.Select(x => x.movID).FirstOrDefault();
+    Layout = "~/Views/Shared/_LayoutLTE.cshtml";
+}
+<script src="~/Scripts/jszip.js"></script>
+<link href="~/Content/dx.common.css" rel="stylesheet" />
+<link href="~/Content/dx.softblue.css" rel="stylesheet" />
+<link href="~/Scripts/dxTable.css" rel="stylesheet" />
+<script src="~/Scripts/dx.web.js"></script>
+
+<script>
+    var Mov = @Html.Raw(Json.Encode(Model).Replace(@"""\/Date(", "new Date(").Replace(@")\/""", ")"));
+
+    $(function () {
+        $("#gridContainer").dxDataGrid({
+            dataSource: Mov[0].Detalle,
+            columns: [{ dataField: "Articulo", allowEditing: false },
+                { dataField: "Descripcion1", caption: "Descripcion" },
+                "Cantidad",
+                { dataField: "Precio", caption: "Importe", format: "currency", allowEditing: false },
+                {
+                    caption: "Impuesto",
+                    format: "currency",
+                    allowEditing: false,
+                    calculateCellValue: function (e) {
+
+                        var cant = e.Cantidad;
+                        var impor = e.Precio;
+                        var impuesto = (impor * cant) * 0.16;
+                        return impuesto;
+
+                    }
+                },{
+                    caption: 'ImporteTotal',
+                    format: "currency",
+                    allowEditing: false,
+                    calculateCellValue: function (e) {
+
+                        var cant = e.Cantidad;
+                        var impor = e.Precio;
+                        var imp = e.Impuesto;
+                        var Total = (impor * cant) * 1.16;
+                        return Total;
+
+                    }
+                }],
+            summary: {
+                totalItems: [{
+                    column: "Precio",
+                    summaryType: "sum",
+                    valueFormat: "currency",
+                    displayFormat: "SubTotal: {0}",
+                    showInGroupFooter: true
+
+
+                },{
+                        column: "Impuesto",
+                        summaryType: "sum",
+                        valueFormat: "currency",
+                        displayFormat: "Iva16%: {0}",
+                        showInGroupFooter: true
+
+
+                    },{
+                        column: "ImporteTotal",
+                        summaryType: "sum",
+                        valueFormat: "currency",
+                        displayFormat: "Total: {0}",
+                        showInGroupFooter: true
+
+
+                    }]
+            }
+        });
+
+    });
+
+    function Imprimir(){
+        window.print();  
+    }
+</script>
+
+@using TMEPortal.DataContext
+@using System.Web.Script.Serialization;
+@{
+    KoberEntities db = new KoberEntities();
+    var cte = db.Cte.Find(User.Identity.Name);
+
+}
+
+<div id="content" class="demo-container">
+    <div class="form">
+        <div class="dx-fieldset">
+
+            <div class="page-header">
+
+                <div class="dx-fieldset-header"><b>Fecha:  </b>@Model.Select(x => Convert.ToString(x.FechaEmision)).FirstOrDefault()</div>
+                <div class="dx-fieldset-header"><b>Fecha Compromiso:  </b>@Model.Select(x => x.FechaRequerida).FirstOrDefault()</div>
+                <div class="dx-fieldset-header"><b>Estatus:  </b>Pendiente</div>
+                <div class="dx-fieldset-header"><b>Concepto:  </b>@Model.Select(x => x.Concepto).FirstOrDefault()</div>
+            </div>
+            <div class="page-header">
+                <div class="dx-field">
+                    <div class="dx-field-label"><b>Cliente: </b> @cte.Nombre</div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label"><b>Direccion:  </b>@cte.Direccion</div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label"><b>Telefono: </b>@cte.Telefonos</div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label"><b>CondicionPago:  </b>@cte.Condicion</div>
+                </div>
+            </div>
+        </div>
+        <div class="dx-fieldset">
+            <div class="dx-fieldset-header">Detalle del Pedido </div>
+            <div class="dx-field">
+                <div class="demo-container">
+                    <div id="gridContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="editor"></div>
+<div class="modal-footer">
+    <a href="#" class="btn btn-primary" onclick="Imprimir()"><span class="glyphicon glyphicon-print"></span> Imprimir </a>
+   
+</div>
+

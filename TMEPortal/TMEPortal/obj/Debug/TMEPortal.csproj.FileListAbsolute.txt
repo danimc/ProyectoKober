@@ -1,0 +1,1468 @@
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\TMEPortal.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\EntityFramework.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Owin.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\WebGrease.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\EntityFramework.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+c:\users\yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+C:\Users\Yael\documents\visual studio 2017\Projects\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojResolveAssemblyReference.cache
+D:\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+D:\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+D:\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+D:\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+D:\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+D:\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+D:\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+D:\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+D:\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+D:\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+D:\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+D:\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+D:\TMEPortal\TMEPortal\bin\TMEPortal.dll
+D:\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+D:\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+D:\TMEPortal\TMEPortal\bin\EntityFramework.dll
+D:\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+D:\TMEPortal\TMEPortal\bin\Owin.dll
+D:\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+D:\TMEPortal\TMEPortal\bin\WebGrease.dll
+D:\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+D:\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+D:\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+D:\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+D:\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+D:\TMEPortal\TMEPortal\bin\EntityFramework.xml
+D:\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+D:\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+D:\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+D:\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+D:\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+D:\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojResolveAssemblyReference.cache
+D:\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+D:\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+D:\TMEPortal\TMEPortal\bin\System.Configuration.dll
+D:\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+D:\TMEPortal\TMEPortal\bin\System.Data.dll
+D:\TMEPortal\TMEPortal\bin\System.dll
+D:\TMEPortal\TMEPortal\bin\System.Drawing.dll
+D:\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+D:\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+D:\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+D:\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+D:\TMEPortal\TMEPortal\bin\System.Security.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+D:\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+D:\TMEPortal\TMEPortal\bin\System.Xml.dll
+D:\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Configuration.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Data.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Drawing.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Xml.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\WebGrease.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CopyComplete
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojResolveAssemblyReference.cache
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\TMEPortal.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\EntityFramework.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Owin.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Configuration.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Data.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Drawing.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Security.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Xml.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\WebGrease.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\EntityFramework.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojResolveAssemblyReference.cache
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\EPPlus.dll
+D:\Portal\TMEPortal________\TMEPortal\TMEPortal\bin\EPPlus.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Configuration.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Drawing.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\WebGrease.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CopyComplete
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+C:\Users\Nuevas Tecnologias\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojResolveAssemblyReference.cache
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Owin.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Configuration.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Drawing.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Security.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\WebGrease.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojResolveAssemblyReference.cache
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CopyComplete
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+C:\Dropbox (Innovika)\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Owin.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Configuration.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Drawing.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Security.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\WebGrease.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojAssemblyReference.cache
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+C:\Users\ProyectoPK\Desktop\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CopyComplete
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Owin.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Configuration.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Drawing.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Security.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\WebGrease.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojResolveAssemblyReference.cache
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CopyComplete
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+C:\Users\Nuevas Tecnologias\Desktop\Pablo\prueba\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Owin.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Configuration.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Drawing.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Security.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\WebGrease.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CopyComplete
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb
+C:\Users\Juan Pablo Barron\Documents\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojAssemblyReference.cache
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\ApplicationInsights.config
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.exe.config
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csc.rsp
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.exe
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\csi.rsp
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.AppContext.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.exe.config
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\vbc.rsp
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll.config
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\TMEPortal.pdb
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CSharp.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Owin.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Configuration.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.DataSetExtensions.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Data.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Drawing.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.EnterpriseServices.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.WebRequest.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Runtime.Serialization.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Security.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Abstractions.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.ApplicationServices.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.DynamicData.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Entity.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Extensions.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Routing.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Services.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Xml.Linq.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\WebGrease.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\EPPlus.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Helpers.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Mvc.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Optimization.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Razor.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Antlr3.Runtime.pdb
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Newtonsoft.Json.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Net.Http.Formatting.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\System.Web.Http.WebHost.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\EntityFramework.SqlServer.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\Microsoft.AI.Web.xml
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Razor.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csprojAssemblyReference.cache
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CoreCompileInputs.cache
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.csproj.CopyComplete
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.dll
+C:\Users\Juan Pablo Barron\Dropbox (Kober)\Pablo\Desarrollos\PortalNuevoKober\TMEPortal\TMEPortal\obj\Debug\TMEPortal.pdb

@@ -1,0 +1,128 @@
+﻿@model IEnumerable<TMEPortal.Models.PedidosPendientesPorCliente>
+@{
+    ViewBag.BackgroundImage = "Pedidos Pendientes" + ".jpg";
+    Layout = "~/Views/Shared/_LayoutLTEClear.cshtml";
+}
+
+
+<script src="~/Scripts/jszip.js"></script>
+<link href="~/Content/dx.common.css" rel="stylesheet" />
+<link href="~/Content/dx.softblue.css" rel="stylesheet" />
+<link href="~/Scripts/dxTable.css" rel="stylesheet" />
+<script src="~/Scripts/dx.web.js"></script>
+<img src="~/Content/images/@(ViewBag.BackgroundImage)" height="63" />
+<div class="dx-viewport">
+    <div class="demo-container">
+        <div id="dgvFp"></div>
+    </div>
+</div>
+
+<script>
+
+    var dsFac = @Html.Raw(Json.Encode(Model).Replace(@"""\/Date(", "new Date(").Replace(@")\/""", ")"))
+        $("#dgvFp").dxDataGrid({
+        dataSource: dsFac,
+            allowColumnResizing: true,
+            showBorders: true,
+        // columnAutoWidth: true,
+            columns: [
+                {
+                    dataField: "movID",
+                    caption: 'Pedido'
+
+                }, { dataField: "FechaEmision", format: "yyyy-MM-dd" }, "Referencia", { dataField: "importe", caption: 'Importe', format: "currency" },{ dataField: "Descuento", caption: 'Descuento', format: "currency" }, { dataField: "subTotal", caption: 'SubTotal', format: "currency" }, { dataField: "impuestos", caption: 'Impuestos', format: "currency" }, { dataField: "saldo", caption: 'Importe Total', format: "currency" }, { dataField: "FechaRequerida", caption:"Fecha Promesa de Embarque", format: "yyyy-MM-dd" }],
+        grouping: {
+            //autoExpandAll: true,
+            },
+            masterDetail: {
+                enabled: true,
+                template: function (container, options) {
+                    var currentEmployeeData = options.data;
+                    console.log(currentEmployeeData)
+                    $("<div>")
+                        .addClass("master-detail-caption")
+                        .text("Detalle")
+                        .appendTo(container);
+
+                    $("<div>")
+                        .dxDataGrid({
+                            columnAutoWidth: true,
+                            showBorders: true,
+                            columns: ["Articulo", {
+                                dataField: "Cantidad",
+
+                            }, {
+                                    dataField: "Descripcion1",
+
+                                }, { dataField: "Precio", format: "currency" },
+                                { dataField: "SubTotal", format: "currency" },
+                                {
+                                    dataField: "Total",
+                                    format: "currency"
+                                }],
+                                summary: {
+                                totalItems: [{
+                                    column: "Total",
+                                    summaryType: "sum",
+                                    valueFormat: "currency",
+                                    displayFormat: "Total: {0}",
+                                    showInGroupFooter: true
+
+
+                                    }, {
+                                            column: "SubTotal",
+                                            summaryType: "sum",
+                                            valueFormat: "currency",
+                                            displayFormat: "SubTotal: {0}",
+                                            showInGroupFooter: true
+
+
+                                        }, 
+                                  {
+                                    column: "Cantidad",
+                                    summaryType: "sum",
+                                    displayFormat: "Cantidad: {0}",
+                                    showInGroupFooter: true
+                                }]
+
+                            },
+                            dataSource: currentEmployeeData.Detalle
+                        }).appendTo(container);
+                }
+            },
+     /*   filterRow: {
+            visible: true,
+            applyFilter: "auto"
+        },*/
+        searchPanel: {
+            visible: true,
+            width: 240,
+            placeholder: "Buscar..."
+        },
+       /* headerFilter: {
+            visible: true
+        },*/
+        loadPanel: {
+            enabled: true
+        },
+      /*  scrolling: {
+            mode: "virtual"
+        },*/
+        paging: {
+            pageSize: 10
+        },
+        /*groupPanel: {
+            visible: true,
+            placeholder: "Arrastre hasta aqui para agupar"
+        },
+        export: {
+            enabled: true,
+            fileName: "Facturas por pagar Kober"
+        }*/
+
+
+                })
+
+
+
+</script>

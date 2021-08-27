@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KoberModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Art">
+    <Key>
+      <PropertyRef Name="Articulo" />
+    </Key>
+    <Property Name="Articulo" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="Rama" Type="char" MaxLength="20" />
+    <Property Name="Descripcion1" Type="varchar" MaxLength="100" />
+    <Property Name="Descripcion2" Type="varchar" MaxLength="255" />
+    <Property Name="NombreCorto" Type="char" MaxLength="20" />
+    <Property Name="Grupo" Type="varchar" MaxLength="50" />
+    <Property Name="Categoria" Type="varchar" MaxLength="50" />
+    <Property Name="CategoriaActivoFijo" Type="varchar" MaxLength="50" />
+    <Property Name="Familia" Type="varchar" MaxLength="50" />
+    <Property Name="Linea" Type="varchar" MaxLength="50" />
+    <Property Name="Fabricante" Type="varchar" MaxLength="50" />
+    <Property Name="ClaveFabricante" Type="varchar" MaxLength="50" />
+    <Property Name="Impuesto1" Type="float" Nullable="false" />
+    <Property Name="Impuesto2" Type="float" />
+    <Property Name="Impuesto3" Type="money" />
+    <Property Name="Factor" Type="varchar" MaxLength="50" />
+    <Property Name="Unidad" Type="varchar" MaxLength="50" />
+    <Property Name="UnidadCompra" Type="varchar" MaxLength="50" />
+    <Property Name="UnidadTraspaso" Type="varchar" MaxLength="50" />
+    <Property Name="UnidadCantidad" Type="float" />
+    <Property Name="TipoCosteo" Type="varchar" MaxLength="10" />
+    <Property Name="Peso" Type="float" />
+    <Property Name="Tara" Type="float" />
+    <Property Name="Volumen" Type="float" />
+    <Property Name="Tipo" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="TipoOpcion" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Accesorios" Type="bit" Nullable="false" />
+    <Property Name="Refacciones" Type="bit" Nullable="false" />
+    <Property Name="Sustitutos" Type="bit" Nullable="false" />
+    <Property Name="Servicios" Type="bit" />
+    <Property Name="Consumibles" Type="bit" />
+    <Property Name="MonedaCosto" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="MonedaPrecio" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="MargenMinimo" Type="money" />
+    <Property Name="PrecioLista" Type="money" />
+    <Property Name="PrecioMinimo" Type="money" />
+    <Property Name="FactorAlterno" Type="float" />
+    <Property Name="PrecioAnterior" Type="money" />
+    <Property Name="Utilidad" Type="varchar" MaxLength="50" />
+    <Property Name="DescuentoCompra" Type="float" />
+    <Property Name="Clase" Type="char" MaxLength="15" />
+    <Property Name="Estatus" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="UltimoCambio" Type="datetime" />
+    <Property Name="Alta" Type="datetime" />
+    <Property Name="Conciliar" Type="bit" Nullable="false" />
+    <Property Name="Mensaje" Type="varchar" MaxLength="50" />
+    <Property Name="Comision" Type="varchar" MaxLength="50" />
+    <Property Name="Arancel" Type="varchar" MaxLength="50" />
+    <Property Name="ABC" Type="char" MaxLength="1" />
+    <Property Name="Usuario" Type="char" MaxLength="10" />
+    <Property Name="Precio2" Type="money" />
+    <Property Name="Precio3" Type="money" />
+    <Property Name="Precio4" Type="money" />
+    <Property Name="Precio5" Type="money" />
+    <Property Name="Precio6" Type="money" />
+    <Property Name="Precio7" Type="money" />
+    <Property Name="Precio8" Type="money" />
+    <Property Name="Precio9" Type="money" />
+    <Property Name="Precio10" Type="money" />
+    <Property Name="Refrigeracion" Type="bit" Nullable="false" />
+    <Property Name="TieneCaducidad" Type="bit" Nullable="false" />
+    <Property Name="BasculaPesar" Type="bit" />
+    <Property Name="SeProduce" Type="bit" Nullable="false" />
+    <Property Name="Situacion" Type="varchar" MaxLength="50" />
+    <Property Name="SituacionFecha" Type="datetime" />
+    <Property Name="EstatusPrecio" Type="varchar" MaxLength="15" />
+    <Property Name="wMostrar" Type="bit" />
+    <Property Name="Merma" Type="float" />
+    <Property Name="Desperdicio" Type="float" />
+    <Property Name="SeCompra" Type="bit" />
+    <Property Name="SeVende" Type="bit" />
+    <Property Name="EsFormula" Type="bit" />
+    <Property Name="TiempoEntrega" Type="int" />
+    <Property Name="TiempoEntregaUnidad" Type="varchar" MaxLength="10" />
+    <Property Name="TiempoEntregaSeg" Type="int" />
+    <Property Name="TiempoEntregaSegUnidad" Type="varchar" MaxLength="10" />
+    <Property Name="LoteOrdenar" Type="varchar" MaxLength="30" />
+    <Property Name="CantidadOrdenar" Type="float" />
+    <Property Name="MultiplosOrdenar" Type="float" />
+    <Property Name="InvSeguridad" Type="float" />
+    <Property Name="ProdRuta" Type="char" MaxLength="20" />
+    <Property Name="AlmacenROP" Type="char" MaxLength="10" />
+    <Property Name="CategoriaProd" Type="varchar" MaxLength="50" />
+    <Property Name="ProdCantidad" Type="float" />
+    <Property Name="ProdUsuario" Type="char" MaxLength="10" />
+    <Property Name="ProdPasoTotal" Type="int" />
+    <Property Name="ProdMovGrupo" Type="varchar" MaxLength="50" />
+    <Property Name="ProdEstacion" Type="char" MaxLength="10" />
+    <Property Name="ProdOpciones" Type="bit" Nullable="false" />
+    <Property Name="ProdVerConcentracion" Type="bit" />
+    <Property Name="ProdVerCostoAcumulado" Type="bit" />
+    <Property Name="ProdVerMerma" Type="bit" />
+    <Property Name="ProdVerDesperdicio" Type="bit" />
+    <Property Name="ProdVerPorcentaje" Type="bit" />
+    <Property Name="RevisionUltima" Type="datetime" />
+    <Property Name="RevisionUsuario" Type="varchar" MaxLength="10" />
+    <Property Name="RevisionFrecuencia" Type="int" />
+    <Property Name="RevisionFrecuenciaUnidad" Type="varchar" MaxLength="10" />
+    <Property Name="RevisionSiguiente" Type="datetime" />
+    <Property Name="ProdMov" Type="varchar" MaxLength="20" />
+    <Property Name="TipoCompra" Type="varchar" MaxLength="20" />
+    <Property Name="TieneMovimientos" Type="bit" />
+    <Property Name="Registro1" Type="varchar" MaxLength="20" />
+    <Property Name="Registro1Vencimiento" Type="datetime" />
+    <Property Name="AlmacenEspecificoVenta" Type="char" MaxLength="10" />
+    <Property Name="AlmacenEspecificoVentaMov" Type="varchar" MaxLength="20" />
+    <Property Name="RutaDistribucion" Type="varchar" MaxLength="50" />
+    <Property Name="CostoEstandar" Type="money" />
+    <Property Name="CostoReposicion" Type="money" />
+    <Property Name="EstatusCosto" Type="varchar" MaxLength="15" />
+    <Property Name="Margen" Type="money" />
+    <Property Name="Proveedor" Type="char" MaxLength="10" />
+    <Property Name="NivelAcceso" Type="varchar" MaxLength="50" />
+    <Property Name="Temporada" Type="varchar" MaxLength="50" />
+    <Property Name="SolicitarPrecios" Type="bit" />
+    <Property Name="AutoRecaudacion" Type="varchar" MaxLength="30" />
+    <Property Name="Concepto" Type="varchar" MaxLength="50" />
+    <Property Name="Cuenta" Type="varchar" MaxLength="20" />
+    <Property Name="Retencion1" Type="float" />
+    <Property Name="Retencion2" Type="float" />
+    <Property Name="Espacios" Type="bit" />
+    <Property Name="EspaciosEspecificos" Type="bit" />
+    <Property Name="EspaciosSobreventa" Type="float" />
+    <Property Name="EspaciosNivel" Type="varchar" MaxLength="50" />
+    <Property Name="EspaciosMinutos" Type="int" />
+    <Property Name="EspaciosBloquearAnteriores" Type="bit" />
+    <Property Name="EspaciosHoraD" Type="varchar" MaxLength="5" />
+    <Property Name="EspaciosHoraA" Type="varchar" MaxLength="5" />
+    <Property Name="SerieLoteInfo" Type="bit" />
+    <Property Name="CantidadMinimaVenta" Type="float" />
+    <Property Name="CantidadMaximaVenta" Type="float" />
+    <Property Name="EstimuloFiscal" Type="float" />
+    <Property Name="OrigenPais" Type="varchar" MaxLength="50" />
+    <Property Name="OrigenLocalidad" Type="varchar" MaxLength="50" />
+    <Property Name="Incentivo" Type="money" />
+    <Property Name="FactorCompra" Type="float" />
+    <Property Name="Horas" Type="float" />
+    <Property Name="ISAN" Type="bit" />
+    <Property Name="ExcluirDescFormaPago" Type="bit" />
+    <Property Name="EsDeducible" Type="bit" />
+    <Property Name="Peaje" Type="money" />
+    <Property Name="CodigoAlterno" Type="varchar" MaxLength="50" />
+    <Property Name="TipoCatalogo" Type="varchar" MaxLength="20" />
+    <Property Name="AnexosAlFacturar" Type="bit" />
+    <Property Name="CaducidadMinima" Type="int" />
+    <Property Name="Actividades" Type="bit" />
+    <Property Name="ValidarPresupuestoCompra" Type="varchar" MaxLength="20" />
+    <Property Name="SeriesLotesAutoOrden" Type="varchar" MaxLength="20" />
+    <Property Name="LotesFijos" Type="bit" />
+    <Property Name="LotesAuto" Type="bit" />
+    <Property Name="Consecutivo" Type="int" />
+    <Property Name="TipoEmpaque" Type="varchar" MaxLength="50" />
+    <Property Name="Modelo" Type="char" MaxLength="4" />
+    <Property Name="Version" Type="varchar" MaxLength="50" />
+    <Property Name="SincroID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="SincroC" Type="int" />
+    <Property Name="TieneDireccion" Type="bit" />
+    <Property Name="Direccion" Type="varchar" MaxLength="100" />
+    <Property Name="DireccionNumero" Type="varchar" MaxLength="20" />
+    <Property Name="EntreCalles" Type="varchar" MaxLength="100" />
+    <Property Name="Plano" Type="varchar" MaxLength="15" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="100" />
+    <Property Name="Colonia" Type="varchar" MaxLength="100" />
+    <Property Name="Poblacion" Type="varchar" MaxLength="100" />
+    <Property Name="Estado" Type="varchar" MaxLength="30" />
+    <Property Name="Pais" Type="varchar" MaxLength="30" />
+    <Property Name="CodigoPostal" Type="varchar" MaxLength="15" />
+    <Property Name="Delegacion" Type="varchar" MaxLength="100" />
+    <Property Name="Ruta" Type="varchar" MaxLength="50" />
+    <Property Name="Codigo" Type="varchar" MaxLength="50" />
+    <Property Name="ClaveVehicular" Type="varchar" MaxLength="20" />
+    <Property Name="TipoVehiculo" Type="varchar" MaxLength="20" />
+    <Property Name="DiasLibresIntereses" Type="int" />
+    <Property Name="Cuenta2" Type="varchar" MaxLength="20" />
+    <Property Name="Cuenta3" Type="varchar" MaxLength="20" />
+    <Property Name="PrecioLiberado" Type="bit" />
+    <Property Name="Retencion3" Type="float" />
+    <Property Name="ValidarCodigo" Type="bit" />
+    <Property Name="Presentacion" Type="varchar" MaxLength="50" />
+    <Property Name="GarantiaPlazo" Type="int" />
+    <Property Name="CostoIdentificado" Type="bit" />
+    <Property Name="CantidadTarima" Type="float" />
+    <Property Name="UnidadTarima" Type="varchar" MaxLength="50" />
+    <Property Name="DepartamentoDetallista" Type="int" />
+    <Property Name="TratadoComercial" Type="varchar" MaxLength="50" />
+    <Property Name="CuentaPresupuesto" Type="varchar" MaxLength="20" />
+    <Property Name="ProgramaSectorial" Type="varchar" MaxLength="50" />
+    <Property Name="ArancelDesperdicio" Type="varchar" MaxLength="50" />
+    <Property Name="PedimentoClave" Type="char" MaxLength="5" />
+    <Property Name="PedimentoRegimen" Type="char" MaxLength="5" />
+    <Property Name="Permiso" Type="varchar" MaxLength="30" />
+    <Property Name="PermisoRenglon" Type="varchar" MaxLength="20" />
+    <Property Name="MinimoTarima" Type="float" />
+    <Property Name="SituacionUsuario" Type="varchar" MaxLength="10" />
+    <Property Name="SituacionNota" Type="varchar" MaxLength="100" />
+    <Property Name="DireccionNumeroInt" Type="varchar" MaxLength="20" />
+    <Property Name="Impuesto1Excento" Type="bit" />
+    <Property Name="TMEClasificacion" Type="varchar" MaxLength="20" />
+    <Property Name="TMECodigoAlterno" Type="varchar" MaxLength="50" />
+    <Property Name="TMETiempoEntregaDF" Type="int" />
+    <Property Name="TMETiempoEntregaMK" Type="int" />
+    <Property Name="TMESubFamilia" Type="varchar" MaxLength="50" />
+    <Property Name="TMEClasfLam" Type="varchar" MaxLength="30" />
+    <Property Name="TMEMonedaCompra" Type="char" MaxLength="10" />
+    <Property Name="TMESubMarca" Type="char" MaxLength="50" />
+    <Property Name="TMETipo" Type="char" MaxLength="50" />
+    <Property Name="TMELinea" Type="char" MaxLength="50" />
+    <Property Name="TMECodigoProv" Type="char" MaxLength="50" />
+    <Property Name="TMETarja" Type="varchar" MaxLength="20" />
+    <Property Name="TMELlave" Type="varchar" MaxLength="20" />
+    <Property Name="TMEMultiplo" Type="int" />
+    <Property Name="CFDIRetClave" Type="varchar" MaxLength="2" />
+    <Property Name="CFDIRetIEPSImpuesto" Type="varchar" MaxLength="10" />
+    <Property Name="TMELLOpc1" Type="varchar" MaxLength="20" />
+    <Property Name="TMELLOpc2" Type="float" />
+    <Property Name="TMELLOpc3" Type="float" />
+    <Property Name="TMELLOpc4" Type="varchar" MaxLength="20" />
+    <Property Name="TMETAOpc1" Type="varchar" MaxLength="20" />
+    <Property Name="TMETAOpc2" Type="int" />
+    <Property Name="TMETAOpc3" Type="int" />
+    <Property Name="TMETAOpc4" Type="bit" />
+    <Property Name="TMETAOpc5" Type="int" />
+    <Property Name="TMECodigoLowe" Type="varchar" MaxLength="50" />
+    <Property Name="TMEMaterial" Type="varchar" MaxLength="50" />
+    <Property Name="TMECalibre" Type="int" />
+    <Property Name="TMEAcabado" Type="varchar" MaxLength="50" />
+    <Property Name="TMETAOpc6" Type="varchar" MaxLength="10" />
+    <Property Name="TMETAOpc7" Type="int" />
+    <Property Name="TMETAOpc8" Type="int" />
+    <Property Name="TMEMedidaInt" Type="int" />
+    <Property Name="TMEMedidaExt" Type="int" />
+    <Property Name="TMEGabinete" Type="int" />
+    <Property Name="TMEColor" Type="varchar" MaxLength="15" />
+    <Property Name="TMEGeneracion" Type="decimal" Precision="5" Scale="1" Nullable="false" />
+    <Property Name="TMEModelo" Type="varchar" MaxLength="10" />
+    <Property Name="TMESubModelo" Type="varchar" MaxLength="10" />
+    <Property Name="TMEAncho" Type="varchar" MaxLength="10" />
+    <Property Name="TMELargo" Type="varchar" MaxLength="10" />
+    <Property Name="TMERadio" Type="varchar" MaxLength="10" />
+    <Property Name="TMELado" Type="varchar" MaxLength="10" />
+    <Property Name="TMETapa" Type="varchar" MaxLength="10" />
+    <Property Name="TMEEspesor" Type="varchar" MaxLength="10" />
+    <Property Name="TMEFoil" Type="varchar" MaxLength="10" />
+    <Property Name="TMECara" Type="varchar" MaxLength="10" />
+    <Property Name="TMEAnodizado" Type="varchar" MaxLength="3" />
+    <Property Name="TMEEdicion" Type="int" />
+    <Property Name="TMECorreccion" Type="int" />
+    <Property Name="TmeGrupo" Type="varchar" MaxLength="25" />
+    <Property Name="TmeTipoCub" Type="varchar" MaxLength="50" />
+    <Property Name="TmeDivision" Type="varchar" MaxLength="50" />
+    <Property Name="TipoImpuesto1" Type="varchar" MaxLength="10" />
+    <Property Name="TipoImpuesto2" Type="varchar" MaxLength="10" />
+    <Property Name="TipoImpuesto3" Type="varchar" MaxLength="10" />
+    <Property Name="TipoImpuesto4" Type="varchar" MaxLength="10" />
+    <Property Name="TipoImpuesto5" Type="varchar" MaxLength="10" />
+    <Property Name="TipoRetencion1" Type="varchar" MaxLength="10" />
+    <Property Name="TipoRetencion2" Type="varchar" MaxLength="10" />
+    <Property Name="TipoRetencion3" Type="varchar" MaxLength="10" />
+    <Property Name="Excento2" Type="bit" Nullable="false" />
+    <Property Name="Excento3" Type="bit" Nullable="false" />
+    <Property Name="TMEAnchoExacto" Type="varchar" MaxLength="12" />
+    <Property Name="TMELargoExacto" Type="varchar" MaxLength="12" />
+    <Property Name="TMEBorde" Type="varchar" MaxLength="10" />
+    <Property Name="TMETiempoEntrega" Type="int" />
+    <Property Name="TmeCosto" Type="decimal" Precision="8" Scale="2" />
+    <Property Name="TmeCosto112020" Type="decimal" Precision="8" Scale="2" />
+  </EntityType>
+  <EntityType Name="Cte">
+    <Key>
+      <PropertyRef Name="Cliente" />
+    </Key>
+    <Property Name="Cliente" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Rama" Type="char" MaxLength="10" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="NombreCorto" Type="char" MaxLength="20" />
+    <Property Name="Direccion" Type="varchar" MaxLength="100" />
+    <Property Name="DireccionNumero" Type="varchar" MaxLength="20" />
+    <Property Name="EntreCalles" Type="varchar" MaxLength="100" />
+    <Property Name="Plano" Type="varchar" MaxLength="15" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="100" />
+    <Property Name="Delegacion" Type="varchar" MaxLength="100" />
+    <Property Name="Colonia" Type="varchar" MaxLength="100" />
+    <Property Name="Poblacion" Type="varchar" MaxLength="100" />
+    <Property Name="Estado" Type="varchar" MaxLength="30" />
+    <Property Name="Pais" Type="varchar" MaxLength="30" />
+    <Property Name="Zona" Type="varchar" MaxLength="30" />
+    <Property Name="CodigoPostal" Type="varchar" MaxLength="15" />
+    <Property Name="RFC" Type="varchar" MaxLength="15" />
+    <Property Name="IEPS" Type="varchar" MaxLength="20" />
+    <Property Name="PITEX" Type="varchar" MaxLength="20" />
+    <Property Name="CURP" Type="varchar" MaxLength="30" />
+    <Property Name="Telefonos" Type="varchar" MaxLength="100" />
+    <Property Name="TelefonosLada" Type="varchar" MaxLength="6" />
+    <Property Name="Fax" Type="varchar" MaxLength="50" />
+    <Property Name="PedirTono" Type="bit" Nullable="false" />
+    <Property Name="Contacto1" Type="varchar" MaxLength="50" />
+    <Property Name="Contacto2" Type="varchar" MaxLength="50" />
+    <Property Name="Extencion1" Type="varchar" MaxLength="10" />
+    <Property Name="Extencion2" Type="varchar" MaxLength="10" />
+    <Property Name="eMail1" Type="varchar" MaxLength="50" />
+    <Property Name="eMail2" Type="varchar" MaxLength="50" />
+    <Property Name="DirInternet" Type="varchar" MaxLength="50" />
+    <Property Name="Categoria" Type="varchar" MaxLength="50" />
+    <Property Name="Grupo" Type="varchar" MaxLength="50" />
+    <Property Name="Familia" Type="varchar" MaxLength="50" />
+    <Property Name="Credito" Type="varchar" MaxLength="50" />
+    <Property Name="DiaRevision1" Type="varchar" MaxLength="10" />
+    <Property Name="DiaRevision2" Type="varchar" MaxLength="10" />
+    <Property Name="HorarioRevision" Type="varchar" MaxLength="50" />
+    <Property Name="DiaPago1" Type="varchar" MaxLength="10" />
+    <Property Name="DiaPago2" Type="varchar" MaxLength="10" />
+    <Property Name="HorarioPago" Type="varchar" MaxLength="50" />
+    <Property Name="ZonaImpuesto" Type="varchar" MaxLength="30" />
+    <Property Name="PedidosParciales" Type="bit" Nullable="false" />
+    <Property Name="Tipo" Type="char" MaxLength="15" />
+    <Property Name="Situacion" Type="varchar" MaxLength="50" />
+    <Property Name="SituacionFecha" Type="datetime" />
+    <Property Name="Descuento" Type="varchar" MaxLength="30" />
+    <Property Name="Agente" Type="char" MaxLength="10" />
+    <Property Name="AgenteServicio" Type="char" MaxLength="10" />
+    <Property Name="EnviarA" Type="int" />
+    <Property Name="Proyecto" Type="varchar" MaxLength="50" />
+    <Property Name="FormaEnvio" Type="varchar" MaxLength="50" />
+    <Property Name="Condicion" Type="varchar" MaxLength="50" />
+    <Property Name="Ruta" Type="varchar" MaxLength="50" />
+    <Property Name="RutaOrden" Type="int" />
+    <Property Name="ListaPrecios" Type="int" />
+    <Property Name="ListaPreciosEsp" Type="varchar" MaxLength="20" />
+    <Property Name="DefMoneda" Type="char" MaxLength="10" />
+    <Property Name="VtasConsignacion" Type="bit" Nullable="false" />
+    <Property Name="AlmacenVtasConsignacion" Type="char" MaxLength="10" />
+    <Property Name="Clase" Type="char" MaxLength="15" />
+    <Property Name="Estatus" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="UltimoCambio" Type="datetime" />
+    <Property Name="Alta" Type="datetime" />
+    <Property Name="Conciliar" Type="bit" Nullable="false" />
+    <Property Name="Mensaje" Type="varchar" MaxLength="50" />
+    <Property Name="Numero" Type="int" />
+    <Property Name="Contrasena" Type="varchar" MaxLength="20" />
+    <Property Name="Contrasena2" Type="varchar" MaxLength="20" />
+    <Property Name="wVerDisponible" Type="bit" />
+    <Property Name="wVerArtListaPreciosEsp" Type="bit" />
+    <Property Name="ChecarCredito" Type="varchar" MaxLength="20" />
+    <Property Name="BloquearMorosos" Type="varchar" MaxLength="20" />
+    <Property Name="ModificarVencimiento" Type="varchar" MaxLength="10" />
+    <Property Name="CreditoEspecial" Type="bit" Nullable="false" />
+    <Property Name="CreditoConLimite" Type="bit" Nullable="false" />
+    <Property Name="CreditoLimite" Type="money" />
+    <Property Name="CreditoConLimitePedidos" Type="bit" />
+    <Property Name="CreditoLimitePedidos" Type="money" />
+    <Property Name="CreditoMoneda" Type="char" MaxLength="10" />
+    <Property Name="CreditoConDias" Type="bit" Nullable="false" />
+    <Property Name="CreditoDias" Type="int" />
+    <Property Name="CreditoConCondiciones" Type="bit" Nullable="false" />
+    <Property Name="CreditoCondiciones" Type="varchar" MaxLength="50" />
+    <Property Name="TieneMovimientos" Type="bit" />
+    <Property Name="Cobrador" Type="varchar" MaxLength="50" />
+    <Property Name="PersonalCobrador" Type="varchar" MaxLength="10" />
+    <Property Name="DescuentoRecargos" Type="bit" />
+    <Property Name="RecorrerVencimiento" Type="varchar" MaxLength="20" />
+    <Property Name="AlmacenDef" Type="char" MaxLength="10" />
+    <Property Name="SucursalEmpresa" Type="int" />
+    <Property Name="NivelAcceso" Type="varchar" MaxLength="50" />
+    <Property Name="Idioma" Type="varchar" MaxLength="50" />
+    <Property Name="BonificacionTipo" Type="varchar" MaxLength="20" />
+    <Property Name="Bonificacion" Type="float" />
+    <Property Name="VigenciaDesde" Type="datetime" />
+    <Property Name="VigenciaHasta" Type="datetime" />
+    <Property Name="Descripcion1" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion2" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion3" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion4" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion5" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion6" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion7" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion8" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion9" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion10" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion11" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion12" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion13" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion14" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion15" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion16" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion17" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion18" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion19" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion20" Type="varchar" MaxLength="50" />
+    <Property Name="FormasPagoRestringidas" Type="bit" />
+    <Property Name="PreciosInferioresMinimo" Type="bit" />
+    <Property Name="CBDir" Type="varchar" MaxLength="255" />
+    <Property Name="PersonalNombres" Type="varchar" MaxLength="50" />
+    <Property Name="PersonalApellidoPaterno" Type="varchar" MaxLength="50" />
+    <Property Name="PersonalApellidoMaterno" Type="varchar" MaxLength="50" />
+    <Property Name="PersonalDireccion" Type="varchar" MaxLength="100" />
+    <Property Name="PersonalEntreCalles" Type="varchar" MaxLength="100" />
+    <Property Name="PersonalPlano" Type="varchar" MaxLength="15" />
+    <Property Name="PersonalDelegacion" Type="varchar" MaxLength="100" />
+    <Property Name="PersonalColonia" Type="varchar" MaxLength="100" />
+    <Property Name="PersonalPoblacion" Type="varchar" MaxLength="100" />
+    <Property Name="PersonalEstado" Type="varchar" MaxLength="30" />
+    <Property Name="PersonalPais" Type="varchar" MaxLength="30" />
+    <Property Name="PersonalZona" Type="varchar" MaxLength="30" />
+    <Property Name="PersonalCodigoPostal" Type="varchar" MaxLength="15" />
+    <Property Name="PersonalTelefonos" Type="varchar" MaxLength="100" />
+    <Property Name="PersonalTelefonosLada" Type="varchar" MaxLength="6" />
+    <Property Name="PersonalTelefonoMovil" Type="varchar" MaxLength="30" />
+    <Property Name="FechaNacimiento" Type="datetime" />
+    <Property Name="Titulo" Type="varchar" MaxLength="20" />
+    <Property Name="EstadoCivil" Type="varchar" MaxLength="20" />
+    <Property Name="FechaMatrimonio" Type="datetime" />
+    <Property Name="Conyuge" Type="varchar" MaxLength="100" />
+    <Property Name="Sexo" Type="varchar" MaxLength="20" />
+    <Property Name="Fuma" Type="bit" />
+    <Property Name="Profesion" Type="varchar" MaxLength="100" />
+    <Property Name="Puesto" Type="varchar" MaxLength="100" />
+    <Property Name="NumeroHijos" Type="int" />
+    <Property Name="Alergias" Type="varchar" MaxLength="255" />
+    <Property Name="Religion" Type="varchar" MaxLength="50" />
+    <Property Name="Responsable" Type="varchar" MaxLength="100" />
+    <Property Name="Parentesco" Type="varchar" MaxLength="50" />
+    <Property Name="FacturarCte" Type="varchar" MaxLength="10" />
+    <Property Name="FacturarCteEnviarA" Type="int" />
+    <Property Name="Aseguradora" Type="varchar" MaxLength="10" />
+    <Property Name="NombreAsegurado" Type="varchar" MaxLength="100" />
+    <Property Name="PolizaTipo" Type="varchar" MaxLength="50" />
+    <Property Name="PolizaNumero" Type="varchar" MaxLength="20" />
+    <Property Name="PolizaReferencia" Type="varchar" MaxLength="50" />
+    <Property Name="PolizaImporte" Type="money" />
+    <Property Name="Deducible" Type="money" />
+    <Property Name="DeducibleMoneda" Type="varchar" MaxLength="10" />
+    <Property Name="Coaseguro" Type="float" />
+    <Property Name="Espacio" Type="varchar" MaxLength="10" />
+    <Property Name="OtrosCargos" Type="varchar" MaxLength="50" />
+    <Property Name="Flotilla" Type="bit" />
+    <Property Name="FordDistribuidor" Type="varchar" MaxLength="10" />
+    <Property Name="FordZona" Type="varchar" MaxLength="30" />
+    <Property Name="SinISAN" Type="bit" />
+    <Property Name="CRMImporte" Type="money" />
+    <Property Name="CRMCantidad" Type="float" />
+    <Property Name="CRMEtapa" Type="varchar" MaxLength="20" />
+    <Property Name="CRMCierreProbabilidad" Type="float" />
+    <Property Name="CRMCierreFechaAprox" Type="datetime" />
+    <Property Name="CRMPresupuestoAsignado" Type="money" />
+    <Property Name="CRMCompetencia" Type="varchar" MaxLength="50" />
+    <Property Name="CRMInfluencia" Type="varchar" MaxLength="50" />
+    <Property Name="CRMFuente" Type="varchar" MaxLength="50" />
+    <Property Name="Fecha1" Type="datetime" />
+    <Property Name="Fecha2" Type="datetime" />
+    <Property Name="Fecha3" Type="datetime" />
+    <Property Name="Fecha4" Type="datetime" />
+    <Property Name="Fecha5" Type="datetime" />
+    <Property Name="EsProveedor" Type="bit" />
+    <Property Name="EsPersonal" Type="bit" />
+    <Property Name="EsAgente" Type="bit" />
+    <Property Name="EsAlmacen" Type="bit" />
+    <Property Name="EsEspacio" Type="bit" />
+    <Property Name="EsCentroCostos" Type="bit" />
+    <Property Name="EsProyecto" Type="bit" />
+    <Property Name="EsCentroTrabajo" Type="bit" />
+    <Property Name="EsEstacionTrabajo" Type="bit" />
+    <Property Name="Usuario" Type="varchar" MaxLength="10" />
+    <Property Name="Licencias" Type="int" />
+    <Property Name="LicenciasTipo" Type="varchar" MaxLength="20" />
+    <Property Name="LicenciasLlave" Type="varchar" MaxLength="50" />
+    <Property Name="Cuenta" Type="varchar" MaxLength="20" />
+    <Property Name="CuentaRetencion" Type="varchar" MaxLength="20" />
+    <Property Name="FiscalRegimen" Type="varchar" MaxLength="30" />
+    <Property Name="PedidoDef" Type="bit" />
+    <Property Name="eMailAuto" Type="bit" />
+    <Property Name="wMovVentas" Type="varchar" MaxLength="20" />
+    <Property Name="SincroID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="SincroC" Type="int" />
+    <Property Name="ExcentoISAN" Type="bit" />
+    <Property Name="Intercompania" Type="bit" />
+    <Property Name="Agente3" Type="varchar" MaxLength="10" />
+    <Property Name="Agente4" Type="varchar" MaxLength="10" />
+    <Property Name="Publico" Type="bit" />
+    <Property Name="Extranjero" Type="bit" />
+    <Property Name="DocumentacionCompleta" Type="bit" />
+    <Property Name="OperacionLimite" Type="money" />
+    <Property Name="CRMovVenta" Type="varchar" MaxLength="20" />
+    <Property Name="ImportadorRegimen" Type="varchar" MaxLength="30" />
+    <Property Name="ImportadorRegistro" Type="varchar" MaxLength="30" />
+    <Property Name="LocalidadCNBV" Type="varchar" MaxLength="10" />
+    <Property Name="ActividadEconomicaCNBV" Type="varchar" MaxLength="10" />
+    <Property Name="Grado" Type="varchar" MaxLength="10" />
+    <Property Name="SituacionUsuario" Type="varchar" MaxLength="10" />
+    <Property Name="SituacionNota" Type="varchar" MaxLength="100" />
+    <Property Name="GLN" Type="varchar" MaxLength="50" />
+    <Property Name="PersonalSMS" Type="bit" />
+    <Property Name="DireccionNumeroInt" Type="varchar" MaxLength="20" />
+    <Property Name="wTMEPermitirPedido" Type="bit" />
+    <Property Name="wTMEPermitirVentaMinima" Type="bit" />
+    <Property Name="wTMECantidadMinima" Type="int" />
+    <Property Name="ClaveBanco" Type="int" />
+    <Property Name="CtaBanco" Type="varchar" MaxLength="50" />
+    <Property Name="Fiscalzona" Type="varchar" MaxLength="20" />
+    <Property Name="ClaveUsoCfdi" Type="varchar" MaxLength="3" />
+    <Property Name="ExhibicionEstilo" Type="bit" />
+    <Property Name="CapacitacionEstilo" Type="bit" />
+    <Property Name="FechaExEstilo" Type="datetime" />
+    <Property Name="TMEws_id" Type="varchar" MaxLength="50" />
+    <Property Name="TMEws_status" Type="char" MaxLength="1" />
+    <Property Name="TMESegmento" Type="varchar" MaxLength="50" />
+    <Property Name="ReferenciaBancaria" Type="varchar" MaxLength="50" />
+    <Property Name="Clabe" Type="float" />
+    <Property Name="webEstilo" Type="bit" />
+  </EntityType>
+  <EntityType Name="CteEnviarA">
+    <Key>
+      <PropertyRef Name="Cliente" />
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Cliente" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" />
+    <Property Name="Direccion" Type="varchar" MaxLength="100" />
+    <Property Name="EntreCalles" Type="varchar" MaxLength="100" />
+    <Property Name="Plano" Type="varchar" MaxLength="15" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="100" />
+    <Property Name="Colonia" Type="varchar" MaxLength="100" />
+    <Property Name="Delegacion" Type="varchar" MaxLength="100" />
+    <Property Name="Poblacion" Type="varchar" MaxLength="100" />
+    <Property Name="Estado" Type="varchar" MaxLength="30" />
+    <Property Name="Pais" Type="varchar" MaxLength="30" />
+    <Property Name="Zona" Type="varchar" MaxLength="30" />
+    <Property Name="Ruta" Type="varchar" MaxLength="50" />
+    <Property Name="CodigoPostal" Type="varchar" MaxLength="15" />
+    <Property Name="Telefonos" Type="varchar" MaxLength="100" />
+    <Property Name="Fax" Type="varchar" MaxLength="50" />
+    <Property Name="PedirTono" Type="bit" Nullable="false" />
+    <Property Name="Contacto1" Type="varchar" MaxLength="50" />
+    <Property Name="Contacto2" Type="varchar" MaxLength="50" />
+    <Property Name="Extencion1" Type="varchar" MaxLength="10" />
+    <Property Name="Extencion2" Type="varchar" MaxLength="10" />
+    <Property Name="eMail1" Type="varchar" MaxLength="50" />
+    <Property Name="eMail2" Type="varchar" MaxLength="50" />
+    <Property Name="eMailAuto" Type="bit" />
+    <Property Name="ZonaImpuesto" Type="varchar" MaxLength="30" />
+    <Property Name="Agente" Type="char" MaxLength="10" />
+    <Property Name="Clase" Type="char" MaxLength="15" />
+    <Property Name="Estatus" Type="char" MaxLength="15" Nullable="false" />
+    <Property Name="UltimoCambio" Type="datetime" />
+    <Property Name="Alta" Type="datetime" />
+    <Property Name="Mensaje" Type="varchar" MaxLength="50" />
+    <Property Name="FormaEnvio" Type="varchar" MaxLength="50" />
+    <Property Name="ListaPreciosEsp" Type="varchar" MaxLength="20" />
+    <Property Name="Proyecto" Type="varchar" MaxLength="50" />
+    <Property Name="Condicion" Type="varchar" MaxLength="50" />
+    <Property Name="Descuento" Type="varchar" MaxLength="30" />
+    <Property Name="ModificarVencimiento" Type="varchar" MaxLength="10" />
+    <Property Name="Categoria" Type="varchar" MaxLength="50" />
+    <Property Name="Grupo" Type="varchar" MaxLength="50" />
+    <Property Name="Familia" Type="varchar" MaxLength="50" />
+    <Property Name="TieneMovimientos" Type="bit" />
+    <Property Name="Contrasena" Type="varchar" MaxLength="20" />
+    <Property Name="Clave" Type="char" MaxLength="10" />
+    <Property Name="SucursalEmpresa" Type="int" />
+    <Property Name="PersonalCobrador" Type="varchar" MaxLength="10" />
+    <Property Name="Almacen" Type="varchar" MaxLength="10" />
+    <Property Name="AlmacenVtasConsignacion" Type="varchar" MaxLength="10" />
+    <Property Name="wMovVentas" Type="varchar" MaxLength="20" />
+    <Property Name="Logico1" Type="bit" Nullable="false" />
+    <Property Name="Logico2" Type="bit" Nullable="false" />
+    <Property Name="Logico3" Type="bit" Nullable="false" />
+    <Property Name="TipoEmpaque" Type="varchar" MaxLength="50" />
+    <Property Name="SincroID" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="SincroC" Type="int" />
+    <Property Name="Unidad" Type="varchar" MaxLength="50" />
+    <Property Name="Cadena" Type="varchar" MaxLength="50" />
+    <Property Name="DireccionNumeroInt" Type="varchar" MaxLength="20" />
+    <Property Name="Encargado" Type="varchar" MaxLength="100" />
+    <Property Name="DireccionNumero" Type="varchar" MaxLength="20" />
+    <Property Name="GLN" Type="varchar" MaxLength="50" />
+    <Property Name="TMERFC2" Type="varchar" MaxLength="15" />
+    <Property Name="TipoProceso" Type="varchar" MaxLength="50" />
+    <Property Name="TipoComite" Type="varchar" MaxLength="50" />
+    <Property Name="IdContabilidad" Type="varchar" MaxLength="6" />
+    <Property Name="ClaveEntidad" Type="varchar" MaxLength="10" />
+    <Property Name="Ambito" Type="varchar" MaxLength="50" />
+    <Property Name="EntidadIdContabilidad" Type="varchar" MaxLength="6" />
+    <Property Name="InstitucionFin" Type="varchar" MaxLength="20" />
+    <Property Name="FormaPago" Type="varchar" MaxLength="50" />
+    <Property Name="Cuenta" Type="varchar" MaxLength="20" />
+    <Property Name="FiscalZona" Type="varchar" MaxLength="30" />
+    <Property Name="FiscalRegimen" Type="varchar" MaxLength="30" />
+    <Property Name="TMEws_id" Type="varchar" MaxLength="50" />
+    <Property Name="TMEws_status" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="ArbolMenu">
+    <Key>
+      <PropertyRef Name="IdArbolMenu" />
+    </Key>
+    <Property Name="IdArbolMenu" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="IdArbolMenuPadre" Type="uniqueidentifier" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="IdArticulo" Type="char" MaxLength="20" />
+    <Property Name="Expand" Type="bit" Nullable="false" />
+    <Property Name="RutaImagen" Type="varchar" MaxLength="500" />
+    <Property Name="iconSrc" Type="varchar" MaxLength="255" />
+    <Property Name="Condicion" Type="varchar(max)" />
+    <Property Name="Largo" Type="bit" />
+    <Property Name="Ancho" Type="bit" />
+    <Property Name="Color" Type="bit" />
+    <Property Name="Complemento" Type="bit" />
+    <Property Name="WebEstilo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CarritoDetalle">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idEncabezado" Type="int" />
+    <Property Name="renglon" Type="float" />
+    <Property Name="articulo" Type="varchar" MaxLength="30" />
+    <Property Name="cantidad" Type="int" />
+    <Property Name="descripcion" Type="varchar" MaxLength="255" />
+    <Property Name="importe" Type="money" />
+    <Property Name="impuesto" Type="money" />
+    <Property Name="ImporteTotal" Type="money" />
+    <Property Name="Descuento" Type="float" />
+  </EntityType>
+  <EntityType Name="CarritoEncabezado">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FechaEmision" Type="datetime" />
+    <Property Name="Cliente" Type="varchar" MaxLength="20" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="Impuesto" Type="money" />
+    <Property Name="Importe" Type="money" />
+    <Property Name="Condicion" Type="varchar" MaxLength="30" />
+    <Property Name="descuento" Type="varchar" MaxLength="30" />
+    <Property Name="ModuloID" Type="int" />
+    <Property Name="OrdenCompra" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'IntelisisSuc.web.PedidoMedidasEstandar' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="PedidoMedidasEstandar">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Linea" Type="varchar" MaxLength="20" />
+    <Property Name="Color" Type="varchar" MaxLength="10" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="C240" Type="int" />
+    <Property Name="C300" Type="int" />
+    <Property Name="C360" Type="int" />
+    <Property Name="B240" Type="int" />
+    <Property Name="B360" Type="int" />
+    <Property Name="B90240" Type="int" />
+    <Property Name="Total" Type="int" />
+    <Property Name="cliente" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <Association Name="FK__CarritoDe__idEnc__47EAF784">
+    <End Role="CarritoEncabezado" Type="Self.CarritoEncabezado" Multiplicity="0..1" />
+    <End Role="CarritoDetalle" Type="Self.CarritoDetalle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarritoEncabezado">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CarritoDetalle">
+        <PropertyRef Name="idEncabezado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="spVerLimiteCreditoMN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cliente" Type="char" Mode="In" />
+    <Parameter Name="Empresa" Type="char" Mode="In" />
+  </Function>
+  <Function Name="spwSaldoActualCteTME" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Cliente" Type="char" Mode="In" />
+  </Function>
+  <Function Name="Get_ClienteDet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Cliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="Get_TipoDeCambio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Moneda" Type="char" Mode="In" />
+  </Function>
+  <Function Name="GetAnchoProductoNodo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="nodo" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TMEColor" Type="varchar" Mode="In" />
+    <Parameter Name="tipo" Type="varchar" Mode="In" />
+    <Parameter Name="Largo" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetArticulo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Tipo" Type="varchar" Mode="In" />
+    <Parameter Name="Color" Type="varchar" Mode="In" />
+    <Parameter Name="Ancho" Type="varchar" Mode="In" />
+    <Parameter Name="Largo" Type="varchar" Mode="In" />
+    <Parameter Name="CLASIFICAICON" Type="varchar" Mode="In" />
+    <Parameter Name="Lado" Type="varchar" Mode="In" />
+    <Parameter Name="Tapa" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetArticuloExcel" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Articulo" Type="char" Mode="In" />
+  </Function>
+  <Function Name="GetColoresMedidasEstandar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="nodo" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="GetColorProductoNodo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="nodo" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="propiedad" Type="varchar" Mode="In" />
+    <Parameter Name="Tipo" Type="varchar" Mode="In" />
+    <Parameter Name="Estilo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="GetDetallePedido" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Pedido" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetLargoProductoNodo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="nodo" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="TMEColor" Type="varchar" Mode="In" />
+    <Parameter Name="tipo" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetpedidosCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="cliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetPropProductoNodo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="nodo" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="SetCantCarritoDetalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="cantidad" Type="int" Mode="In" />
+    <Parameter Name="Renglon" Type="float" Mode="In" />
+  </Function>
+  <Function Name="SetElimnaCarritoDetalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="Renglon" Type="float" Mode="In" />
+  </Function>
+  <Function Name="SetOCCarrito" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="Oc" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetClientes" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="ClienteID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetColoresXClasificacion" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="clasificacion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_GetEqArtGen" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="linea" Type="varchar" Mode="In" />
+    <Parameter Name="color" Type="varchar" Mode="In" />
+    <Parameter Name="descripcion" Type="varchar" Mode="In" />
+    <Parameter Name="cb240" Type="int" Mode="In" />
+    <Parameter Name="cb300" Type="int" Mode="In" />
+    <Parameter Name="cb360" Type="int" Mode="In" />
+    <Parameter Name="ba240" Type="int" Mode="In" />
+    <Parameter Name="ba360" Type="int" Mode="In" />
+    <Parameter Name="ba90" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetFacturasPorPagarCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Cliente" Type="char" Mode="In" />
+    <Parameter Name="FEchaD" Type="datetime" Mode="In" />
+    <Parameter Name="FEchaA" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_GetFacturasxPagarClienteDet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="VentaId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_GetPedidosCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Cliente" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_GetPedidosPendientesPorCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Cliente" Type="char" Mode="In" />
+  </Function>
+  <Function Name="sp_GetSucursalesCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="ClienteID" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_SetCarritoDetalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="Articulo" Type="char" Mode="In" />
+    <Parameter Name="cantidad" Type="int" Mode="In" />
+    <Parameter Name="cliente" Type="varchar" Mode="In" />
+    <Parameter Name="renglon" Type="float" Mode="In" />
+    <Parameter Name="descripcion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_SetCarritoEncabezado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Cliente" Type="char" Mode="In" />
+    <Parameter Name="Nombre" Type="varchar" Mode="In" />
+    <Parameter Name="condicion" Type="varchar" Mode="In" />
+    <Parameter Name="descuento" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="sp_ValidaCliente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="cliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="spAfectarMov" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <Parameter Name="Accion" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="spEliminarCarrito" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spGetDetalleCarrito" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spGetEncabezadoCarrito" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="cliente" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="spGetMovIDPedido" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spGetUsuarioWeb" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="usario" Type="varchar" Mode="In" />
+    <Parameter Name="pass" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="spPEdidoAfectado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spRegistrarVentaDetalle" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="Renglon" Type="float" Mode="In" />
+    <Parameter Name="Articulo" Type="char" Mode="In" />
+    <Parameter Name="Unidad" Type="varchar" Mode="In" />
+    <Parameter Name="Almacen" Type="char" Mode="In" />
+    <Parameter Name="RenglonTipo" Type="char" Mode="In" />
+    <Parameter Name="Cantidad" Type="float" Mode="In" />
+    <Parameter Name="CantidadInventario" Type="float" Mode="In" />
+    <Parameter Name="Precio" Type="money" Mode="In" />
+    <Parameter Name="Impuesto1" Type="float" Mode="In" />
+    <Parameter Name="Impuesto2" Type="float" Mode="In" />
+    <Parameter Name="Impuesto3" Type="float" Mode="In" />
+    <Parameter Name="DescuentoLinea" Type="money" Mode="In" />
+    <Parameter Name="DescuentoTipo" Type="char" Mode="In" />
+    <Parameter Name="DescripcionExtra" Type="varchar" Mode="In" />
+    <Parameter Name="Opcion" Type="varchar" Mode="In" />
+    <Parameter Name="SucursalEmpresa" Type="int" Mode="In" />
+    <Parameter Name="RenglonId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="spRegistrarVentaEncabezado" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="web">
+    <Parameter Name="Empresa" Type="char" Mode="In" />
+    <Parameter Name="Mov" Type="char" Mode="In" />
+    <Parameter Name="Usuario" Type="char" Mode="In" />
+    <Parameter Name="Almacen" Type="char" Mode="In" />
+    <Parameter Name="Moneda" Type="char" Mode="In" />
+    <Parameter Name="TipoCambio" Type="float" Mode="In" />
+    <Parameter Name="Descuento" Type="varchar" Mode="In" />
+    <Parameter Name="DescuentoGlobal" Type="float" Mode="In" />
+    <Parameter Name="Cliente" Type="char" Mode="In" />
+    <Parameter Name="FormaEnvio" Type="varchar" Mode="In" />
+    <Parameter Name="Condicion" Type="varchar" Mode="In" />
+    <Parameter Name="Proyecto" Type="varchar" Mode="In" />
+    <Parameter Name="Concepto" Type="varchar" Mode="In" />
+    <Parameter Name="UEN" Type="int" Mode="In" />
+    <Parameter Name="Agente" Type="char" Mode="In" />
+    <Parameter Name="EnviarA" Type="int" Mode="In" />
+    <Parameter Name="Comentarios" Type="text" Mode="In" />
+    <Parameter Name="FechaRequerida" Type="datetime" Mode="In" />
+    <Parameter Name="Referencia" Type="varchar" Mode="In" />
+    <Parameter Name="OrdenCompra" Type="varchar" Mode="In" />
+    <Parameter Name="SucursalEmpresa" Type="int" Mode="In" />
+    <Parameter Name="ListaPreciosEsp" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="KoberModelStoreContainer">
+    <EntitySet Name="Art" EntityType="Self.Art" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cte" EntityType="Self.Cte" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CteEnviarA" EntityType="Self.CteEnviarA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ArbolMenu" EntityType="Self.ArbolMenu" Schema="web" store:Type="Tables" />
+    <EntitySet Name="CarritoDetalle" EntityType="Self.CarritoDetalle" Schema="web" store:Type="Tables" />
+    <EntitySet Name="CarritoEncabezado" EntityType="Self.CarritoEncabezado" Schema="web" store:Type="Tables" />
+    <EntitySet Name="PedidoMedidasEstandar" EntityType="Self.PedidoMedidasEstandar" store:Type="Tables" store:Schema="web">
+      <DefiningQuery>SELECT 
+    [PedidoMedidasEstandar].[id] AS [id], 
+    [PedidoMedidasEstandar].[Linea] AS [Linea], 
+    [PedidoMedidasEstandar].[Color] AS [Color], 
+    [PedidoMedidasEstandar].[Descripcion] AS [Descripcion], 
+    [PedidoMedidasEstandar].[C240] AS [C240], 
+    [PedidoMedidasEstandar].[C300] AS [C300], 
+    [PedidoMedidasEstandar].[C360] AS [C360], 
+    [PedidoMedidasEstandar].[B240] AS [B240], 
+    [PedidoMedidasEstandar].[B360] AS [B360], 
+    [PedidoMedidasEstandar].[B90240] AS [B90240], 
+    [PedidoMedidasEstandar].[Total] AS [Total], 
+    [PedidoMedidasEstandar].[cliente] AS [cliente]
+    FROM [web].[PedidoMedidasEstandar] AS [PedidoMedidasEstandar]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__CarritoDe__idEnc__47EAF784" Association="Self.FK__CarritoDe__idEnc__47EAF784">
+      <End Role="CarritoEncabezado" EntitySet="CarritoEncabezado" />
+      <End Role="CarritoDetalle" EntitySet="CarritoDetalle" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

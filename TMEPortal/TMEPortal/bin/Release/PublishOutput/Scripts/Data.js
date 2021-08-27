@@ -1,0 +1,111 @@
+﻿var weekData = [{
+    "ID": 1,
+    "Color": "	02932-60",
+    "Descripción": "Almond Leather",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, {
+    "ID": 2,
+    "Color": "04166-60",
+    "Descripción": "Pampas",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, {
+    "ID": 3,
+    "Color": "04550-01",
+    "Descripción": "Granite",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, {
+    "ID": 4,
+    "Color": "	04584-01",
+    "Descripción": "Brazilian Topaz",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, {
+    "ID": 5,
+    "Color": "04595-01",
+    "Descripción": "Bahía Granite",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, {
+    "ID": 6,
+    "Color": "04623-60",
+    "Descripción": "Graphite Nebula",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, {
+    "ID": 7,
+    "Color": "	04633-60",
+    "Descripción": "	Natural Nebula",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, , {
+    "ID": 8,
+    "Color": "	04838-01",
+    "Descripción": "Antique Roca",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, {
+    "ID": 9,
+    "Color": "04838-01",
+    "Descripción": "Calcutta Marble",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}, {
+    "ID": 10,
+    "Color": "10745-60",
+    "Descripción": "Fonthill Pear",
+    "Cubierta 2.40": "",
+    "Cubierta 3.00": "",
+    "Cubierta 3.60": "",
+    "Barra 2.40": "",
+    "Barra 3.00": "",
+    "Barra 3.60": "",
+    "Barra 90 2.40": ""
+}];

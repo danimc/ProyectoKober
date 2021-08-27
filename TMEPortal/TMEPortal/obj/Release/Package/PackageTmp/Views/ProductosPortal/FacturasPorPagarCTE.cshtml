@@ -1,0 +1,208 @@
+﻿@model  IEnumerable<TMEPortal.Models.FacturasPorPagarCliente>
+
+@{
+    ViewBag.BackgroundImage = "Compras Concluidas" + ".jpg";
+    Layout = "~/Views/Shared/_LayoutLTEClear.cshtml";
+}
+
+
+
+<script src="~/Scripts/jszip.js"></script>
+<link href="~/Content/dx.common.css" rel="stylesheet" />
+<link href="~/Content/dx.softblue.css" rel="stylesheet" />
+<link href="~/Scripts/dxTable.css" rel="stylesheet" />
+<script src="~/Scripts/dx.web.js"></script>
+<img src="~/Content/images/@(ViewBag.BackgroundImage)" height="63" />
+
+<div class="row">
+    <div class="col-md" style="border:medium;background-color:rgba(0, 0, 0, 0.05);">
+
+        <div class="col-md-2">
+            <div class="dx-fieldset">
+                <div class="dx-fieldset-header">Fecha De:</div>
+                <div class="dx-field">
+                    <div id="fechad"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="dx-fieldset">
+                <div class="dx-fieldset-header">Fecha A:</div>
+                <div class="dx-field">
+                    <div id="fechaa"></div>
+                </div>
+            </div>
+        </div>
+
+     
+
+        <div class="modal-footer">
+            <button type="submit" id="Agregar" value="Agregar" class="btn btn-primary btn-lg" onClick="aplicaFiltro()">Buscar</button>
+        </div>
+
+    </div>
+
+</div>
+
+<br />
+<br />
+
+<div class="dx-viewport">
+    <div class="demo-container">
+        <div id="dgvFp"></div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $("#fechad").dxDateBox({
+            type: "date",
+            displayFormat: "dd/MM/yyyy "
+        });
+    })
+
+    $(function () {
+        $("#fechaa").dxDateBox({
+            type: "date",
+            displayFormat: "dd/MM/yyyy "
+        });
+    })
+
+
+
+    var dataGrid = $("#dgvFp").dxDataGrid({
+        allowColumnResizing: true,
+        showBorders: true,        
+        columnAutoWidth: true,
+       
+        columns: [{ dataField: 'movid', caption: 'Movimiento' }, { dataField: 'Orden_de_compra', caption: 'Orden de Compra' }, { dataField: 'FechaEmision', caption: "FechaEmision",  format: "yyyy-MM-dd" }, { dataField: 'saldo', caption: "Saldo", format: "currency" }, { dataField: 'impuestos', caption: "Iva", format: "currency" }, { dataField: 'importe',  caption: "Importe", format: "currency" }],
+         masterDetail: {
+             enabled: true,
+             template: function (container, options) {
+                 var currentEmployeeData = options.data;
+                 console.log(currentEmployeeData)
+                 $("<div>")
+                     .addClass("master-detail-caption")
+                     .text("Detalle")
+                     .appendTo(container);
+                 $("<div>")
+                     .dxDataGrid({
+                         columnAutoWidth: true,
+                         showBorders: true,
+                         columns: ["Articulo", {
+                             dataField: "Cantidad",
+
+                         }, {
+                                 dataField: "Descripcion1",
+
+                             }, { dataField: "Precio", format: "currency" }, {
+                                 dataField: "Total",
+                                 format: "currency"
+                             }],
+                         summary: {
+                             totalItems: [{
+                                 column: "Total",
+                                 summaryType: "sum",
+                                 valueFormat: "currency",
+                                 displayFormat: "Total: {0}",
+                                 showInGroupFooter: true
+                             }, {
+                                 column: "Cantidad",
+                                 summaryType: "sum",
+                                 displayFormat: "Cantidad: {0}",
+                                 showInGroupFooter: true
+                             }]
+
+                         },
+                         dataSource: currentEmployeeData.Detalle
+                     }).appendTo(container);
+             }
+         },
+        loadPanel: {
+            enabled: true
+        },
+        searchPanel: {
+            visible: true,
+            width: 240,
+            placeholder: "Buscar..."
+        },
+        paging: {
+            pageSize: 10
+        },
+    })
+
+    function formatDate(date) {
+        var local = new Date(date);
+        local.setMinutes(date.getMinutes() - date.getTimezoneOffset());
+        return local.toJSON();
+    }
+
+    
+    function parseDateTime(date) {
+        var pattern = /Date\(([^)]+)\)/;
+        var results = pattern.exec(date);
+        return new Date(parseFloat(results[1]));
+    }
+
+
+    function aplicaFiltro() {
+
+
+        var fechaD = $("#fechad").dxDateBox("instance");
+        var fechaDValue = fechaD.option('value');
+        var fechaA = $("#fechaa").dxDateBox("instance");
+        var fechaAValue = fechaA.option('value');
+
+
+        if (fechaDValue == null) {
+            swal({
+                title: 'Error!',
+                html: 'Campo Fecha De.... Requerido!!!',
+                type: 'error',
+                confirmButtonText: 'OK!'
+            });
+        }
+        else if (fechaAValue == null) {
+            swal({
+                title: 'Error!',
+                html: 'Campo Fecha A.... Requerido!!!',
+                type: 'error',
+                confirmButtonText: 'OK!'
+            });
+        } else if (fechaDValue > fechaAValue) {
+            swal({
+                title: 'Error!',
+                html: 'El Campo Fecha De: no Puede ser Mayor a la Fecha A:!!!',
+                type: 'error',
+                confirmButtonText: 'OK!'
+            });
+        }else {
+
+            var FD = formatDate(fechaDValue);
+            var FA = formatDate(fechaAValue);
+            var valdata = {
+                FechaD: formatDate(fechaDValue),
+                FechaA: formatDate(fechaAValue)
+
+            };
+
+
+            $.getJSON("/ProductosPortal/ComprasConcluidas/", valdata,
+                function (data) {                 
+                    var result = $.map(data, function (item, index) {
+                        item.FechaEmision = FromJsonToDate(item.FechaEmision);
+                        return item;
+                    });     
+                    var dataGrid = $('#dgvFp').dxDataGrid('instance');
+                    dataGrid.option("dataSource", result);
+                });
+        }
+        function FromJsonToDate(value) {
+            return new Date(parseInt(value.replace('/Date(', '')));
+        }
+        
+    }
+   
+</script>
+

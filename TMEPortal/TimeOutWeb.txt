@@ -1,0 +1,1 @@
+((IObjectContextAdapter)this).ObjectContext.CommandTimeout = 120;
