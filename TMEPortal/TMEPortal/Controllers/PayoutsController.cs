@@ -78,6 +78,8 @@ namespace TMEPortal.Controllers
         // GET: Payouts
         public ActionResult Index()
         {
+            string id = Request.QueryString["q"];
+            ViewBag.pedido = id;
             return View();
         }
 
