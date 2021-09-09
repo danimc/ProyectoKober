@@ -8,9 +8,11 @@ using System.Web.Mvc;
 using Stripe.Checkout;
 using System.Web.Http;
 using Microsoft.AspNetCore.Mvc;
+using TMEPortal.DataContext;
 
 namespace TMEPortal.Controllers
-{
+{  
+
     public class CollectDetailsRequest
     {
         [JsonProperty("payment_method_id")]
@@ -29,6 +31,7 @@ namespace TMEPortal.Controllers
     [System.Web.Http.Route("/")]
     public class PayoutsController : Controller
     {
+        KoberEntities db = new KoberEntities();
 
         public PayoutsController()
         {
@@ -78,6 +81,8 @@ namespace TMEPortal.Controllers
         // GET: Payouts
         public ActionResult Index()
         {
+            
+
             return View();
         }
 
