@@ -8,6 +8,9 @@ using System.Web.Mvc;
 using Stripe.Checkout;
 using System.Web.Http;
 using Microsoft.AspNetCore.Mvc;
+using TMEPortal.DataContext;
+using System.Linq;
+using System;
 
 namespace TMEPortal.Controllers
 {
@@ -15,6 +18,8 @@ namespace TMEPortal.Controllers
     {
         [JsonProperty("payment_method_id")]
         public string PaymentMethodId { get; set; }
+ 
+        public string Pedido { get; set; }
     }
 
     public class ConfirmPaymentRequest
@@ -30,10 +35,24 @@ namespace TMEPortal.Controllers
     public class PayoutsController : Controller
     {
 
+        PayoutsEntities db = new PayoutsEntities();
+
         public PayoutsController()
         {
             StripeConfiguration.ApiKey =
                 "sk_test_51JPs4jHcWweoTFXWqVGuSxA8W8OAzS6c9N2IF6YDwiqy4lSGq1yjg5ayU0sBt3kR5Jo4NZ2EjxCe5pI8AX2lJT2v00khXvkPkq";
+        }
+
+        // GET: Payouts
+        public ActionResult Index()
+        {
+            string id = Request.QueryString["q"];
+
+            ViewBag.pedido = id;     
+
+           // return Json(pedidoID, JsonRequestBehavior.AllowGet);
+
+            return View();
         }
 
         [System.Web.Http.HttpPost()]
@@ -72,16 +91,7 @@ namespace TMEPortal.Controllers
 
             Response.Headers.Add("Location", session.Url);
             return new HttpStatusCodeResult(303);
-        }
-
-
-        // GET: Payouts
-        public ActionResult Index()
-        {
-            string id = Request.QueryString["q"];
-            ViewBag.pedido = id;
-            return View();
-        }
+        }       
 
         [System.Web.Http.HttpGet]
         public void Exito()
@@ -112,12 +122,17 @@ namespace TMEPortal.Controllers
 
         public async Task<ActionResult> Datos([FromBody] CollectDetailsRequest request)
         {
+            string id = request.Pedido;
+
+            var list = db.spMSIVentaDetalle(int.Parse(id)).First();
             var service = new PaymentIntentService();
             var options = new PaymentIntentCreateOptions
             {
-                Amount = 30000,
-                Currency = "mxn",
+                Amount = (long)list.VentaTotal,
+                Currency = list.MonedaV33,
                 PaymentMethodTypes = new List<string> { "card" },
+                StatementDescriptor = "Pago de pedido " + list.ID,
+                Description = list.ID.ToString(),
                 PaymentMethod = request.PaymentMethodId,
                 PaymentMethodOptions = new PaymentIntentPaymentMethodOptionsOptions
                 {
@@ -180,6 +195,10 @@ namespace TMEPortal.Controllers
 
                 var intent = await service.ConfirmAsync(request.PaymentIntentId, options);
 
+                // return Json(intent);
+
+                ValidarPedido(intent);
+
                 return Json(new
                 {
                     status = intent.Status,
@@ -191,6 +210,23 @@ namespace TMEPortal.Controllers
                 int estatus = (int)e.HttpStatusCode;
                 return Json(new { error = estatus, data = e.StripeError.Message });
             }
+        }
+
+        /**
+         * Verifica el pago mediante el Payment Intent
+         * */
+        private Boolean ValidarPedido(PaymentIntent intent)
+        {
+
+            if (intent.Status != "succeeded")
+            {
+                return false;
+            }
+
+            return true;
+
+
+
         }
     }
     
