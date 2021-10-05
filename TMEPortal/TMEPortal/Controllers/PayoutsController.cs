@@ -29,6 +29,10 @@ namespace TMEPortal.Controllers
 
         [JsonProperty("selected_plan")]
         public PaymentIntentPaymentMethodOptionsCardInstallmentsPlan SelectedPlan { get; set; }
+
+        public string Pedido { get; set; }
+
+
     }
 
     [System.Web.Http.Route("/")]
@@ -40,7 +44,7 @@ namespace TMEPortal.Controllers
         public PayoutsController()
         {
             StripeConfiguration.ApiKey =
-                "sk_test_51JPs4jHcWweoTFXWqVGuSxA8W8OAzS6c9N2IF6YDwiqy4lSGq1yjg5ayU0sBt3kR5Jo4NZ2EjxCe5pI8AX2lJT2v00khXvkPkq";
+                "sk_test_51JPs4jHcWweoTFXWqVGuSxA8W8OAzS6c9N2IF6YDwiqy4lSGq1yjg5ayU0sBt3kR5Jo4NZ2EjxCe5pI8AX2lJT2v00khXvkPkq";            
         }
 
         // GET: Payouts
@@ -195,14 +199,24 @@ namespace TMEPortal.Controllers
 
                 var intent = await service.ConfirmAsync(request.PaymentIntentId, options);
 
-                // return Json(intent);
+             //   pi_3Jgu52HcWweoTFXW0UUuV8sj
 
-                ValidarPedido(intent);
+               var PI = new PaymentIntentService();
+               var respuesta =  PI.Get(request.PaymentIntentId);             
 
-                return Json(new
+                var resp = ValidarPedido(respuesta, request.Pedido);
+
+                if (resp)
                 {
-                    status = intent.Status,
-                });
+                    return Json(new
+                    {
+                        status = intent.Status,
+                    });
+                }
+
+                 return Json(resp);
+
+             
             }
             catch (StripeException e)
             {
@@ -215,13 +229,34 @@ namespace TMEPortal.Controllers
         /**
          * Verifica el pago mediante el Payment Intent
          * */
-        private Boolean ValidarPedido(PaymentIntent intent)
+        public bool ValidarPedido(PaymentIntent Payment, string Pedido)
         {
 
-            if (intent.Status != "succeeded")
+           // var PI = new PaymentIntentService();
+           // var intent = PI.Get("pi_3Jgu52HcWweoTFXW0UUuV8sj");
+            var cargos = Payment.Charges.ToArray();
+              
+            if (Payment.Status != "succeeded")
             {
                 return false;
             }
+
+            // Obtiene los datos de la venta
+            var list = db.spMSIVentaDetalle(int.Parse(Pedido)).First();
+
+            var mov = list.Mov;
+            var movid = list.movid;
+
+            var importeTotal = Payment.Amount;
+            var nombreCliente = cargos[0].BillingDetails.Name;
+            var cp = cargos[0].BillingDetails.Address.PostalCode;
+            var last4 = int.Parse(cargos[0].PaymentMethodDetails.Card.Last4);
+            var anioExp = cargos[0].PaymentMethodDetails.Card.ExpYear;
+            var mesExp = cargos[0].PaymentMethodDetails.Card.ExpMonth;
+            var msi = 6; // cargos[0].PaymentMethodDetails.Card.
+            var referencia = Payment.Description;
+
+            db.spMSIRespuestaPago(1, mov, movid, null, list.Cliente, nombreCliente, cp, referencia, null, importeTotal, msi, last4, mesExp, anioExp, null); ;
 
             return true;
 
