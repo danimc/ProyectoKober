@@ -1,2 +1,0 @@
-/TMEPortal/.vs/
-TMEPortal/.vs/

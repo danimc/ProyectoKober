@@ -307,7 +307,7 @@
       <DependentUpon>KoberEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="DataContext\Art.cs">
-      <DependentUpon>KoberEntities.tt</DependentUpon>
+      <DependentUpon>Payouts.tt</DependentUpon>
     </Compile>
     <Compile Include="DataContext\CarritoDetalle.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
@@ -315,8 +315,11 @@
     <Compile Include="DataContext\CarritoEncabezado.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataContext\CFDVentaV33.cs">
+      <DependentUpon>Payouts.tt</DependentUpon>
+    </Compile>
     <Compile Include="DataContext\Cte.cs">
-      <DependentUpon>KoberEntities.tt</DependentUpon>
+      <DependentUpon>Payouts.tt</DependentUpon>
     </Compile>
     <Compile Include="DataContext\CteEnviarA.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
@@ -370,6 +373,9 @@
     <Compile Include="DataContext\Get_ClienteDet_Result.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataContext\KeySucursal.cs">
+      <DependentUpon>Payouts.tt</DependentUpon>
+    </Compile>
     <Compile Include="DataContext\KoberEntities.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -385,14 +391,35 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>KoberEntities.edmx</DependentUpon>
     </Compile>
+    <Compile Include="DataContext\Payouts.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Payouts.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataContext\Payouts.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Payouts.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataContext\Payouts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Payouts.edmx</DependentUpon>
+    </Compile>
     <Compile Include="DataContext\PedidoMedidasEstandar.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataContext\respuestaPagoMSI.cs">
+      <DependentUpon>Payouts.tt</DependentUpon>
     </Compile>
     <Compile Include="DataContext\spGetDetalleCarrito_Result.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="DataContext\spGetEncabezadoCarrito_Result.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataContext\spMSIVentaDetalle_Result.cs">
+      <DependentUpon>Payouts.tt</DependentUpon>
     </Compile>
     <Compile Include="DataContext\spPEdidoAfectado_Result.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
@@ -441,6 +468,12 @@
     </Compile>
     <Compile Include="DataContext\sp_GetSucursalesCliente_Result.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataContext\Venta.cs">
+      <DependentUpon>Payouts.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataContext\VentaD.cs">
+      <DependentUpon>Payouts.tt</DependentUpon>
     </Compile>
     <Compile Include="Global Objects\Message.cs" />
     <Compile Include="Global.asax.cs">
@@ -522,6 +555,16 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>KoberEntities.edmx</DependentUpon>
       <LastGenOutput>KoberEntities.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataContext\Payouts.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Payouts.edmx</DependentUpon>
+      <LastGenOutput>Payouts.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataContext\Payouts.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Payouts.edmx</DependentUpon>
+      <LastGenOutput>Payouts.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -1050,6 +1093,13 @@
     <Content Include="Content\icons\dxiconsios.ttf" />
     <Content Include="Content\icons\dxicons.woff" />
     <Content Include="Content\icons\dxicons.ttf" />
+    <EntityDeploy Include="DataContext\Payouts.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Payouts.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="DataContext\Payouts.edmx.diagram">
+      <DependentUpon>Payouts.edmx</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Scripts\bower_components\parallax.js-1.5.0\bower.json" />
     <Content Include="Scripts\bower_components\parallax.js-1.5.0\LICENSE" />

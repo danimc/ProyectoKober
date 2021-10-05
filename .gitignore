@@ -1,5 +1,5 @@
-/TMEPortal/.vs/
-
 TMEPortal/.vs/
-
-TMEPortal/TMEPortal/bin
+TMEPortal/TMEPortal/bin/
+TMEPortal/TMEPortal/obj/
+TMEPortal/TMEPortal.Tests/
+TMEPortal/packages/
