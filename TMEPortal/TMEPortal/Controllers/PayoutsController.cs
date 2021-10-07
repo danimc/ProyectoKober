@@ -50,10 +50,28 @@ namespace TMEPortal.Controllers
         // GET: Payouts
         public ActionResult Index()
         {
-            string id = Request.QueryString["q"];
+            string id = "1";
+            string suc = "0";
+            id = Request.QueryString["q"];
+            suc = Request.QueryString["suc"];  
+            
+            if(id == null)
+            {
+                return Json("Error");
+            }
+            if(suc == null)
+            {
+                return Json("Error");
+            }
+            var list = db.spMSIVentaDetalle(int.Parse(id)).First();
+            var sucursal = db.spMSKeySucursal(int.Parse(suc)).First();
+          
 
-            ViewBag.pedido = id;     
+           
 
+            ViewBag.pedido = id;
+            ViewBag.venta = list;
+            ViewBag.sucursal = suc;
            // return Json(pedidoID, JsonRequestBehavior.AllowGet);
 
             return View();
