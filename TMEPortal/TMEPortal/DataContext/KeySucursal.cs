@@ -18,5 +18,6 @@ namespace TMEPortal.DataContext
         public Nullable<int> sucursal { get; set; }
         public string nombre { get; set; }
         public string llave { get; set; }
+        public string llavePublica { get; set; }
     }
 }

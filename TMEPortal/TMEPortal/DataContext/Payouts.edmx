@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="PayEntitites.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="PayEntitites.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Art">
           <Key>
             <PropertyRef Name="Articulo" />
@@ -535,7 +535,7 @@
           <Property Name="SinISAN" Type="bit" Nullable="false" />
         </EntityType>
         <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.KeySucursal' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+advertencia 6002: La tabla o vista 'Demo.dbo.KeySucursal' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
         <EntityType Name="KeySucursal">
           <Key>
             <PropertyRef Name="id" />
@@ -544,9 +544,10 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.KeySucursal' no tiene d
           <Property Name="sucursal" Type="int" />
           <Property Name="nombre" Type="varchar" MaxLength="100" />
           <Property Name="llave" Type="varchar" MaxLength="255" />
+          <Property Name="llavePublica" Type="varchar" MaxLength="255" />
         </EntityType>
         <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.respuestaPagoMSI' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+advertencia 6002: La tabla o vista 'Demo.dbo.respuestaPagoMSI' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
         <EntityType Name="respuestaPagoMSI">
           <Key>
             <PropertyRef Name="id" />
@@ -567,6 +568,7 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.respuestaPagoMSI' no ti
           <Property Name="mesExp" Type="int" />
           <Property Name="anioExp" Type="int" />
           <Property Name="tipo" Type="varchar" MaxLength="30" />
+          <Property Name="paymentIntent" Type="varchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="Venta">
           <Key>
@@ -798,7 +800,6 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.respuestaPagoMSI' no ti
           <Property Name="OXMLID" Type="int" />
           <Property Name="DesarrolloOrigen" Type="int" />
           <Property Name="TmeRevisadoVConsig" Type="bit" />
-          <Property Name="TmeGeneroPed" Type="bit" />
         </EntityType>
         <EntityType Name="VentaD">
           <Key>
@@ -910,7 +911,7 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.respuestaPagoMSI' no ti
           <Property Name="Abc" Type="varchar" MaxLength="50" />
         </EntityType>
         <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
         <EntityType Name="CFDVentaV33">
           <Key>
             <PropertyRef Name="ID" />
@@ -998,7 +999,8 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
     [KeySucursal].[id] AS [id], 
     [KeySucursal].[sucursal] AS [sucursal], 
     [KeySucursal].[nombre] AS [nombre], 
-    [KeySucursal].[llave] AS [llave]
+    [KeySucursal].[llave] AS [llave], 
+    [KeySucursal].[llavePublica] AS [llavePublica]
     FROM [dbo].[KeySucursal] AS [KeySucursal]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="respuestaPagoMSI" EntityType="Self.respuestaPagoMSI" store:Type="Tables" store:Schema="dbo">
@@ -1018,7 +1020,8 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
     [respuestaPagoMSI].[last4] AS [last4], 
     [respuestaPagoMSI].[mesExp] AS [mesExp], 
     [respuestaPagoMSI].[anioExp] AS [anioExp], 
-    [respuestaPagoMSI].[tipo] AS [tipo]
+    [respuestaPagoMSI].[tipo] AS [tipo], 
+    [respuestaPagoMSI].[paymentIntent] AS [paymentIntent]
     FROM [dbo].[respuestaPagoMSI] AS [respuestaPagoMSI]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="CFDVentaV33" EntityType="Self.CFDVentaV33" store:Type="Views" store:Schema="dbo">
@@ -1073,8 +1076,7 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
     FROM [dbo].[CFDVentaV33] AS [CFDVentaV33]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="PayEntitites" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -1956,6 +1958,7 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
           <Property Name="sucursal" Type="Int32" />
           <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="llave" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="llavePublica" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="respuestaPagoMSI">
           <Key>
@@ -1977,6 +1980,7 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
           <Property Name="mesExp" Type="Int32" />
           <Property Name="anioExp" Type="Int32" />
           <Property Name="tipo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="paymentIntent" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="CFDVentaV33">
           <Key>
@@ -2058,10 +2062,10 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
             <Parameter Name="tipo" Mode="In" Type="String" />
           </FunctionImport>
           <FunctionImport Name="spMSIVentaDetalle" ReturnType="Collection(PayEntitites.spMSIVentaDetalle_Result)">
-            <Parameter Name="id" Mode="In" Type="Int32" />
+          <Parameter Name="id" Mode="In" Type="Int32" />
           </FunctionImport>
           <FunctionImport Name="spMSKeySucursal" ReturnType="Collection(String)">
-            <Parameter Name="suc" Mode="In" Type="Int32" />
+          <Parameter Name="suc" Mode="In" Type="Int32" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="spMSIVentaDetalle_Result">
@@ -2851,7 +2855,6 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
                 <ScalarProperty Name="OXMLID" ColumnName="OXMLID" />
                 <ScalarProperty Name="DesarrolloOrigen" ColumnName="DesarrolloOrigen" />
                 <ScalarProperty Name="TmeRevisadoVConsig" ColumnName="TmeRevisadoVConsig" />
-                <ScalarProperty Name="TmeGeneroPed" ColumnName="TmeGeneroPed" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -2966,6 +2969,7 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
           <EntitySetMapping Name="KeySucursal">
             <EntityTypeMapping TypeName="PayEntitites.KeySucursal">
               <MappingFragment StoreEntitySet="KeySucursal">
+                <ScalarProperty Name="llavePublica" ColumnName="llavePublica" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="sucursal" ColumnName="sucursal" />
                 <ScalarProperty Name="nombre" ColumnName="nombre" />
@@ -2976,6 +2980,7 @@ advertencia 6002: La tabla o vista 'IntelisisTesting.dbo.CFDVentaV33' no tiene d
           <EntitySetMapping Name="respuestaPagoMSI">
             <EntityTypeMapping TypeName="PayEntitites.respuestaPagoMSI">
               <MappingFragment StoreEntitySet="respuestaPagoMSI">
+                <ScalarProperty Name="paymentIntent" ColumnName="paymentIntent" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="ModuloID" ColumnName="ModuloID" />
                 <ScalarProperty Name="mov" ColumnName="mov" />

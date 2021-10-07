@@ -30,5 +30,6 @@ namespace TMEPortal.DataContext
         public Nullable<int> mesExp { get; set; }
         public Nullable<int> anioExp { get; set; }
         public string tipo { get; set; }
+        public string paymentIntent { get; set; }
     }
 }
