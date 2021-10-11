@@ -2064,8 +2064,8 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
           <FunctionImport Name="spMSIVentaDetalle" ReturnType="Collection(PayEntitites.spMSIVentaDetalle_Result)">
           <Parameter Name="id" Mode="In" Type="Int32" />
           </FunctionImport>
-          <FunctionImport Name="spMSKeySucursal" ReturnType="Collection(String)">
-          <Parameter Name="suc" Mode="In" Type="Int32" />
+          <FunctionImport Name="spMSKeySucursal" ReturnType="Collection(PayEntitites.spMSKeySucursal_Result)">
+            <Parameter Name="suc" Mode="In" Type="Int32" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="spMSIVentaDetalle_Result">
@@ -2088,6 +2088,11 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
           <Property Type="String" Name="CodigoPostal" Nullable="true" MaxLength="15" />
           <Property Type="String" Name="Poblacion" Nullable="true" MaxLength="100" />
           <Property Type="String" Name="Estado" Nullable="true" MaxLength="30" />
+        </ComplexType>
+        <ComplexType Name="spMSKeySucursal_Result">
+          <Property Type="String" Name="llave" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="llavePublica" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="nombre" Nullable="true" MaxLength="100" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -3079,7 +3084,15 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="spMSKeySucursal" FunctionName="PayEntitites.Store.spMSKeySucursal" />
+          <FunctionImportMapping FunctionImportName="spMSKeySucursal" FunctionName="PayEntitites.Store.spMSKeySucursal">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PayEntitites.spMSKeySucursal_Result">
+                <ScalarProperty Name="llave" ColumnName="llave" />
+                <ScalarProperty Name="llavePublica" ColumnName="llavePublica" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

@@ -421,6 +421,9 @@
     <Compile Include="DataContext\spMSIVentaDetalle_Result.cs">
       <DependentUpon>Payouts.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataContext\spMSKeySucursal_Result.cs">
+      <DependentUpon>Payouts.tt</DependentUpon>
+    </Compile>
     <Compile Include="DataContext\spPEdidoAfectado_Result.cs">
       <DependentUpon>KoberEntities.tt</DependentUpon>
     </Compile>

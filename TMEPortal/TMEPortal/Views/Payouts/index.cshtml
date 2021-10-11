@@ -40,7 +40,7 @@
                                 </tr>
                                 <tr>
                                     <td>Sucursal:</td>
-                                    <td align="center" width="50%"><b>@ViewBag.sucursal</b></td>
+                                    <td align="center" width="50%"><b>@ViewBag.sucursal.nombre</b></td>
                                 </tr>
                                 <tr>
                                     <td>Cliente:</td>
@@ -139,9 +139,7 @@
 
 
 <script>
-    var stripe = Stripe(
-        'pk_test_51JPs4jHcWweoTFXWWWHI2yR5TU9qi4OApPXuhS3OrpddoVaKq4WgoObJfM3Gav7iyMucu5RhfA1hRwwvCd5bojxY00lKYkK3L6'
-    );
+    var stripe = Stripe("@ViewBag.sucursal.llavePublica ");
     var elements = stripe.elements();
     var style = {
         base: {

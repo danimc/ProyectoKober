@@ -43,8 +43,8 @@ namespace TMEPortal.Controllers
 
         public PayoutsController()
         {
-            StripeConfiguration.ApiKey =
-                "sk_test_51JPs4jHcWweoTFXWqVGuSxA8W8OAzS6c9N2IF6YDwiqy4lSGq1yjg5ayU0sBt3kR5Jo4NZ2EjxCe5pI8AX2lJT2v00khXvkPkq";            
+          //  StripeConfiguration.ApiKey =
+          //      "sk_test_51JPs4jHcWweoTFXWqVGuSxA8W8OAzS6c9N2IF6YDwiqy4lSGq1yjg5ayU0sBt3kR5Jo4NZ2EjxCe5pI8AX2lJT2v00khXvkPkq";            
         }
 
         // GET: Payouts
@@ -64,14 +64,13 @@ namespace TMEPortal.Controllers
                 return Json("Error");
             }
             var list = db.spMSIVentaDetalle(int.Parse(id)).First();
-            var sucursal = db.spMSKeySucursal(int.Parse(suc)).First();
-          
+            spMSKeySucursal_Result sucursal = db.spMSKeySucursal(int.Parse(suc)).First();
 
-           
+            StripeConfiguration.ApiKey = sucursal.llave;
 
             ViewBag.pedido = id;
             ViewBag.venta = list;
-            ViewBag.sucursal = suc;
+            ViewBag.sucursal = sucursal;
            // return Json(pedidoID, JsonRequestBehavior.AllowGet);
 
             return View();
@@ -269,8 +268,8 @@ namespace TMEPortal.Controllers
             var nombreCliente = cargos[0].BillingDetails.Name;
             var cp = cargos[0].BillingDetails.Address.PostalCode;
             var last4 = int.Parse(cargos[0].PaymentMethodDetails.Card.Last4);
-            var anioExp = cargos[0].PaymentMethodDetails.Card.ExpYear;
-            var mesExp = cargos[0].PaymentMethodDetails.Card.ExpMonth;
+            var anioExp =(int) cargos[0].PaymentMethodDetails.Card.ExpYear;
+            var mesExp = (int)cargos[0].PaymentMethodDetails.Card.ExpMonth;
             var msi = 6; // cargos[0].PaymentMethodDetails.Card.
             var referencia = Payment.Description;
 
