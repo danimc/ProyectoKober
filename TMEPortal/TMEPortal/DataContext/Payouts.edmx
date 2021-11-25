@@ -2061,11 +2061,11 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
             <Parameter Name="anioExp" Mode="In" Type="Int32" />
             <Parameter Name="tipo" Mode="In" Type="String" />
           </FunctionImport>
-          <FunctionImport Name="spMSIVentaDetalle" ReturnType="Collection(PayEntitites.spMSIVentaDetalle_Result)">
-          <Parameter Name="id" Mode="In" Type="Int32" />
-          </FunctionImport>
           <FunctionImport Name="spMSKeySucursal" ReturnType="Collection(PayEntitites.spMSKeySucursal_Result)">
-            <Parameter Name="suc" Mode="In" Type="Int32" />
+          <Parameter Name="suc" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="spMSIVentaDetalle" ReturnType="Collection(PayEntitites.spMSIVentaDetalle_Result1)">
+            <Parameter Name="id" Mode="In" Type="Int32" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="spMSIVentaDetalle_Result">
@@ -2093,6 +2093,28 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
           <Property Type="String" Name="llave" Nullable="true" MaxLength="255" />
           <Property Type="String" Name="llavePublica" Nullable="true" MaxLength="255" />
           <Property Type="String" Name="nombre" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="spMSIVentaDetalle_Result1">
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Mov" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="movid" Nullable="true" MaxLength="20" />
+          <Property Type="Double" Name="VentaSubTotal" Nullable="true" />
+          <Property Type="Double" Name="Descuento" Nullable="false" />
+          <Property Type="Double" Name="VentaTotal" Nullable="true" />
+          <Property Type="String" Name="MonedaV33" Nullable="true" MaxLength="3" />
+          <Property Type="String" Name="Articulo" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
+          <Property Type="Double" Name="Cantidad" Nullable="true" />
+          <Property Type="String" Name="Cliente" Nullable="false" MaxLength="10" />
+          <Property Type="String" Name="Nombre" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="RFC" Nullable="true" MaxLength="15" />
+          <Property Type="String" Name="eMail1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Telefonos" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Direccion" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="CodigoPostal" Nullable="true" MaxLength="15" />
+          <Property Type="String" Name="Poblacion" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Estado" Nullable="true" MaxLength="30" />
+          <Property Type="Int32" Name="Sucursal" Nullable="false" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -3059,9 +3081,18 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
             </EntityTypeMapping>
           </EntitySetMapping>
           <FunctionImportMapping FunctionImportName="spMSIRespuestaPago" FunctionName="PayEntitites.Store.spMSIRespuestaPago" />
+          <FunctionImportMapping FunctionImportName="spMSKeySucursal" FunctionName="PayEntitites.Store.spMSKeySucursal">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PayEntitites.spMSKeySucursal_Result">
+                <ScalarProperty Name="llave" ColumnName="llave" />
+                <ScalarProperty Name="llavePublica" ColumnName="llavePublica" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
           <FunctionImportMapping FunctionImportName="spMSIVentaDetalle" FunctionName="PayEntitites.Store.spMSIVentaDetalle">
             <ResultMapping>
-              <ComplexTypeMapping TypeName="PayEntitites.spMSIVentaDetalle_Result">
+              <ComplexTypeMapping TypeName="PayEntitites.spMSIVentaDetalle_Result1">
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Mov" ColumnName="Mov" />
                 <ScalarProperty Name="movid" ColumnName="movid" />
@@ -3081,15 +3112,7 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
                 <ScalarProperty Name="CodigoPostal" ColumnName="CodigoPostal" />
                 <ScalarProperty Name="Poblacion" ColumnName="Poblacion" />
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="spMSKeySucursal" FunctionName="PayEntitites.Store.spMSKeySucursal">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="PayEntitites.spMSKeySucursal_Result">
-                <ScalarProperty Name="llave" ColumnName="llave" />
-                <ScalarProperty Name="llavePublica" ColumnName="llavePublica" />
-                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

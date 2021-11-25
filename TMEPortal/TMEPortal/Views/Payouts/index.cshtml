@@ -263,6 +263,12 @@
         document.getElementById('result').hidden = false;
 
         var message;
+
+        var action = responseJson;
+        console.log(action);
+        if (action && action.type === 'redirect_to_url') {
+            window.location = action.redirect_to_url.url;
+        }
         if (responseJson.status === "succeeded" && selectedPlan !== undefined) {
             console.log(selectedPlan);
             message = `Exito! el pago se difirió a : ${selectedPlan.Count

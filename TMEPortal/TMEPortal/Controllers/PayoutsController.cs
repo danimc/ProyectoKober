@@ -50,21 +50,18 @@ namespace TMEPortal.Controllers
         // GET: Payouts
         public ActionResult Index()
         {
-            string id = "1";
-            string suc = "0";
+            string id = "1"; 
             id = Request.QueryString["q"];
-            suc = Request.QueryString["suc"];  
+
+            
             
             if(id == null)
             {
                 return Json("Error");
             }
-            if(suc == null)
-            {
-                return Json("Error");
-            }
+         
             var list = db.spMSIVentaDetalle(int.Parse(id)).First();
-            spMSKeySucursal_Result sucursal = db.spMSKeySucursal(int.Parse(suc)).First();
+            spMSKeySucursal_Result sucursal = db.spMSKeySucursal(list.Sucursal).FirstOrDefault();
 
             StripeConfiguration.ApiKey = sucursal.llave;
 
@@ -146,10 +143,12 @@ namespace TMEPortal.Controllers
             string id = request.Pedido;
 
             var list = db.spMSIVentaDetalle(int.Parse(id)).First();
+            string amount = list.VentaTotal.ToString();
+            string clearAmount = amount.Replace(",", "");
             var service = new PaymentIntentService();
             var options = new PaymentIntentCreateOptions
             {
-                Amount = (long)list.VentaTotal,
+                Amount = long.Parse(clearAmount),
                 Currency = list.MonedaV33,
                 PaymentMethodTypes = new List<string> { "card" },
                 StatementDescriptor = "Pago de pedido " + list.ID,
@@ -219,7 +218,12 @@ namespace TMEPortal.Controllers
              //   pi_3Jgu52HcWweoTFXW0UUuV8sj
 
                var PI = new PaymentIntentService();
-               var respuesta =  PI.Get(request.PaymentIntentId);             
+
+              
+               var respuesta =  PI.Get(request.PaymentIntentId);
+                var stripeResp = respuesta.StripeResponse.Content;
+                return Json(stripeResp);
+               
 
                 var resp = ValidarPedido(respuesta, request.Pedido);
 
@@ -249,10 +253,10 @@ namespace TMEPortal.Controllers
         public bool ValidarPedido(PaymentIntent Payment, string Pedido)
         {
 
-           // var PI = new PaymentIntentService();
-           // var intent = PI.Get("pi_3Jgu52HcWweoTFXW0UUuV8sj");
+            // var PI = new PaymentIntentService();
+            // var intent = PI.Get("pi_3Jgu52HcWweoTFXW0UUuV8sj");
             var cargos = Payment.Charges.ToArray();
-              
+
             if (Payment.Status != "succeeded")
             {
                 return false;
@@ -261,19 +265,19 @@ namespace TMEPortal.Controllers
             // Obtiene los datos de la venta
             var list = db.spMSIVentaDetalle(int.Parse(Pedido)).First();
 
-            var mov = list.Mov;
-            var movid = list.movid;
-
-            var importeTotal = Payment.Amount;
+            long importeTotal = Payment.Amount;
             var nombreCliente = cargos[0].BillingDetails.Name;
             var cp = cargos[0].BillingDetails.Address.PostalCode;
             var last4 = int.Parse(cargos[0].PaymentMethodDetails.Card.Last4);
-            var anioExp =(int) cargos[0].PaymentMethodDetails.Card.ExpYear;
+            var anioExp = (int)cargos[0].PaymentMethodDetails.Card.ExpYear;
             var mesExp = (int)cargos[0].PaymentMethodDetails.Card.ExpMonth;
-            var msi = 6; // cargos[0].PaymentMethodDetails.Card.
-            var referencia = Payment.Description;
+            var tipo = cargos[0].PaymentMethodDetails.Card.Network;
+            int msi = (int)cargos[0].PaymentMethodDetails.Card.Installments.Plan.Count; // cargos[0].PaymentMethodDetails.Card.
+            DateTime now = DateTime.Now;
 
-            db.spMSIRespuestaPago(1, mov, movid, null, list.Cliente, nombreCliente, cp, referencia, null, importeTotal, msi, last4, mesExp, anioExp, null); ;
+            var referencia = Payment.Id;
+
+            db.spMSIRespuestaPago(int.Parse(Pedido), list.Mov, list.movid, list.Sucursal, list.Cliente, nombreCliente, cp, referencia,now , importeTotal, msi, last4, mesExp, anioExp, tipo); ;
 
             return true;
 
