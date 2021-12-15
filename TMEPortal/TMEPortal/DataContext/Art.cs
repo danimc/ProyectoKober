@@ -15,7 +15,6 @@ namespace TMEPortal.DataContext
     public partial class Art
     {
         public string Articulo { get; set; }
-        public string Rama { get; set; }
         public string Descripcion1 { get; set; }
         public string Descripcion2 { get; set; }
         public string NombreCorto { get; set; }
@@ -23,33 +22,24 @@ namespace TMEPortal.DataContext
         public string Categoria { get; set; }
         public string CategoriaActivoFijo { get; set; }
         public string Familia { get; set; }
-        public string Linea { get; set; }
         public string Fabricante { get; set; }
         public string ClaveFabricante { get; set; }
         public double Impuesto1 { get; set; }
         public Nullable<double> Impuesto2 { get; set; }
-        public Nullable<decimal> Impuesto3 { get; set; }
         public string Factor { get; set; }
         public string Unidad { get; set; }
-        public string UnidadCompra { get; set; }
-        public string UnidadTraspaso { get; set; }
-        public Nullable<double> UnidadCantidad { get; set; }
         public string TipoCosteo { get; set; }
         public Nullable<double> Peso { get; set; }
         public Nullable<double> Tara { get; set; }
         public Nullable<double> Volumen { get; set; }
         public string Tipo { get; set; }
-        public string TipoOpcion { get; set; }
         public bool Accesorios { get; set; }
         public bool Refacciones { get; set; }
         public bool Sustitutos { get; set; }
-        public Nullable<bool> Servicios { get; set; }
-        public Nullable<bool> Consumibles { get; set; }
         public string MonedaCosto { get; set; }
         public string MonedaPrecio { get; set; }
         public Nullable<decimal> MargenMinimo { get; set; }
         public Nullable<decimal> PrecioLista { get; set; }
-        public Nullable<decimal> PrecioMinimo { get; set; }
         public Nullable<double> FactorAlterno { get; set; }
         public Nullable<decimal> PrecioAnterior { get; set; }
         public string Utilidad { get; set; }
@@ -63,70 +53,81 @@ namespace TMEPortal.DataContext
         public string Comision { get; set; }
         public string Arancel { get; set; }
         public string ABC { get; set; }
-        public string Usuario { get; set; }
         public Nullable<decimal> Precio2 { get; set; }
         public Nullable<decimal> Precio3 { get; set; }
         public Nullable<decimal> Precio4 { get; set; }
         public Nullable<decimal> Precio5 { get; set; }
+        public bool ProdOpciones { get; set; }
+        public bool SeProduce { get; set; }
+        public bool Refrigeracion { get; set; }
+        public bool TieneCaducidad { get; set; }
+        public Nullable<decimal> Precio10 { get; set; }
+        public Nullable<decimal> PrecioMinimo { get; set; }
+        public string UnidadCompra { get; set; }
+        public Nullable<decimal> Impuesto3 { get; set; }
         public Nullable<decimal> Precio6 { get; set; }
         public Nullable<decimal> Precio7 { get; set; }
         public Nullable<decimal> Precio8 { get; set; }
         public Nullable<decimal> Precio9 { get; set; }
-        public Nullable<decimal> Precio10 { get; set; }
-        public bool Refrigeracion { get; set; }
-        public bool TieneCaducidad { get; set; }
-        public Nullable<bool> BasculaPesar { get; set; }
-        public bool SeProduce { get; set; }
-        public string Situacion { get; set; }
-        public Nullable<System.DateTime> SituacionFecha { get; set; }
-        public string EstatusPrecio { get; set; }
-        public Nullable<bool> wMostrar { get; set; }
-        public Nullable<double> Merma { get; set; }
-        public Nullable<double> Desperdicio { get; set; }
-        public Nullable<bool> SeCompra { get; set; }
-        public Nullable<bool> SeVende { get; set; }
-        public Nullable<bool> EsFormula { get; set; }
-        public Nullable<int> TiempoEntrega { get; set; }
-        public string TiempoEntregaUnidad { get; set; }
-        public Nullable<int> TiempoEntregaSeg { get; set; }
-        public string TiempoEntregaSegUnidad { get; set; }
-        public string LoteOrdenar { get; set; }
-        public Nullable<double> CantidadOrdenar { get; set; }
-        public Nullable<double> MultiplosOrdenar { get; set; }
-        public Nullable<double> InvSeguridad { get; set; }
-        public string ProdRuta { get; set; }
-        public string AlmacenROP { get; set; }
         public string CategoriaProd { get; set; }
         public Nullable<double> ProdCantidad { get; set; }
+        public string ProdUnidad { get; set; }
         public string ProdUsuario { get; set; }
         public Nullable<int> ProdPasoTotal { get; set; }
+        public string ProdMov { get; set; }
+        public Nullable<bool> ProdVerConcentracion { get; set; }
+        public string Rama { get; set; }
         public string ProdMovGrupo { get; set; }
         public string ProdEstacion { get; set; }
-        public bool ProdOpciones { get; set; }
-        public Nullable<bool> ProdVerConcentracion { get; set; }
+        public Nullable<bool> wMostrar { get; set; }
+        public Nullable<int> TiempoEntrega { get; set; }
+        public string TiempoEntregaUnidad { get; set; }
+        public Nullable<double> Merma { get; set; }
+        public string Usuario { get; set; }
+        public Nullable<double> CantidadOrdenar { get; set; }
+        public string ProdRuta { get; set; }
+        public Nullable<bool> SeCompra { get; set; }
+        public Nullable<bool> SeVende { get; set; }
+        public Nullable<double> InvSeguridad { get; set; }
+        public string LoteOrdenar { get; set; }
+        public Nullable<double> MultiplosOrdenar { get; set; }
+        public Nullable<double> Desperdicio { get; set; }
+        public Nullable<bool> EsFormula { get; set; }
         public Nullable<bool> ProdVerCostoAcumulado { get; set; }
         public Nullable<bool> ProdVerMerma { get; set; }
         public Nullable<bool> ProdVerDesperdicio { get; set; }
-        public Nullable<bool> ProdVerPorcentaje { get; set; }
         public Nullable<System.DateTime> RevisionUltima { get; set; }
         public string RevisionUsuario { get; set; }
         public Nullable<int> RevisionFrecuencia { get; set; }
         public string RevisionFrecuenciaUnidad { get; set; }
         public Nullable<System.DateTime> RevisionSiguiente { get; set; }
-        public string ProdMov { get; set; }
+        public string TipoOpcion { get; set; }
+        public Nullable<int> TiempoEntregaSeg { get; set; }
+        public string TiempoEntregaSegUnidad { get; set; }
+        public string Situacion { get; set; }
+        public Nullable<System.DateTime> SituacionFecha { get; set; }
+        public string EstatusPrecio { get; set; }
+        public Nullable<bool> Servicios { get; set; }
+        public Nullable<bool> Consumibles { get; set; }
+        public Nullable<double> UnidadCantidad { get; set; }
+        public string Linea { get; set; }
         public string TipoCompra { get; set; }
         public Nullable<bool> TieneMovimientos { get; set; }
+        public byte[] SincroID { get; set; }
+        public Nullable<int> SincroC { get; set; }
+        public string AlmacenROP { get; set; }
+        public Nullable<decimal> CostoEstandar { get; set; }
+        public Nullable<decimal> CostoReposicion { get; set; }
+        public string EstatusCosto { get; set; }
+        public Nullable<decimal> Margen { get; set; }
         public string Registro1 { get; set; }
         public Nullable<System.DateTime> Registro1Vencimiento { get; set; }
         public string AlmacenEspecificoVenta { get; set; }
         public string AlmacenEspecificoVentaMov { get; set; }
         public string RutaDistribucion { get; set; }
-        public Nullable<decimal> CostoEstandar { get; set; }
-        public Nullable<decimal> CostoReposicion { get; set; }
-        public string EstatusCosto { get; set; }
-        public Nullable<decimal> Margen { get; set; }
         public string Proveedor { get; set; }
         public string NivelAcceso { get; set; }
+        public Nullable<bool> ProdVerPorcentaje { get; set; }
         public string Temporada { get; set; }
         public Nullable<bool> SolicitarPrecios { get; set; }
         public string AutoRecaudacion { get; set; }
@@ -135,16 +136,16 @@ namespace TMEPortal.DataContext
         public Nullable<double> Retencion1 { get; set; }
         public Nullable<double> Retencion2 { get; set; }
         public Nullable<bool> Espacios { get; set; }
-        public Nullable<bool> EspaciosEspecificos { get; set; }
         public Nullable<double> EspaciosSobreventa { get; set; }
         public string EspaciosNivel { get; set; }
         public Nullable<int> EspaciosMinutos { get; set; }
         public Nullable<bool> EspaciosBloquearAnteriores { get; set; }
         public string EspaciosHoraD { get; set; }
         public string EspaciosHoraA { get; set; }
+        public Nullable<bool> EspaciosEspecificos { get; set; }
+        public Nullable<bool> BasculaPesar { get; set; }
         public Nullable<bool> SerieLoteInfo { get; set; }
         public Nullable<double> CantidadMinimaVenta { get; set; }
-        public Nullable<double> CantidadMaximaVenta { get; set; }
         public Nullable<double> EstimuloFiscal { get; set; }
         public string OrigenPais { get; set; }
         public string OrigenLocalidad { get; set; }
@@ -153,23 +154,27 @@ namespace TMEPortal.DataContext
         public Nullable<double> Horas { get; set; }
         public Nullable<bool> ISAN { get; set; }
         public Nullable<bool> ExcluirDescFormaPago { get; set; }
+        public Nullable<bool> CubreSeguro { get; set; }
         public Nullable<bool> EsDeducible { get; set; }
+        public Nullable<double> CantidadMaximaVenta { get; set; }
         public Nullable<decimal> Peaje { get; set; }
         public string CodigoAlterno { get; set; }
         public string TipoCatalogo { get; set; }
         public Nullable<bool> AnexosAlFacturar { get; set; }
         public Nullable<int> CaducidadMinima { get; set; }
+        public Nullable<bool> LotesFijos { get; set; }
         public Nullable<bool> Actividades { get; set; }
         public string ValidarPresupuestoCompra { get; set; }
         public string SeriesLotesAutoOrden { get; set; }
-        public Nullable<bool> LotesFijos { get; set; }
+        public string UnidadTraspaso { get; set; }
         public Nullable<bool> LotesAuto { get; set; }
         public Nullable<int> Consecutivo { get; set; }
         public string TipoEmpaque { get; set; }
         public string Modelo { get; set; }
         public string Version { get; set; }
-        public byte[] SincroID { get; set; }
-        public Nullable<int> SincroC { get; set; }
+        public Nullable<bool> Impuesto1Excento { get; set; }
+        public Nullable<bool> Excento2 { get; set; }
+        public Nullable<bool> Excento3 { get; set; }
         public Nullable<bool> TieneDireccion { get; set; }
         public string Direccion { get; set; }
         public string DireccionNumero { get; set; }
@@ -210,15 +215,15 @@ namespace TMEPortal.DataContext
         public string SituacionUsuario { get; set; }
         public string SituacionNota { get; set; }
         public string DireccionNumeroInt { get; set; }
-        public Nullable<bool> Impuesto1Excento { get; set; }
         public string TMEClasificacion { get; set; }
         public string TMECodigoAlterno { get; set; }
         public Nullable<int> TMETiempoEntregaDF { get; set; }
         public Nullable<int> TMETiempoEntregaMK { get; set; }
         public string TMESubFamilia { get; set; }
-        public string TMEClasfLam { get; set; }
+        public string TMEws_id { get; set; }
+        public string TMEws_status { get; set; }
         public string TMEMonedaCompra { get; set; }
-        public string TMESubMarca { get; set; }
+        public string TMESubmarca { get; set; }
         public string TMETipo { get; set; }
         public string TMELinea { get; set; }
         public string TMECodigoProv { get; set; }
@@ -236,6 +241,7 @@ namespace TMEPortal.DataContext
         public Nullable<int> TMETAOpc3 { get; set; }
         public Nullable<bool> TMETAOpc4 { get; set; }
         public Nullable<int> TMETAOpc5 { get; set; }
+        public string TMEClasfLam { get; set; }
         public string TMECodigoLowe { get; set; }
         public string TMEMaterial { get; set; }
         public Nullable<int> TMECalibre { get; set; }
@@ -243,11 +249,17 @@ namespace TMEPortal.DataContext
         public string TMETAOpc6 { get; set; }
         public Nullable<int> TMETAOpc7 { get; set; }
         public Nullable<int> TMETAOpc8 { get; set; }
+        public Nullable<bool> TMEHiDef { get; set; }
+        public string TMERutaApp { get; set; }
         public Nullable<int> TMEMedidaInt { get; set; }
         public Nullable<int> TMEMedidaExt { get; set; }
+        public string TMEEscurrideroOrientacion { get; set; }
         public Nullable<int> TMEGabinete { get; set; }
         public string TMEColor { get; set; }
+        public string TMEGrupo { get; set; }
         public decimal TMEGeneracion { get; set; }
+        public string TMETipoCub { get; set; }
+        public string TMEDivision { get; set; }
         public string TMEModelo { get; set; }
         public string TMESubModelo { get; set; }
         public string TMEAncho { get; set; }
@@ -261,9 +273,8 @@ namespace TMEPortal.DataContext
         public string TMEAnodizado { get; set; }
         public Nullable<int> TMEEdicion { get; set; }
         public Nullable<int> TMECorreccion { get; set; }
-        public string TmeGrupo { get; set; }
-        public string TmeTipoCub { get; set; }
-        public string TmeDivision { get; set; }
+        public string TMETaImagen { get; set; }
+        public Nullable<bool> ActivoApp { get; set; }
         public string TipoImpuesto1 { get; set; }
         public string TipoImpuesto2 { get; set; }
         public string TipoImpuesto3 { get; set; }
@@ -272,13 +283,19 @@ namespace TMEPortal.DataContext
         public string TipoRetencion1 { get; set; }
         public string TipoRetencion2 { get; set; }
         public string TipoRetencion3 { get; set; }
-        public bool Excento2 { get; set; }
-        public bool Excento3 { get; set; }
+        public Nullable<bool> ProdMermaEspecial { get; set; }
+        public Nullable<double> ProdTamanoLote { get; set; }
+        public string Invd { get; set; }
+        public string TmeEstatusG { get; set; }
+        public string TmeEstatusM { get; set; }
+        public string TmeEstatusL { get; set; }
+        public string TmeEstatusD { get; set; }
         public string TMEAnchoExacto { get; set; }
         public string TMELargoExacto { get; set; }
         public string TMEBorde { get; set; }
         public Nullable<int> TMETiempoEntrega { get; set; }
         public Nullable<decimal> TmeCosto { get; set; }
         public Nullable<decimal> TmeCosto112020 { get; set; }
+        public Nullable<bool> msi { get; set; }
     }
 }

@@ -240,6 +240,5 @@ namespace TMEPortal.DataContext
         public Nullable<int> OXMLID { get; set; }
         public Nullable<int> DesarrolloOrigen { get; set; }
         public Nullable<bool> TmeRevisadoVConsig { get; set; }
-        public Nullable<bool> TmeGeneroPed { get; set; }
     }
 }

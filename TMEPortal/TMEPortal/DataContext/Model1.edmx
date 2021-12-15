@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="PayEntitites.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="PagosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Art">
           <Key>
             <PropertyRef Name="Articulo" />
@@ -291,6 +291,7 @@
           <Property Name="TMETiempoEntrega" Type="int" />
           <Property Name="TmeCosto" Type="decimal" Precision="8" Scale="2" />
           <Property Name="TmeCosto112020" Type="decimal" Precision="8" Scale="2" />
+          <Property Name="msi" Type="bit" />
         </EntityType>
         <EntityType Name="Cte">
           <Key>
@@ -534,8 +535,6 @@
           <Property Name="webEstilo" Type="bit" />
           <Property Name="SinISAN" Type="bit" Nullable="false" />
         </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'Demo.dbo.KeySucursal' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
         <EntityType Name="KeySucursal">
           <Key>
             <PropertyRef Name="id" />
@@ -543,32 +542,8 @@ advertencia 6002: La tabla o vista 'Demo.dbo.KeySucursal' no tiene definida ning
           <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="sucursal" Type="int" />
           <Property Name="nombre" Type="varchar" MaxLength="100" />
-          <Property Name="llave" Type="varchar" MaxLength="255" />
-          <Property Name="llavePublica" Type="varchar" MaxLength="255" />
-        </EntityType>
-        <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'Demo.dbo.respuestaPagoMSI' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
-        <EntityType Name="respuestaPagoMSI">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="ModuloID" Type="int" />
-          <Property Name="mov" Type="varchar" MaxLength="30" />
-          <Property Name="movid" Type="varchar" MaxLength="30" />
-          <Property Name="sucursal" Type="int" />
-          <Property Name="cliente" Type="varchar" MaxLength="10" />
-          <Property Name="nombreCliente" Type="varchar" MaxLength="100" />
-          <Property Name="cp" Type="varchar" MaxLength="10" />
-          <Property Name="referencia" Type="varchar" MaxLength="100" />
-          <Property Name="fechaRegistro" Type="datetime" />
-          <Property Name="importeTotal" Type="money" />
-          <Property Name="msi" Type="int" />
-          <Property Name="last4" Type="int" />
-          <Property Name="mesExp" Type="int" />
-          <Property Name="anioExp" Type="int" />
-          <Property Name="tipo" Type="varchar" MaxLength="30" />
-          <Property Name="paymentIntent" Type="varchar" MaxLength="100" />
+          <Property Name="llave_publica" Type="varchar" MaxLength="255" />
+          <Property Name="llave_secreta" Type="varchar" MaxLength="255" />
         </EntityType>
         <EntityType Name="Venta">
           <Key>
@@ -801,117 +776,8 @@ advertencia 6002: La tabla o vista 'Demo.dbo.respuestaPagoMSI' no tiene definida
           <Property Name="DesarrolloOrigen" Type="int" />
           <Property Name="TmeRevisadoVConsig" Type="bit" />
         </EntityType>
-        <EntityType Name="VentaD">
-          <Key>
-            <PropertyRef Name="ID" />
-            <PropertyRef Name="Renglon" />
-            <PropertyRef Name="RenglonSub" />
-          </Key>
-          <Property Name="ID" Type="int" Nullable="false" />
-          <Property Name="Renglon" Type="float" Nullable="false" />
-          <Property Name="RenglonSub" Type="int" Nullable="false" />
-          <Property Name="RenglonID" Type="int" />
-          <Property Name="RenglonTipo" Type="char" MaxLength="1" />
-          <Property Name="Cantidad" Type="float" />
-          <Property Name="Almacen" Type="char" MaxLength="10" />
-          <Property Name="Articulo" Type="char" MaxLength="20" Nullable="false" />
-          <Property Name="SubCuenta" Type="varchar" MaxLength="20" />
-          <Property Name="Precio" Type="float" />
-          <Property Name="DescuentoTipo" Type="char" MaxLength="1" />
-          <Property Name="DescuentoLinea" Type="money" />
-          <Property Name="Impuesto1" Type="float" />
-          <Property Name="Impuesto2" Type="float" />
-          <Property Name="DescripcionExtra" Type="varchar" MaxLength="100" />
-          <Property Name="Costo" Type="money" />
-          <Property Name="Paquete" Type="int" />
-          <Property Name="ContUso" Type="varchar" MaxLength="20" />
-          <Property Name="Comision" Type="money" />
-          <Property Name="Aplica" Type="char" MaxLength="20" />
-          <Property Name="AplicaID" Type="varchar" MaxLength="20" />
-          <Property Name="CantidadPendiente" Type="float" />
-          <Property Name="Flotante1" Type="float" />
-          <Property Name="CantidadReservada" Type="float" />
-          <Property Name="CantidadCancelada" Type="float" />
-          <Property Name="CantidadOrdenada" Type="float" />
-          <Property Name="CantidadA" Type="float" />
-          <Property Name="Unidad" Type="varchar" MaxLength="50" />
-          <Property Name="Factor" Type="float" />
-          <Property Name="SustitutoArticulo" Type="varchar" MaxLength="20" />
-          <Property Name="SustitutoSubCuenta" Type="varchar" MaxLength="20" />
-          <Property Name="FechaRequerida" Type="datetime" />
-          <Property Name="Instruccion" Type="varchar" MaxLength="50" />
-          <Property Name="Impuesto3" Type="money" />
-          <Property Name="CantidadInventario" Type="float" />
-          <Property Name="UltimoReservadoCantidad" Type="float" />
-          <Property Name="UltimoReservadoFecha" Type="datetime" />
-          <Property Name="Agente" Type="char" MaxLength="10" />
-          <Property Name="Departamento" Type="int" />
-          <Property Name="Sucursal" Type="int" Nullable="false" />
-          <Property Name="SucursalOrigen" Type="int" Nullable="false" />
-          <Property Name="DescuentoImporte" Type="money" />
-          <Property Name="PoliticaPrecios" Type="varchar" MaxLength="255" />
-          <Property Name="SincroID" Type="timestamp" StoreGeneratedPattern="Computed" />
-          <Property Name="SincroC" Type="int" />
-          <Property Name="AutoLocalidad" Type="char" MaxLength="5" />
-          <Property Name="UEN" Type="int" />
-          <Property Name="Espacio" Type="varchar" MaxLength="10" />
-          <Property Name="HoraRequerida" Type="char" MaxLength="5" />
-          <Property Name="CantidadAlterna" Type="float" />
-          <Property Name="PrecioMoneda" Type="varchar" MaxLength="10" />
-          <Property Name="PrecioTipoCambio" Type="float" />
-          <Property Name="CantidadEmbarcada" Type="float" />
-          <Property Name="Estado" Type="varchar" MaxLength="30" />
-          <Property Name="ServicioNumero" Type="float" />
-          <Property Name="AgentesAsignados" Type="int" />
-          <Property Name="AFArticulo" Type="varchar" MaxLength="20" />
-          <Property Name="AFSerie" Type="varchar" MaxLength="20" />
-          <Property Name="ExcluirPlaneacion" Type="bit" />
-          <Property Name="Anexo" Type="bit" />
-          <Property Name="CostoActividad" Type="money" />
-          <Property Name="Codigo" Type="varchar" MaxLength="30" />
-          <Property Name="ExcluirISAN" Type="bit" />
-          <Property Name="PrecioSugerido" Type="float" />
-          <Property Name="EnviarA" Type="int" />
-          <Property Name="CostoUEPS" Type="money" />
-          <Property Name="CostoPEPS" Type="money" />
-          <Property Name="UltimoCosto" Type="money" />
-          <Property Name="PrecioLista" Type="money" />
-          <Property Name="Posicion" Type="varchar" MaxLength="10" />
-          <Property Name="AjusteCosteo" Type="money" />
-          <Property Name="DepartamentoDetallista" Type="int" />
-          <Property Name="CantidadObsequio" Type="float" />
-          <Property Name="PresupuestoEsp" Type="bit" />
-          <Property Name="Procesadoid" Type="varchar" MaxLength="10" />
-          <Property Name="TipoRetencion1" Type="varchar" MaxLength="10" />
-          <Property Name="TipoRetencion2" Type="varchar" MaxLength="10" />
-          <Property Name="TipoRetencion3" Type="varchar" MaxLength="10" />
-          <Property Name="Costoestandar" Type="money" />
-          <Property Name="ContUso2" Type="varchar" MaxLength="20" />
-          <Property Name="ContUso3" Type="varchar" MaxLength="20" />
-          <Property Name="TipoImpuesto1" Type="varchar" MaxLength="10" />
-          <Property Name="TipoImpuesto2" Type="varchar" MaxLength="10" />
-          <Property Name="TipoImpuesto3" Type="varchar" MaxLength="10" />
-          <Property Name="CostoPromedio" Type="money" />
-          <Property Name="CostoReposicion" Type="money" />
-          <Property Name="OrdenCompra" Type="varchar" MaxLength="20" />
-          <Property Name="AnticipoFacturado" Type="bit" />
-          <Property Name="AnticipoMoneda" Type="varchar" MaxLength="10" />
-          <Property Name="AnticipoTipoCambio" Type="float" />
-          <Property Name="AnticipoRetencion" Type="float" />
-          <Property Name="Retencion1" Type="float" />
-          <Property Name="Retencion2" Type="float" />
-          <Property Name="Retencion3" Type="float" />
-          <Property Name="tarima" Type="varchar" MaxLength="20" />
-          <Property Name="Puntos" Type="money" />
-          <Property Name="Ofertaid" Type="int" />
-          <Property Name="ProveedorRef" Type="varchar" MaxLength="10" />
-          <Property Name="Transferira" Type="varchar" MaxLength="10" />
-          <Property Name="ArtEstatus" Type="varchar" MaxLength="15" />
-          <Property Name="ArtSituacion" Type="varchar" MaxLength="50" />
-          <Property Name="Abc" Type="varchar" MaxLength="50" />
-        </EntityType>
         <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+advertencia 6002: La tabla o vista 'DEMOMSI.dbo.CFDVentaV33' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
         <EntityType Name="CFDVentaV33">
           <Key>
             <PropertyRef Name="ID" />
@@ -989,41 +855,11 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
         <Function Name="spMSKeySucursal" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="suc" Type="int" Mode="In" />
         </Function>
-        <EntityContainer Name="PayEntititesStoreContainer">
+        <EntityContainer Name="PagosModelStoreContainer">
           <EntitySet Name="Art" EntityType="Self.Art" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Cte" EntityType="Self.Cte" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="KeySucursal" EntityType="Self.KeySucursal" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Venta" EntityType="Self.Venta" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="VentaD" EntityType="Self.VentaD" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="KeySucursal" EntityType="Self.KeySucursal" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [KeySucursal].[id] AS [id], 
-    [KeySucursal].[sucursal] AS [sucursal], 
-    [KeySucursal].[nombre] AS [nombre], 
-    [KeySucursal].[llave] AS [llave], 
-    [KeySucursal].[llavePublica] AS [llavePublica]
-    FROM [dbo].[KeySucursal] AS [KeySucursal]</DefiningQuery>
-          </EntitySet>
-          <EntitySet Name="respuestaPagoMSI" EntityType="Self.respuestaPagoMSI" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [respuestaPagoMSI].[id] AS [id], 
-    [respuestaPagoMSI].[ModuloID] AS [ModuloID], 
-    [respuestaPagoMSI].[mov] AS [mov], 
-    [respuestaPagoMSI].[movid] AS [movid], 
-    [respuestaPagoMSI].[sucursal] AS [sucursal], 
-    [respuestaPagoMSI].[cliente] AS [cliente], 
-    [respuestaPagoMSI].[nombreCliente] AS [nombreCliente], 
-    [respuestaPagoMSI].[cp] AS [cp], 
-    [respuestaPagoMSI].[referencia] AS [referencia], 
-    [respuestaPagoMSI].[fechaRegistro] AS [fechaRegistro], 
-    [respuestaPagoMSI].[importeTotal] AS [importeTotal], 
-    [respuestaPagoMSI].[msi] AS [msi], 
-    [respuestaPagoMSI].[last4] AS [last4], 
-    [respuestaPagoMSI].[mesExp] AS [mesExp], 
-    [respuestaPagoMSI].[anioExp] AS [anioExp], 
-    [respuestaPagoMSI].[tipo] AS [tipo], 
-    [respuestaPagoMSI].[paymentIntent] AS [paymentIntent]
-    FROM [dbo].[respuestaPagoMSI] AS [respuestaPagoMSI]</DefiningQuery>
-          </EntitySet>
           <EntitySet Name="CFDVentaV33" EntityType="Self.CFDVentaV33" store:Type="Views" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [CFDVentaV33].[OrdenExportacion] AS [OrdenExportacion], 
@@ -1076,10 +912,11 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
     FROM [dbo].[CFDVentaV33] AS [CFDVentaV33]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="PayEntitites" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="PagosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="Art">
           <Key>
             <PropertyRef Name="Articulo" />
@@ -1366,6 +1203,7 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
           <Property Name="TMETiempoEntrega" Type="Int32" />
           <Property Name="TmeCosto" Type="Decimal" Precision="8" Scale="2" />
           <Property Name="TmeCosto112020" Type="Decimal" Precision="8" Scale="2" />
+          <Property Name="msi" Type="Boolean" />
         </EntityType>
         <EntityType Name="Cte">
           <Key>
@@ -1609,6 +1447,16 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
           <Property Name="webEstilo" Type="Boolean" />
           <Property Name="SinISAN" Type="Boolean" Nullable="false" />
         </EntityType>
+        <EntityType Name="KeySucursal">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="sucursal" Type="Int32" />
+          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="llave_publica" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="llave_secreta" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
         <EntityType Name="Venta">
           <Key>
             <PropertyRef Name="ID" />
@@ -1839,148 +1687,6 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
           <Property Name="OXMLID" Type="Int32" />
           <Property Name="DesarrolloOrigen" Type="Int32" />
           <Property Name="TmeRevisadoVConsig" Type="Boolean" />
-          <Property Name="TmeGeneroPed" Type="Boolean" />
-        </EntityType>
-        <EntityType Name="VentaD">
-          <Key>
-            <PropertyRef Name="ID" />
-            <PropertyRef Name="Renglon" />
-            <PropertyRef Name="RenglonSub" />
-          </Key>
-          <Property Name="ID" Type="Int32" Nullable="false" />
-          <Property Name="Renglon" Type="Double" Nullable="false" />
-          <Property Name="RenglonSub" Type="Int32" Nullable="false" />
-          <Property Name="RenglonID" Type="Int32" />
-          <Property Name="RenglonTipo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
-          <Property Name="Cantidad" Type="Double" />
-          <Property Name="Almacen" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
-          <Property Name="Articulo" Type="String" MaxLength="20" FixedLength="true" Unicode="false" Nullable="false" />
-          <Property Name="SubCuenta" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="Precio" Type="Double" />
-          <Property Name="DescuentoTipo" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
-          <Property Name="DescuentoLinea" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="Impuesto1" Type="Double" />
-          <Property Name="Impuesto2" Type="Double" />
-          <Property Name="DescripcionExtra" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="Costo" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="Paquete" Type="Int32" />
-          <Property Name="ContUso" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="Comision" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="Aplica" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
-          <Property Name="AplicaID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="CantidadPendiente" Type="Double" />
-          <Property Name="Flotante1" Type="Double" />
-          <Property Name="CantidadReservada" Type="Double" />
-          <Property Name="CantidadCancelada" Type="Double" />
-          <Property Name="CantidadOrdenada" Type="Double" />
-          <Property Name="CantidadA" Type="Double" />
-          <Property Name="Unidad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Factor" Type="Double" />
-          <Property Name="SustitutoArticulo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="SustitutoSubCuenta" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="FechaRequerida" Type="DateTime" Precision="3" />
-          <Property Name="Instruccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Impuesto3" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="CantidadInventario" Type="Double" />
-          <Property Name="UltimoReservadoCantidad" Type="Double" />
-          <Property Name="UltimoReservadoFecha" Type="DateTime" Precision="3" />
-          <Property Name="Agente" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
-          <Property Name="Departamento" Type="Int32" />
-          <Property Name="Sucursal" Type="Int32" Nullable="false" />
-          <Property Name="SucursalOrigen" Type="Int32" Nullable="false" />
-          <Property Name="DescuentoImporte" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="PoliticaPrecios" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="SincroID" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
-          <Property Name="SincroC" Type="Int32" />
-          <Property Name="AutoLocalidad" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
-          <Property Name="UEN" Type="Int32" />
-          <Property Name="Espacio" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="HoraRequerida" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
-          <Property Name="CantidadAlterna" Type="Double" />
-          <Property Name="PrecioMoneda" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="PrecioTipoCambio" Type="Double" />
-          <Property Name="CantidadEmbarcada" Type="Double" />
-          <Property Name="Estado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-          <Property Name="ServicioNumero" Type="Double" />
-          <Property Name="AgentesAsignados" Type="Int32" />
-          <Property Name="AFArticulo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="AFSerie" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="ExcluirPlaneacion" Type="Boolean" />
-          <Property Name="Anexo" Type="Boolean" />
-          <Property Name="CostoActividad" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="Codigo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-          <Property Name="ExcluirISAN" Type="Boolean" />
-          <Property Name="PrecioSugerido" Type="Double" />
-          <Property Name="EnviarA" Type="Int32" />
-          <Property Name="CostoUEPS" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="CostoPEPS" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="UltimoCosto" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="PrecioLista" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="Posicion" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="AjusteCosteo" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="DepartamentoDetallista" Type="Int32" />
-          <Property Name="CantidadObsequio" Type="Double" />
-          <Property Name="PresupuestoEsp" Type="Boolean" />
-          <Property Name="Procesadoid" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="TipoRetencion1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="TipoRetencion2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="TipoRetencion3" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="Costoestandar" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="ContUso2" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="ContUso3" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="TipoImpuesto1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="TipoImpuesto2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="TipoImpuesto3" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="CostoPromedio" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="CostoReposicion" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="OrdenCompra" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="AnticipoFacturado" Type="Boolean" />
-          <Property Name="AnticipoMoneda" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="AnticipoTipoCambio" Type="Double" />
-          <Property Name="AnticipoRetencion" Type="Double" />
-          <Property Name="Retencion1" Type="Double" />
-          <Property Name="Retencion2" Type="Double" />
-          <Property Name="Retencion3" Type="Double" />
-          <Property Name="tarima" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
-          <Property Name="Puntos" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="Ofertaid" Type="Int32" />
-          <Property Name="ProveedorRef" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="Transferira" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="ArtEstatus" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
-          <Property Name="ArtSituacion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Abc" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="KeySucursal">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="sucursal" Type="Int32" />
-          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="llave" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="llavePublica" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-        </EntityType>
-        <EntityType Name="respuestaPagoMSI">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="ModuloID" Type="Int32" />
-          <Property Name="mov" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-          <Property Name="movid" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-          <Property Name="sucursal" Type="Int32" />
-          <Property Name="cliente" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="nombreCliente" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="cp" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
-          <Property Name="referencia" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="fechaRegistro" Type="DateTime" Precision="3" />
-          <Property Name="importeTotal" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="msi" Type="Int32" />
-          <Property Name="last4" Type="Int32" />
-          <Property Name="mesExp" Type="Int32" />
-          <Property Name="anioExp" Type="Int32" />
-          <Property Name="tipo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
-          <Property Name="paymentIntent" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="CFDVentaV33">
           <Key>
@@ -2036,13 +1742,11 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
           <Property Name="VentaDescuentoGlobalClave" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="VentaPorcentajeDescuentoGlobal" Type="Double" />
         </EntityType>
-        <EntityContainer Name="PayoutsEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="PagosEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Art" EntityType="Self.Art" />
           <EntitySet Name="Cte" EntityType="Self.Cte" />
-          <EntitySet Name="Venta" EntityType="Self.Venta" />
-          <EntitySet Name="VentaD" EntityType="Self.VentaD" />
           <EntitySet Name="KeySucursal" EntityType="Self.KeySucursal" />
-          <EntitySet Name="respuestaPagoMSI" EntityType="Self.respuestaPagoMSI" />
+          <EntitySet Name="Venta" EntityType="Self.Venta" />
           <EntitySet Name="CFDVentaV33" EntityType="Self.CFDVentaV33" />
           <FunctionImport Name="spMSIRespuestaPago">
             <Parameter Name="ModuloID" Mode="In" Type="Int32" />
@@ -2061,17 +1765,18 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
             <Parameter Name="anioExp" Mode="In" Type="Int32" />
             <Parameter Name="tipo" Mode="In" Type="String" />
           </FunctionImport>
-          <FunctionImport Name="spMSKeySucursal" ReturnType="Collection(PayEntitites.spMSKeySucursal_Result)">
-          <Parameter Name="suc" Mode="In" Type="Int32" />
-          </FunctionImport>
-          <FunctionImport Name="spMSIVentaDetalle" ReturnType="Collection(PayEntitites.spMSIVentaDetalle_Result1)">
+          <FunctionImport Name="spMSIVentaDetalle" ReturnType="Collection(PagosModel.spMSIVentaDetalle_Result)">
             <Parameter Name="id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="spMSKeySucursal" ReturnType="Collection(PagosModel.spMSKeySucursal_Result)">
+            <Parameter Name="suc" Mode="In" Type="Int32" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="spMSIVentaDetalle_Result">
           <Property Type="Int32" Name="ID" Nullable="false" />
           <Property Type="String" Name="Mov" Nullable="false" MaxLength="20" />
           <Property Type="String" Name="movid" Nullable="true" MaxLength="20" />
+          <Property Type="Int32" Name="Sucursal" Nullable="false" />
           <Property Type="Double" Name="VentaSubTotal" Nullable="true" />
           <Property Type="Double" Name="Descuento" Nullable="false" />
           <Property Type="Double" Name="VentaTotal" Nullable="true" />
@@ -2090,40 +1795,19 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
           <Property Type="String" Name="Estado" Nullable="true" MaxLength="30" />
         </ComplexType>
         <ComplexType Name="spMSKeySucursal_Result">
-          <Property Type="String" Name="llave" Nullable="true" MaxLength="255" />
-          <Property Type="String" Name="llavePublica" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="sucursal" Nullable="true" />
           <Property Type="String" Name="nombre" Nullable="true" MaxLength="100" />
-        </ComplexType>
-        <ComplexType Name="spMSIVentaDetalle_Result1">
-          <Property Type="Int32" Name="ID" Nullable="false" />
-          <Property Type="String" Name="Mov" Nullable="false" MaxLength="20" />
-          <Property Type="String" Name="movid" Nullable="true" MaxLength="20" />
-          <Property Type="Double" Name="VentaSubTotal" Nullable="true" />
-          <Property Type="Double" Name="Descuento" Nullable="false" />
-          <Property Type="Double" Name="VentaTotal" Nullable="true" />
-          <Property Type="String" Name="MonedaV33" Nullable="true" MaxLength="3" />
-          <Property Type="String" Name="Articulo" Nullable="false" MaxLength="20" />
-          <Property Type="String" Name="Descripcion1" Nullable="true" MaxLength="100" />
-          <Property Type="Double" Name="Cantidad" Nullable="true" />
-          <Property Type="String" Name="Cliente" Nullable="false" MaxLength="10" />
-          <Property Type="String" Name="Nombre" Nullable="true" MaxLength="100" />
-          <Property Type="String" Name="RFC" Nullable="true" MaxLength="15" />
-          <Property Type="String" Name="eMail1" Nullable="true" MaxLength="50" />
-          <Property Type="String" Name="Telefonos" Nullable="true" MaxLength="100" />
-          <Property Type="String" Name="Direccion" Nullable="true" MaxLength="100" />
-          <Property Type="String" Name="CodigoPostal" Nullable="true" MaxLength="15" />
-          <Property Type="String" Name="Poblacion" Nullable="true" MaxLength="100" />
-          <Property Type="String" Name="Estado" Nullable="true" MaxLength="30" />
-          <Property Type="Int32" Name="Sucursal" Nullable="false" />
+          <Property Type="String" Name="llave_publica" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="llave_secreta" Nullable="true" MaxLength="255" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="PayEntititesStoreContainer" CdmEntityContainer="PayoutsEntities">
+        <EntityContainerMapping StorageEntityContainer="PagosModelStoreContainer" CdmEntityContainer="PagosEntities">
           <EntitySetMapping Name="Art">
-            <EntityTypeMapping TypeName="PayEntitites.Art">
+            <EntityTypeMapping TypeName="PagosModel.Art">
               <MappingFragment StoreEntitySet="Art">
                 <ScalarProperty Name="Articulo" ColumnName="Articulo" />
                 <ScalarProperty Name="Descripcion1" ColumnName="Descripcion1" />
@@ -2407,11 +2091,12 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
                 <ScalarProperty Name="TMETiempoEntrega" ColumnName="TMETiempoEntrega" />
                 <ScalarProperty Name="TmeCosto" ColumnName="TmeCosto" />
                 <ScalarProperty Name="TmeCosto112020" ColumnName="TmeCosto112020" />
+                <ScalarProperty Name="msi" ColumnName="msi" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Cte">
-            <EntityTypeMapping TypeName="PayEntitites.Cte">
+            <EntityTypeMapping TypeName="PagosModel.Cte">
               <MappingFragment StoreEntitySet="Cte">
                 <ScalarProperty Name="Cliente" ColumnName="Cliente" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
@@ -2653,8 +2338,19 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="KeySucursal">
+            <EntityTypeMapping TypeName="PagosModel.KeySucursal">
+              <MappingFragment StoreEntitySet="KeySucursal">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="sucursal" ColumnName="sucursal" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="llave_publica" ColumnName="llave_publica" />
+                <ScalarProperty Name="llave_secreta" ColumnName="llave_secreta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="Venta">
-            <EntityTypeMapping TypeName="PayEntitites.Venta">
+            <EntityTypeMapping TypeName="PagosModel.Venta">
               <MappingFragment StoreEntitySet="Venta">
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Empresa" ColumnName="Empresa" />
@@ -2885,150 +2581,8 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="VentaD">
-            <EntityTypeMapping TypeName="PayEntitites.VentaD">
-              <MappingFragment StoreEntitySet="VentaD">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="Renglon" ColumnName="Renglon" />
-                <ScalarProperty Name="RenglonSub" ColumnName="RenglonSub" />
-                <ScalarProperty Name="RenglonID" ColumnName="RenglonID" />
-                <ScalarProperty Name="RenglonTipo" ColumnName="RenglonTipo" />
-                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
-                <ScalarProperty Name="Almacen" ColumnName="Almacen" />
-                <ScalarProperty Name="Articulo" ColumnName="Articulo" />
-                <ScalarProperty Name="SubCuenta" ColumnName="SubCuenta" />
-                <ScalarProperty Name="Precio" ColumnName="Precio" />
-                <ScalarProperty Name="DescuentoTipo" ColumnName="DescuentoTipo" />
-                <ScalarProperty Name="DescuentoLinea" ColumnName="DescuentoLinea" />
-                <ScalarProperty Name="Impuesto1" ColumnName="Impuesto1" />
-                <ScalarProperty Name="Impuesto2" ColumnName="Impuesto2" />
-                <ScalarProperty Name="DescripcionExtra" ColumnName="DescripcionExtra" />
-                <ScalarProperty Name="Costo" ColumnName="Costo" />
-                <ScalarProperty Name="Paquete" ColumnName="Paquete" />
-                <ScalarProperty Name="ContUso" ColumnName="ContUso" />
-                <ScalarProperty Name="Comision" ColumnName="Comision" />
-                <ScalarProperty Name="Aplica" ColumnName="Aplica" />
-                <ScalarProperty Name="AplicaID" ColumnName="AplicaID" />
-                <ScalarProperty Name="CantidadPendiente" ColumnName="CantidadPendiente" />
-                <ScalarProperty Name="Flotante1" ColumnName="Flotante1" />
-                <ScalarProperty Name="CantidadReservada" ColumnName="CantidadReservada" />
-                <ScalarProperty Name="CantidadCancelada" ColumnName="CantidadCancelada" />
-                <ScalarProperty Name="CantidadOrdenada" ColumnName="CantidadOrdenada" />
-                <ScalarProperty Name="CantidadA" ColumnName="CantidadA" />
-                <ScalarProperty Name="Unidad" ColumnName="Unidad" />
-                <ScalarProperty Name="Factor" ColumnName="Factor" />
-                <ScalarProperty Name="SustitutoArticulo" ColumnName="SustitutoArticulo" />
-                <ScalarProperty Name="SustitutoSubCuenta" ColumnName="SustitutoSubCuenta" />
-                <ScalarProperty Name="FechaRequerida" ColumnName="FechaRequerida" />
-                <ScalarProperty Name="Instruccion" ColumnName="Instruccion" />
-                <ScalarProperty Name="Impuesto3" ColumnName="Impuesto3" />
-                <ScalarProperty Name="CantidadInventario" ColumnName="CantidadInventario" />
-                <ScalarProperty Name="UltimoReservadoCantidad" ColumnName="UltimoReservadoCantidad" />
-                <ScalarProperty Name="UltimoReservadoFecha" ColumnName="UltimoReservadoFecha" />
-                <ScalarProperty Name="Agente" ColumnName="Agente" />
-                <ScalarProperty Name="Departamento" ColumnName="Departamento" />
-                <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
-                <ScalarProperty Name="SucursalOrigen" ColumnName="SucursalOrigen" />
-                <ScalarProperty Name="DescuentoImporte" ColumnName="DescuentoImporte" />
-                <ScalarProperty Name="PoliticaPrecios" ColumnName="PoliticaPrecios" />
-                <ScalarProperty Name="SincroID" ColumnName="SincroID" />
-                <ScalarProperty Name="SincroC" ColumnName="SincroC" />
-                <ScalarProperty Name="AutoLocalidad" ColumnName="AutoLocalidad" />
-                <ScalarProperty Name="UEN" ColumnName="UEN" />
-                <ScalarProperty Name="Espacio" ColumnName="Espacio" />
-                <ScalarProperty Name="HoraRequerida" ColumnName="HoraRequerida" />
-                <ScalarProperty Name="CantidadAlterna" ColumnName="CantidadAlterna" />
-                <ScalarProperty Name="PrecioMoneda" ColumnName="PrecioMoneda" />
-                <ScalarProperty Name="PrecioTipoCambio" ColumnName="PrecioTipoCambio" />
-                <ScalarProperty Name="CantidadEmbarcada" ColumnName="CantidadEmbarcada" />
-                <ScalarProperty Name="Estado" ColumnName="Estado" />
-                <ScalarProperty Name="ServicioNumero" ColumnName="ServicioNumero" />
-                <ScalarProperty Name="AgentesAsignados" ColumnName="AgentesAsignados" />
-                <ScalarProperty Name="AFArticulo" ColumnName="AFArticulo" />
-                <ScalarProperty Name="AFSerie" ColumnName="AFSerie" />
-                <ScalarProperty Name="ExcluirPlaneacion" ColumnName="ExcluirPlaneacion" />
-                <ScalarProperty Name="Anexo" ColumnName="Anexo" />
-                <ScalarProperty Name="CostoActividad" ColumnName="CostoActividad" />
-                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
-                <ScalarProperty Name="ExcluirISAN" ColumnName="ExcluirISAN" />
-                <ScalarProperty Name="PrecioSugerido" ColumnName="PrecioSugerido" />
-                <ScalarProperty Name="EnviarA" ColumnName="EnviarA" />
-                <ScalarProperty Name="CostoUEPS" ColumnName="CostoUEPS" />
-                <ScalarProperty Name="CostoPEPS" ColumnName="CostoPEPS" />
-                <ScalarProperty Name="UltimoCosto" ColumnName="UltimoCosto" />
-                <ScalarProperty Name="PrecioLista" ColumnName="PrecioLista" />
-                <ScalarProperty Name="Posicion" ColumnName="Posicion" />
-                <ScalarProperty Name="AjusteCosteo" ColumnName="AjusteCosteo" />
-                <ScalarProperty Name="DepartamentoDetallista" ColumnName="DepartamentoDetallista" />
-                <ScalarProperty Name="CantidadObsequio" ColumnName="CantidadObsequio" />
-                <ScalarProperty Name="PresupuestoEsp" ColumnName="PresupuestoEsp" />
-                <ScalarProperty Name="Procesadoid" ColumnName="Procesadoid" />
-                <ScalarProperty Name="TipoRetencion1" ColumnName="TipoRetencion1" />
-                <ScalarProperty Name="TipoRetencion2" ColumnName="TipoRetencion2" />
-                <ScalarProperty Name="TipoRetencion3" ColumnName="TipoRetencion3" />
-                <ScalarProperty Name="Costoestandar" ColumnName="Costoestandar" />
-                <ScalarProperty Name="ContUso2" ColumnName="ContUso2" />
-                <ScalarProperty Name="ContUso3" ColumnName="ContUso3" />
-                <ScalarProperty Name="TipoImpuesto1" ColumnName="TipoImpuesto1" />
-                <ScalarProperty Name="TipoImpuesto2" ColumnName="TipoImpuesto2" />
-                <ScalarProperty Name="TipoImpuesto3" ColumnName="TipoImpuesto3" />
-                <ScalarProperty Name="CostoPromedio" ColumnName="CostoPromedio" />
-                <ScalarProperty Name="CostoReposicion" ColumnName="CostoReposicion" />
-                <ScalarProperty Name="OrdenCompra" ColumnName="OrdenCompra" />
-                <ScalarProperty Name="AnticipoFacturado" ColumnName="AnticipoFacturado" />
-                <ScalarProperty Name="AnticipoMoneda" ColumnName="AnticipoMoneda" />
-                <ScalarProperty Name="AnticipoTipoCambio" ColumnName="AnticipoTipoCambio" />
-                <ScalarProperty Name="AnticipoRetencion" ColumnName="AnticipoRetencion" />
-                <ScalarProperty Name="Retencion1" ColumnName="Retencion1" />
-                <ScalarProperty Name="Retencion2" ColumnName="Retencion2" />
-                <ScalarProperty Name="Retencion3" ColumnName="Retencion3" />
-                <ScalarProperty Name="tarima" ColumnName="tarima" />
-                <ScalarProperty Name="Puntos" ColumnName="Puntos" />
-                <ScalarProperty Name="Ofertaid" ColumnName="Ofertaid" />
-                <ScalarProperty Name="ProveedorRef" ColumnName="ProveedorRef" />
-                <ScalarProperty Name="Transferira" ColumnName="Transferira" />
-                <ScalarProperty Name="ArtEstatus" ColumnName="ArtEstatus" />
-                <ScalarProperty Name="ArtSituacion" ColumnName="ArtSituacion" />
-                <ScalarProperty Name="Abc" ColumnName="Abc" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="KeySucursal">
-            <EntityTypeMapping TypeName="PayEntitites.KeySucursal">
-              <MappingFragment StoreEntitySet="KeySucursal">
-                <ScalarProperty Name="llavePublica" ColumnName="llavePublica" />
-                <ScalarProperty Name="id" ColumnName="id" />
-                <ScalarProperty Name="sucursal" ColumnName="sucursal" />
-                <ScalarProperty Name="nombre" ColumnName="nombre" />
-                <ScalarProperty Name="llave" ColumnName="llave" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="respuestaPagoMSI">
-            <EntityTypeMapping TypeName="PayEntitites.respuestaPagoMSI">
-              <MappingFragment StoreEntitySet="respuestaPagoMSI">
-                <ScalarProperty Name="paymentIntent" ColumnName="paymentIntent" />
-                <ScalarProperty Name="id" ColumnName="id" />
-                <ScalarProperty Name="ModuloID" ColumnName="ModuloID" />
-                <ScalarProperty Name="mov" ColumnName="mov" />
-                <ScalarProperty Name="movid" ColumnName="movid" />
-                <ScalarProperty Name="sucursal" ColumnName="sucursal" />
-                <ScalarProperty Name="cliente" ColumnName="cliente" />
-                <ScalarProperty Name="nombreCliente" ColumnName="nombreCliente" />
-                <ScalarProperty Name="cp" ColumnName="cp" />
-                <ScalarProperty Name="referencia" ColumnName="referencia" />
-                <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
-                <ScalarProperty Name="importeTotal" ColumnName="importeTotal" />
-                <ScalarProperty Name="msi" ColumnName="msi" />
-                <ScalarProperty Name="last4" ColumnName="last4" />
-                <ScalarProperty Name="mesExp" ColumnName="mesExp" />
-                <ScalarProperty Name="anioExp" ColumnName="anioExp" />
-                <ScalarProperty Name="tipo" ColumnName="tipo" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="CFDVentaV33">
-            <EntityTypeMapping TypeName="PayEntitites.CFDVentaV33">
+            <EntityTypeMapping TypeName="PagosModel.CFDVentaV33">
               <MappingFragment StoreEntitySet="CFDVentaV33">
                 <ScalarProperty Name="OrdenExportacion" ColumnName="OrdenExportacion" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
@@ -3080,22 +2634,14 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <FunctionImportMapping FunctionImportName="spMSIRespuestaPago" FunctionName="PayEntitites.Store.spMSIRespuestaPago" />
-          <FunctionImportMapping FunctionImportName="spMSKeySucursal" FunctionName="PayEntitites.Store.spMSKeySucursal">
+          <FunctionImportMapping FunctionImportName="spMSIRespuestaPago" FunctionName="PagosModel.Store.spMSIRespuestaPago" />
+          <FunctionImportMapping FunctionImportName="spMSIVentaDetalle" FunctionName="PagosModel.Store.spMSIVentaDetalle">
             <ResultMapping>
-              <ComplexTypeMapping TypeName="PayEntitites.spMSKeySucursal_Result">
-                <ScalarProperty Name="llave" ColumnName="llave" />
-                <ScalarProperty Name="llavePublica" ColumnName="llavePublica" />
-                <ScalarProperty Name="nombre" ColumnName="nombre" />
-              </ComplexTypeMapping>
-            </ResultMapping>
-          </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="spMSIVentaDetalle" FunctionName="PayEntitites.Store.spMSIVentaDetalle">
-            <ResultMapping>
-              <ComplexTypeMapping TypeName="PayEntitites.spMSIVentaDetalle_Result1">
+              <ComplexTypeMapping TypeName="PagosModel.spMSIVentaDetalle_Result">
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Mov" ColumnName="Mov" />
                 <ScalarProperty Name="movid" ColumnName="movid" />
+                <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
                 <ScalarProperty Name="VentaSubTotal" ColumnName="VentaSubTotal" />
                 <ScalarProperty Name="Descuento" ColumnName="Descuento" />
                 <ScalarProperty Name="VentaTotal" ColumnName="VentaTotal" />
@@ -3112,7 +2658,16 @@ advertencia 6002: La tabla o vista 'Demo.dbo.CFDVentaV33' no tiene definida ning
                 <ScalarProperty Name="CodigoPostal" ColumnName="CodigoPostal" />
                 <ScalarProperty Name="Poblacion" ColumnName="Poblacion" />
                 <ScalarProperty Name="Estado" ColumnName="Estado" />
-                <ScalarProperty Name="Sucursal" ColumnName="Sucursal" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="spMSKeySucursal" FunctionName="PagosModel.Store.spMSKeySucursal">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PagosModel.spMSKeySucursal_Result">
+                <ScalarProperty Name="sucursal" ColumnName="sucursal" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="llave_publica" ColumnName="llave_publica" />
+                <ScalarProperty Name="llave_secreta" ColumnName="llave_secreta" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

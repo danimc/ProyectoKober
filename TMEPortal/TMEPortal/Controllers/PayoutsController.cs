@@ -39,7 +39,7 @@ namespace TMEPortal.Controllers
     public class PayoutsController : Controller
     {
 
-        PayoutsEntities db = new PayoutsEntities();
+        PagosEntities db = new PagosEntities();
 
         public PayoutsController()
         {
@@ -63,7 +63,9 @@ namespace TMEPortal.Controllers
             var list = db.spMSIVentaDetalle(int.Parse(id)).First();
             spMSKeySucursal_Result sucursal = db.spMSKeySucursal(list.Sucursal).FirstOrDefault();
 
-            StripeConfiguration.ApiKey = sucursal.llave;
+           //  return Json(sucursal, JsonRequestBehavior.AllowGet);
+
+            StripeConfiguration.ApiKey = sucursal.llave_secreta;
 
             ViewBag.pedido = id;
             ViewBag.venta = list;

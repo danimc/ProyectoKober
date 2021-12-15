@@ -15,10 +15,10 @@ namespace TMEPortal.DataContext
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class PayoutsEntities : DbContext
+    public partial class PagosEntities : DbContext
     {
-        public PayoutsEntities()
-            : base("name=PayoutsEntities")
+        public PagosEntities()
+            : base("name=PagosEntities")
         {
         }
     
@@ -29,10 +29,8 @@ namespace TMEPortal.DataContext
     
         public virtual DbSet<Art> Art { get; set; }
         public virtual DbSet<Cte> Cte { get; set; }
-        public virtual DbSet<Venta> Venta { get; set; }
-        public virtual DbSet<VentaD> VentaD { get; set; }
         public virtual DbSet<KeySucursal> KeySucursal { get; set; }
-        public virtual DbSet<respuestaPagoMSI> respuestaPagoMSI { get; set; }
+        public virtual DbSet<Venta> Venta { get; set; }
         public virtual DbSet<CFDVentaV33> CFDVentaV33 { get; set; }
     
         public virtual int spMSIRespuestaPago(Nullable<int> moduloID, string mov, string movid, Nullable<int> sucursal, string cliente, string nombreCliente, string cp, string referencia, Nullable<System.DateTime> fechaRegistro, Nullable<decimal> importeTotal, Nullable<int> msi, Nullable<int> last4, Nullable<int> mesExp, Nullable<int> anioExp, string tipo)
@@ -100,6 +98,15 @@ namespace TMEPortal.DataContext
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("spMSIRespuestaPago", moduloIDParameter, movParameter, movidParameter, sucursalParameter, clienteParameter, nombreClienteParameter, cpParameter, referenciaParameter, fechaRegistroParameter, importeTotalParameter, msiParameter, last4Parameter, mesExpParameter, anioExpParameter, tipoParameter);
         }
     
+        public virtual ObjectResult<spMSIVentaDetalle_Result> spMSIVentaDetalle(Nullable<int> id)
+        {
+            var idParameter = id.HasValue ?
+                new ObjectParameter("id", id) :
+                new ObjectParameter("id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spMSIVentaDetalle_Result>("spMSIVentaDetalle", idParameter);
+        }
+    
         public virtual ObjectResult<spMSKeySucursal_Result> spMSKeySucursal(Nullable<int> suc)
         {
             var sucParameter = suc.HasValue ?
@@ -107,15 +114,6 @@ namespace TMEPortal.DataContext
                 new ObjectParameter("suc", typeof(int));
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spMSKeySucursal_Result>("spMSKeySucursal", sucParameter);
-        }
-    
-        public virtual ObjectResult<spMSIVentaDetalle_Result1> spMSIVentaDetalle(Nullable<int> id)
-        {
-            var idParameter = id.HasValue ?
-                new ObjectParameter("id", id) :
-                new ObjectParameter("id", typeof(int));
-    
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spMSIVentaDetalle_Result1>("spMSIVentaDetalle", idParameter);
         }
     }
 }

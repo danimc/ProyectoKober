@@ -13,8 +13,9 @@ namespace TMEPortal.DataContext
     
     public partial class spMSKeySucursal_Result
     {
-        public string llave { get; set; }
-        public string llavePublica { get; set; }
+        public Nullable<int> sucursal { get; set; }
         public string nombre { get; set; }
+        public string llave_publica { get; set; }
+        public string llave_secreta { get; set; }
     }
 }

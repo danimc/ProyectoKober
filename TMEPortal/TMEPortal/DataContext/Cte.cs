@@ -250,6 +250,6 @@ namespace TMEPortal.DataContext
         public Nullable<bool> CapacitacionEstilo { get; set; }
         public Nullable<System.DateTime> FechaExEstilo { get; set; }
         public Nullable<bool> webEstilo { get; set; }
-        public Nullable<bool> SinISAN { get; set; }
+        public bool SinISAN { get; set; }
     }
 }

@@ -16,6 +16,7 @@ namespace TMEPortal.DataContext
         public int ID { get; set; }
         public string Mov { get; set; }
         public string movid { get; set; }
+        public int Sucursal { get; set; }
         public Nullable<double> VentaSubTotal { get; set; }
         public double Descuento { get; set; }
         public Nullable<double> VentaTotal { get; set; }
